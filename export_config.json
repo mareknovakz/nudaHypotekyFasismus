@@ -1,0 +1,65 @@
+{
+    "document": {
+        "title": "Nuda, hypotéky, fašismus",
+        "author": "Mirek Mrkvička",
+        "output_file": "Blok.sla",
+        "isbn": "978-80-12345-67-8",
+        "colophon": {
+            "publisher": "Marek Novák vlastním nákladem, Praha 2026",
+            "edition": "První vydání",
+            "typesetting": "Mirek Mrkvička",
+            "printer": "Vytištěno v České republice"
+        },
+        "pages_to_generate": 100
+    },
+    "layout": {
+        "page_size": "110x180",
+        "width_pt": 311.811,
+        "height_pt": 510.236,
+        "margins_pt": {
+            "top": 50,
+            "bottom": 50,
+            "inner": 65,
+            "outer": 45
+        },
+        "units": "pt"
+    },
+    "styles": {
+        "chapter_title": {
+            "font": "Courier Prime",
+            "size": 20,
+            "alignment": "center",
+            "space_before": 40,
+            "space_after": 30
+        },
+        "poem_title": {
+            "font": "Courier Prime",
+            "size": 16,
+            "alignment": "left",
+            "space_before": 20,
+            "space_after": 23
+        },
+        "verse": {
+            "font": "Courier Prime",
+            "size": 10,
+            "alignment": "left",
+            "line_spacing": 16.5,
+            "space_after_stanza": 10
+        },
+        "toc_title": {
+            "font": "Courier Prime",
+            "size": 14,
+            "alignment": "left"
+        },
+        "toc_item": {
+            "font": "Courier Prime",
+            "size": 11,
+            "alignment": "left"
+        },
+        "page_number": {
+            "font": "Courier Prime",
+            "size": 9,
+            "alignment": "center"
+        }
+    }
+}
