@@ -64,7 +64,8 @@ def create_typst_file(json_path, config_path, output_filename):
   // Goal: Chapters start on ODD pages. 
   // If we are on an ODD page, we must add an EVEN blank page first.
   context {
-    if calc.odd(here().page()) {
+    let cp = counter(page).at(here()).first()
+    if calc.odd(cp) {
         blank-page()
     } else {
         pagebreak(weak: true)
@@ -75,7 +76,8 @@ def create_typst_file(json_path, config_path, output_filename):
 #let colophon-page-break() = {
   // Goal: Colophon usually on EVEN (Left) page.
   context {
-    if calc.even(here().page()) {
+    let cp = counter(page).at(here()).first()
+    if calc.even(cp) {
         blank-page()
     } else {
         pagebreak(weak: true)
@@ -101,51 +103,51 @@ def create_typst_file(json_path, config_path, output_filename):
   #it.body
   #v({styles["poem_title"]["space_after"]}pt, weak: true)
 ]
+
+#show outline.entry.where(level: 1): it => {{
+  strong(it)
+}}
 ''')
 
     # Define the chapter function with 3mm safety margin to "fill the rectangle"
     typ.append(f'''
-#let chapter(title, img_path, blank: false) = {{
-  chapter-page-break()
-  // Manual footer suppression for chapter page
-  set page(footer: none)
-  heading(level: 1, title)
-  pagebreak()
-  // Reset footer for illustration
-  set page(footer: context [
+#let chapter(title, img_path, blank: false) = [
+  #chapter-page-break()
+  #set page(footer: none)
+  #heading(level: 1, title)
+  #pagebreak()
+  #set page(footer: context [
     #set text(size: {styles["page_number"]["size"]}pt, font: "{styles["page_number"]["font"]}")
     #let page_num = counter(page).at(here()).first()
-    #if calc.even(page_num) {{ align(left)[#page_num] }} else {{ align(right)[#page_num] }}
+    #if calc.even(page_num) [ #align(left)[#page_num] ] else [ #align(right)[#page_num] ]
   ])
   
-  if not blank {{
-    // margin: 3mm results in 0.5mm safe space inside the 2.5mm bleed/trim
-    page(margin: 3mm, {{
-      if img_path != "" and img_path != "404" {{
-        set align(center + horizon)
-        image(img_path, width: 100%, height: 100%, fit: "cover")
-      }} else if img_path == "404" {{
-        set align(center + horizon)
-        set text(size: 11pt, weight: "regular", font: "Courier Prime")
+  #if not blank [
+    #page(margin: 3mm, footer: none)[
+      #if img_path != "" and img_path != "404" [
+        #set align(center + horizon)
+        #image(img_path, width: 100%, height: 100%, fit: "cover")
+      ] else if img_path == "404" [
+        #set align(center + horizon)
+        #set text(size: 11pt, weight: "regular", font: "Courier Prime")
         [404]
-      }} else {{
-        set align(center + horizon)
-        set text(size: 14pt, style: "italic", font: "Courier Prime")
+      ] else [
+        #set align(center + horizon)
+        #set text(size: 14pt, style: "italic", font: "Courier Prime")
         [[ Ilustrace ]]
-      }}
-    }})
-  }}
-}}
+      ]
+    ]
+  ]
+]
 
-#let poem(title, body_content) = {{
-  pagebreak(weak: true)
-  if title != "" {{
-    heading(level: 2, title)
-  }}
-  // Re-assert leading and justify for Slim format
-  set par(first-line-indent: 0pt, justify: false, leading: {leading_val}pt)
-  body_content
-}}
+#let poem(title, body_content) = [
+  #pagebreak(weak: true)
+  #if title != "" [
+    #heading(level: 2, title)
+  ]
+  #set par(first-line-indent: 0pt, justify: false, leading: {leading_val}pt)
+  #body_content
+]
 ''')
 
     # --- CONTENT GENERATION ---
@@ -163,7 +165,8 @@ def create_typst_file(json_path, config_path, output_filename):
     typ.append(']')
     typ.append('#blank-page()')
     typ.append('#blank-page()')
-    typ.append('#page[')
+    typ.append('#blank-page()')
+    typ.append('#page(footer: none)[')
     typ.append('  #set par(first-line-indent: 0pt, justify: false)')
     typ.append('  #set align(center + top)')
     typ.append('  #v(20%)')
@@ -171,7 +174,7 @@ def create_typst_file(json_path, config_path, output_filename):
     typ.append(']')
     typ.append('#blank-page()')
     typ.append('#page(footer: none)[')
-    typ.append('  #outline(title: "Obsah", indent: 1em)')
+    typ.append('  #outline(title: [Obsah #v(1em)], indent: 0pt)')
     typ.append(']')
     typ.append('#blank-page()')
 
@@ -218,7 +221,7 @@ def create_typst_file(json_path, config_path, output_filename):
         f.write("\n".join(typ))
 
 if __name__ == "__main__":
-    base_path = r"c:\Users\Marek\Desktop\nudaHypotekyFasismus"
+    base_path = os.path.dirname(os.path.abspath(__file__))
     json_p = os.path.join(base_path, "Blok.json")
     create_typst_file(json_p, os.path.join(base_path, "export_config.json"), "Blok.typ")
     create_typst_file(json_p, os.path.join(base_path, "export_config_B6.json"), "Blok_B6.typ")

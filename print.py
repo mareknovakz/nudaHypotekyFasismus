@@ -27,22 +27,22 @@ def main():
 
     # 1. Run Scribus generation
     print("\n[1/3] Generating Scribus files...")
-    run_command("python scribus_gen.py")
+    run_command(f'"{sys.executable}" scribus_gen.py')
 
     # 2. Run Typst generation (creates .typ files for A5 and B6)
     print("\n[2/3] Generating Typst source files...")
-    run_command("python typst_gen.py")
+    run_command(f'"{sys.executable}" typst_gen.py')
 
     # 3. Generate PDFs
     print("\n[3/3] Compiling PDFs...")
     # These rely on generatePdf.py being present
     # Primary output: Slim format (110x180mm)
-    if not run_command("python generatePdf.py Blok.typ"):
+    if not run_command(f'"{sys.executable}" generatePdf.py Blok.typ'):
         print("\n[!] Stopping: Failed to generate Blok.typ")
         return
 
     # Secondary output: B6 format
-    if not run_command("python generatePdf.py Blok_B6.typ"):
+    if not run_command(f'"{sys.executable}" generatePdf.py Blok_B6.typ'):
         print("\n[!] Stopping: Failed to generate Blok_B6.typ")
         return
 

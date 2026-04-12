@@ -13,7 +13,7 @@ def generate_pdf(typ_file):
 
     # Find the tinymist binary dynamically in the extensions directory
     extensions_dir = os.path.expanduser(r"~\.antigravity\extensions")
-    tinymist_path = "tinymist"  # fallback
+    tinymist_path = "typst"  # fallback
     
     if os.path.exists(extensions_dir):
         # Look for folders starting with myriad-dreamin.tinymist

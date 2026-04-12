@@ -177,7 +177,7 @@ def create_guaranteed_sla(json_path, config_path):
     print(f"Guaranteed Scribus file generated: {output_path} ({len(pages)} pages)")
 
 if __name__ == "__main__":
-    base_path = r"c:\Users\Marek\Desktop\nudaHypotekyFasismus"
+    base_path = os.path.dirname(os.path.abspath(__file__))
     create_guaranteed_sla(
         os.path.join(base_path, "Blok.json"),
         os.path.join(base_path, "export_config.json")

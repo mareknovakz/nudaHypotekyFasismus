@@ -129,7 +129,7 @@
                 <para ALIGN="0" NACH="5"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="11" CH="    Pan Pták si vzal sick day .... 13"/>
                 <para ALIGN="0" NACH="5"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="11" CH="    Hvězdné hypotéky .... 14"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="11" CH="    Řešení problému tří těles .... 14"/>
                 <para ALIGN="0" NACH="5"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="11" CH="    Tobruk 1941 .... 15"/>
                 <para ALIGN="0" NACH="5"/>
@@ -247,9 +247,9 @@
             <StoryText><DefaultStyle/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="16" CH="Wine culture"/>
                 <para ALIGN="0" NACH="23"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Čas strávený ve vinném sklípku se nepočítá do života."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="_Čas strávený ve vinném sklípku se nepočítá do života._"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Co je to život?"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="_Co je to život?_"/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Sestoupil jsem v Letňanech, abych to zjistil."/>
@@ -259,6 +259,7 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="rodinné domky, bílé jako jejich domácí,"/>
                 <para ALIGN="0"/>
+                <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="tam žije Marie Alice,"/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="nakoupí v Tescu, vypere prádlo,"/>
@@ -407,9 +408,9 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="milenky matek, po kterých otcové touží."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Nejváženější členové domácnosti a~"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Nejváženější členové domácnosti"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="české národní zvíře – pes."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="české národní zvíře – psi."/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Psi serou na každém rohu a lížou si koule."/>
                 <para ALIGN="0"/>
@@ -446,13 +447,14 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="prolézt černou dírou až k Plutu,"/>
                 <para ALIGN="0"/>
+                <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="tehdy bylo ještě planetou."/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Pak nás máma zavolala k obědu"/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="a svět držel pohromadě."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Nebo si to jen takhle pamatuji."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Možná si to jen takhle pamatuji."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <trail ALIGN="0"/>
@@ -531,7 +533,7 @@
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Já tě vezmu na nádraží, abys viděl, jak dopadají lidi, kteří to chtěli jen zkusit,“ řekla paní ve středních letech svému sotva šestiletému synovi."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Dobrý den, madam, nerad vyrušuji, ale směl bych vás pozvat na meeting vedení First International Bank, abyste věděla, jak dopadají lidi, kteří to jen zkoušejí?“"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Dobrý den, madam, směl bych vás pozvat na meeting vedení First International Bank, abyste věděla, jak dopadají lidi, kteří to jen zkoušejí?“"/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <trail ALIGN="0"/>
@@ -560,7 +562,7 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Pospěšme k místu,"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="kde spravují dělníky."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="kde spí zaměstnanci."/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Ptákova milá"/>
                 <para ALIGN="0"/>
@@ -568,6 +570,7 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="nevzala si sick day."/>
                 <para ALIGN="0"/>
+                <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Z kostí padlých"/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="pěstujeme nové kancly."/>
@@ -582,15 +585,16 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Ptákova matka spí."/>
                 <para ALIGN="0"/>
+                <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Doktor Ptákovu cystu prohlíží."/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Hmatá, lechtá, hledá ledvinu."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Cysta svědí a pálí, čas letí."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Cysta svědí, pálí, čas letí."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Pan šéf čeká a najednou doufá,"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Pan šéf čeká, doufá,"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="že je to jenom cysta."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="_snad je to jen cysta._"/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Pan Pták je příliš mladý,"/>
                 <para ALIGN="0"/>
@@ -611,20 +615,12 @@
         <PAGEOBJECT XPOS="145" YPOS="3371.416" WIDTH="201.81099999999998" HEIGHT="410.236" OwnPage="13" ItemID="2013" PTYPE="4" FRTYPE="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1" COLUMNS="1" COLGAP="0">
             <path value="M0 0 L201.81099999999998 0 L201.81099999999998 410.236 L0 410.236 L0 0 Z"/>
             <StoryText><DefaultStyle/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="16" CH="Hvězdné hypotéky"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="16" CH="Řešení problému tří těles"/>
                 <para ALIGN="0" NACH="23"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Co kdyby zaměstnanci žili miliony let? Brali bychom si hypotéky na osm set tisíc roků s pětiletou fixací. Hypoteční experti by museli počítat s ekonomickým vývojem na statisíce let dopředu; do svých kalkulací by zahrnuli Dysonovy sféry,"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="terraformaci planet a rozmach mezihvězdného cestování. TradingView by predikoval růst Amazonu o dva miliony procent na příštích sto tisíc let, protože by se počítalo s jeho dominancí"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="v oblasti transhvězdné teleportační logistiky."/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Z palubního počítače sleduji, jak se úroky mění v černé díry."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Co kdyby zaměstnanci žili miliony let? Úvěry bychom si fixovali na osm set tisíc let. Hypoteční experti by museli počítat s ekonomickým vývojem na statisíce let dopředu; do svých kalkulací by zahrnuli Dysonovy sféry, terraformaci planet a rozmach mezihvězdného cestování. TradingView by predikoval růst Amazonu o dva miliony procent na příštích sto tisíc let, počítalo by se s jeho dominancí v oblasti transhvězdné teleportační logistiky. Z palubního počítače sleduji, jak se úroky mění v černé díry."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Garážové startupy, co si dnes říkají AI Starý Kokot Dot com, píčoviny, Zvednutá pravice Elona Muska, jejichž jediným kapitálem jsou dva jogurty z Tesca měsíce po expiraci, by si braly půjčky na sextiliony dolarů s plánem kolonizovat galaxii a stavět datacentra pro generování videí s kočkami. A nám, nesmrtelným zaměstnancům, by se jen kupily smlouvy na bydlení,"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="rok co rok, na milion let."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Garážové startupy, co si dnes říkají AI Starý Kokot Dot com, píčoviny, Zvednutá pravice Elona Muska, jejichž jediným kapitálem jsou dva jogurty z Tesca měsíce po expiraci, by si braly půjčky na sextiliony dolarů s plánem kolonizovat galaxii a stavět datacentra pro generování videí s kočkami. A nám, nesmrtelným zaměstnancům, by se jen kupily smlouvy na bydlení, rok co rok, na milion let."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <trail ALIGN="0"/>
@@ -652,7 +648,7 @@
                 <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Z mužů se stanou fotrové a zajímá"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="je pouze operace Barbarossa."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="je pouze operace Crusader."/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Vědí přesně, kdo velel vojskům u Tobruku."/>
                 <para ALIGN="0"/>
@@ -729,22 +725,20 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Byl to tučňák."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Sklouzni se, řekl."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Sklouzni se,“ řekl."/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="A sklouzl se."/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Dost mizerná reference."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Následuj ho, znělo zvenčí,"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="hlas Ašrany."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Následuj ho,“ hlas Ašrany."/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Sklouzl jsem se za ním,"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="ještě hlouběji. A tam ji potkal."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="ještě hlouběji. A tam ji potkal,"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Svou vnitřní ženu."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="svou vnitřní ženu."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <trail ALIGN="0"/>
@@ -824,13 +818,13 @@
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="V naší vesnici, ještě za mého mládí, se striktně dodržovala tradice strašení dědkem."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Dědek chodil jednou za rok, vždy v podvečer zimní rovnodennosti. U dveří se hlásil bušením pěstí a opileckým řevem. Rodiče pak před vchodem seřadili děti a odemkli. Dědek obvykle do domu vtrhl s rákoskou a spustil výhružky:"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Dědek chodil jednou za rok, vždy v podvečer zimní rovnodennosti. U dveří se hlásil bušením pěstí a opileckým řevem. Rodiče pak před vchodem seřadili děti a odemkli. Dědek do domu vtrhl s rákoskou a spustil výhružky:"/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Jste zase dělali bordel, vy sajrajti zasraný! Máte plný držky chleba a masa a žádnou morálku a žádnou úctu. To za nás… za nás… jsme si za každou sprosťárnu museli vypláchnout hubu svěcenou vodou s voctem a dědci… dědci nás mlátili a ani jsme nevěděli proč. A teď jsem za to vděčnej.“"/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Tahle výchovná lekce končila zhruba po patnácti minutách. Dědek si pak vzal od rodičů dvacet korun a šel o dům dál."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Výchovná lekce končila zhruba po patnácti minutách. Dědek si pak vzal od rodičů dvacet korun a šel o dům dál."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Ovšem někdy, u zlobivějších dětí, nebo když si rodiče připlatili, tak jako se to v šesti letech stalo mně, odnesli dědci dítě s sebou na noc do knajpy."/>
@@ -856,7 +850,7 @@
             <StoryText><DefaultStyle/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="16" CH="Fíkus"/>
                 <para ALIGN="0" NACH="23"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Otec trávil celé moje dětství zavřený v pracovně. Jen tam stál, nic neříkal, nikdy nikam neodešel a jednoduše nás ignoroval. Brali jsme ho takového, jaký byl – měl mlčenlivou povahu a navíc náročné zaměstnání. Musel manažerovat přeměnu oxidu uhličitého na kyslík a jeho povaha byla ovlivněná tím, že to byl fíkus benjamín."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Otec trávil celé moje dětství zavřený v pracovně. Jen tam stál, nic neříkal, nikdy nikam nešel a jednoduše nás ignoroval. Brali jsme ho takového, jaký byl – měl mlčenlivou povahu a navíc náročné zaměstnání. Musel manažerovat přeměnu oxidu uhličitého na kyslík a jeho povaha byla ovlivněná tím, že to byl fíkus benjamín."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="To nám samozřejmě nebránilo budovat otcovsko-synovský vztah. Ukazoval jsem mu známky a záznamy z fotbalových utkání, učil mě hrát šachy, já jsem mu říkal, jak používat internet, a v dospívání jsem se mu svěřoval s problémy. V jeho meditativním mlčení jsem nacházel odpovědi na všechny otázky."/>
@@ -921,19 +915,13 @@
             <StoryText><DefaultStyle/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="16" CH="Bodíky sbíráte?"/>
                 <para ALIGN="0" NACH="23"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Ve frontě v Tescu jsem se dal do řeči s otcem jednoho dítěte. Zaujalo mě, že takhle malá holka, sedící ještě v kočárku, umí tak perfektně zpívat."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Ve frontě v Tescu jsem se dal do řeči s otcem jednoho dítěte. Zaujalo mě, že takhle malá holka, sedící ještě v kočárku, umí tak perfektně zpívat,"/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Všiml jsem si jí v oddělení mléčných výrobků. Slyšet byla po celém Tescu. Z dálky mi to přišlo jako dětské naříkání, zblízka jsem však zjistil, že zpívá Mozartovo Dies irae a u toho hlasitě poplakává. V oddělení drogerie zpívala Te Deum a u toho hlasitě poplakávala. Potkal jsem ji znovu ve frontě u kasy; zpívala pro mě neznámým jazykem tu nejsmutnější píseň, jakou jsem kdy slyšel, a u toho hlasitě poplakávala."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„To zpívá latinsky?“ zeptal jsem se."/>
-                <para ALIGN="0"/>
-                <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„To je aramejština,“ odpověděl otec."/>
-                <para ALIGN="0"/>
-                <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Jak se naučila takhle malá zpívat aramejsky a proč zpívá tak hrozně smutně?“ zeptal jsem se znovu, ale otec neodpověděl."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„To zpívá latinsky?“ zeptal jsem se. „To je aramejština,“ odpověděl otec. „Jak se naučila takhle malá zpívat aramejsky a proč zpívá tak hrozně smutně?“ zeptal jsem se znovu, ale otec neodpověděl."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Holčička začala opět zpívat: „Alkep ohénjets ízrev íšvamt nej, mětšíčotú ínen onvád žu con a ínámalkz ohíšjerečv míňavočarkop nej ej onár edžák. Čyrp mísorp ěm etťsup, ínezěv ej mez, íneprtu ej toviž.“"/>
@@ -941,22 +929,32 @@
                 <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„A co je tohle za jazyk?“"/>
                 <para ALIGN="0"/>
-                <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„To je čeština, jen řečená pozpátku. A už se nás na nic neptejte.“"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„To je čeština, jen řečená pozpátku. A už se nás"/>
                 <para ALIGN="0"/>
-                <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Dal jsem na jeho doporučení a přestal jsem si jich všímat. Pak na mě holčička promluvila: „Sami sebe jsme schopni poznat jen skrze utrpení.“"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="na nic neptejte.“"/>
                 <para ALIGN="0"/>
-                <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Přestaň! Tvůj nihilismus a předstíraná hereze je jen projevem intelektuální lenosti. Jestli toho nenecháš, potrestám tě,“ řekl otec dítěti."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Dal jsem na jeho doporučení a přestal jsem si"/>
                 <para ALIGN="0"/>
-                <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Otče, tvé hrozby jsou stejně mělké jako tvůj smysl pro surovou pravdu.“"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="jich všímat. Pak na mě holčička promluvila:"/>
                 <para ALIGN="0"/>
-                <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„A mám toho dost! Za trest nepůjdeš do školky, stejně tě to naučili tam.“"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Sami sebe jsme schopni poznat jen skrze"/>
                 <para ALIGN="0"/>
-                <para ALIGN="0" NACH="10"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="utrpení.“"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Přestaň! Tvůj nihilismus a předstíraná hereze je"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="jen projevem intelektuální lenosti. Jestli toho"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="nenecháš, potrestám tě,“ řekl otec dítěti."/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Otče, tvé hrozby jsou stejně mělké jako tvůj"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="smysl pro surovou pravdu.“"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„A mám toho dost! Za trest nepůjdeš do školky,"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="stejně tě to naučili tam.“"/>
+                <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Tyrane!“ Holčička se rozplakala."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
@@ -977,7 +975,7 @@
             <StoryText><DefaultStyle/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="16" CH="Václav Klaus jí špagety"/>
                 <para ALIGN="0" NACH="23"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Vrchní předloží před emeritního prezidenta hlubokou mísu boloňských špaget. Poté nastrouhá apmezán. Václav Klaus oznámí, že sýru je už dost, a číšník odejde."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Vrchní předloží před emeritního prezidenta hlubokou mísu boloňských špaget. Poté nastrouhá parmezán. Václav Klaus oznámí, že sýru je už dost, a číšník odejde."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Lžící podebere špagety, namotá je na vidličku a strčí do úst, aniž by se zamazal rajčatovou omáčkou."/>
@@ -1006,10 +1004,10 @@
             <StoryText><DefaultStyle/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="16" CH="Velká přestávka"/>
                 <para ALIGN="0" NACH="23"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Školní přestávka – čas a prostor, kde vládne tvrdý tribalismus. Mimo sociální skupinu neexistuje smysl pro sociální spravedlnost. Mimo sociální skupiny platí zákon džungle. Mimo sociální skupiny žije jedničkář Karel Novotný."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Školní přestávka – čas a prostor, kde vládne tvrdý tribalismus. Mimo sociální skupinu neexistuje smysl pro sociální spravedlnost. Mimo sociální skupiny platí zákon džungle. Mimo sociální skupiny žije jedničkář Erik Švarrc."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Karel Novotný je samotář, volný čas většinou tráví doma hraním her, občas jezdí na kole se svým jediným přítelem, ale o školní přestávce není nikdy sám. Se zazvoněním se kolem jeho přední lavice slézají třídní borci. Projevují o něj neobvyklý zájem."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Erik Švarrc je samotář, volný čas většinou tráví doma hraním her, občas jezdí na kole se svým jediným přítelem, ale o školní přestávce není nikdy sám. Se zazvoněním se kolem jeho přední lavice slézají třídní borci. Projevují o něj neobvyklý zájem."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Borci ze zadních lavic s Karlem hrají bezva hry. Hry jako kolotoč, bazén, schody, odpadní koš, nebo se ho jen ptají na holky. Karel nerad chodí do školy. Borci ze zadních lavic neradi chodí domů, protože u nich doma platí zákon džungle."/>
@@ -1029,25 +1027,37 @@
             <StoryText><DefaultStyle/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="16" CH="Na skladišti po setmění"/>
                 <para ALIGN="0" NACH="23"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Na skladišti jednoho supermarketu,"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Na skladišti jednoho"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="za úplňku mezi druhou a šestou ráno,"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="supermarketu, za úplňku mezi"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="probíhá školení z astrobiologie."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="druhou a šestou ráno probíhá"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jak by vypadal život na jiných planetách nebo v jiných kosmech."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="školení z astrobiologie."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Dělám si poznámky do lodního deníku, jsem tu inkognito."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jak by vypadal život"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="na jiných planetách"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="nebo v jiných kosmech."/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Dělám si poznámky"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="do lodního deníku, jsem tu inkognito."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Na základě dvou axiomů vytažených z Problému tří těles"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Na základě axiomů z Problémů"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="sestavuje lektor nauku o všech mimozemských formách života a rasách."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="tří těles. Sestavuje lektor"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="nauku o všech mimozemských"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="formách života a rasách."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Přednášející Otmar Freiherr von Verschuer"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="nápadně zdůrazňuje případné barvy kůže, tvary lebek"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="nápadně zdůrazňuje barvy kůže, tvary lebek"/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="a jejich nebezpečí pro lidskou rasu."/>
                 <para ALIGN="0"/>
@@ -1069,7 +1079,15 @@
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Mám rád svého koně, on má rád mě. Chová se slušně, neplaší holuby, neplive na lidi a není sprostej. Každý den mě vozí z Dejvic až na Barrandov. O víkendech pak spolu skotačíme v Hostivaři."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Když jsem si zlomil ruku, kterou jsem ho krmil, kůň se na ni podíval a povídá: „Nasedni na hřbet. Odvezu tě na farmu.“"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Když jsem si zlomil ruku,"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="kterou jsem ho krmil,"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="kůň se na ni podíval a povídá:"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Nasedni na hřbet, příteli."/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Odvezu tě na farmu, příteli.“"/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <trail ALIGN="0"/>
@@ -1086,31 +1104,67 @@
             <StoryText><DefaultStyle/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="16" CH="Lepkavost na podlaze infekčního oddělení"/>
                 <para ALIGN="0" NACH="23"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jako chodby mezi lůžkovými pokoji se proplétá historie generace rodiny Göhrových."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jako chodby mezi lůžkovými pokoji"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jako lepkavost na podlaze infekčního oddělení somálské kliniky špiní tajemství historii rodiny Göhrových."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="se proplétá historie generace rodiny Göhrových."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jen zdi kožního oddělení viděly vytékat a hnít tolik sekretu jako zdi ložnic rodiny Göhrových."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jako lepkavost na podlaze infekčního oddělení"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jen himálajští mudrci se dožívají více let než muži a ženy z rodiny Göhrových."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="somálské kliniky špiní tajemství"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="historii rodiny Göhrových."/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jen zdi kožního oddělení viděly vytékat"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="a hnít tolik sekretu jako zdi"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="ložnic rodiny Göhrových."/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jen himálajští mudrci se dožívají více let"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="než muži a ženy z rodiny Göhrových."/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="I smrt nerada vchází do domu rodiny Göhrových."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Pamatuji si na mladého starého Göhra, jak v opilosti křičel na školáky za zdí."/>
+                <para ALIGN="0" NACH="10"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Pamatuji si na mladého starého Göhra,"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Pamatuji si na nejmladšího z kluků Göhrových, jak klackem a vodou trápil kočky."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="jak v opilosti křičel na školáky za zdí."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Pamatuji si na psa, co šel raději chcípnout k místnímu rasovi, než aby žral ze společné misky rodiny Göhrových."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Pamatuji si na nejmladšího z kluků Göhrových,"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="I Saturn z Goyova obrazu visícího v jídelně odhodil ohryzaného syna a utekl při pohledu na hostinu rodiny Göhrových."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="jak klackem a vodou trápil kočky."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Pamatuji si, jak při oslavách jedenáctého září se ozýval strašný křik ze sklepa rodiny Göhrových."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Pamatuji si na psa, co šel raději"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jako vyděšení pávi na střechách statků bez ostychu vykřikovali tajemství, která znají všichni nemocní v domě rodiny Göhrových."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="chcípnout k místnímu rasovi,"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jen nejmladší z rodiny Göhrových, Anežka Göhrová, netrpěla dědičnou hnilobou masa."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="než aby žral ze společné misky rodiny Göhrových."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jen láhev becherovky táty Anežky Göhrové věděla, proč Anežka Göhrová sedí ve škole tak nápadně potichu."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="I Saturn z Goyova obrazu visícího v jídelně"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="odhodil ohryzaného syna a utekl při pohledu"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="na hostinu rodiny Göhrových."/>
+                <para ALIGN="0"/>
+                <para ALIGN="0" NACH="10"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Pamatuji si, jak při oslavách jedenáctého září"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="se ozýval strašný křik ze sklepa rodiny Göhrových."/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jako vyděšení pávi na střechách statků"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="bez ostychu vykřikovali tajemství,"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="která znají všichni nemocní v domě rodiny Göhrových."/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jen nejmladší z rodiny Göhrových, Anežka Göhrová,"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="netrpěla dědičnou hnilobou masa."/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jen láhev becherovky táty Anežky Göhrové věděla,"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="proč Anežka Göhrová sedí ve škole tak nápadně potichu."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <trail ALIGN="0"/>
@@ -1133,7 +1187,23 @@
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Jako vrták ses narodil, jako vrták zemřeš. Až ti bude čtrnáct, půjdeš na šachtu a budeš vrtat.“ Nedal si říct. S bázlivostí sledoval na poutích udatné, ramenaté muže polykající celé pecny Šumavy. Dětská představivost ho přiváděla do míst, kde si každý může jen tak strčit bochník do krku a polknout stejně jednoduše, jako chlap může vyvrtat díru."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Přestaň se tolik ládovat chlebem. Budeš tlustý, zavalitý a nevejdeš se do žádné vrtačky, a jediné, co ti zbyde, bude ucpávat zaplavené šachty svým tělem. To chceš?! Dělat ucpávače? Takový ucpávač je dvanáct hodin zaseklý a mokrý v jedné díře, dokud ho nepřijde vystřídat druhá směna.“"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Přestaň se tolik ládovat chlebem."/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Budeš tlustý, zavalitý a nevejdeš se do žádné"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="vrtačky,"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="a jediné, co ti zbyde,"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="bude ucpávat zaplavené šachty svým tělem."/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="To chceš?! Dělat ucpávače?"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Takový ucpávač je dvanáct hodin zaseklý a"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="mokrý v jedné díře,"/>
+                <para ALIGN="0"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="dokud ho nepřijde vystřídat druhá směna.“"/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Když k nám zavedli optické kabely, začal své kousky točit na TikTok. Nejdřív polykal ukrojené patky, protože v krku dobře klouzou. Později přešel na silné krajice."/>
@@ -1255,7 +1325,7 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="když je vztyčím, je jich deset."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jeden po druhém je dávám dolů a~"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jeden po druhém je dávám dolů"/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="odpočítávám."/>
                 <para ALIGN="0"/>
@@ -1521,7 +1591,7 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="v kuchyni se chystá koliva."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="O Göhrových bolestech ví už i služebnictvo."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="O Göhrových bolestech už služebnictvo ví."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Nikdy netrpěl pro blaho státu,"/>
@@ -1838,7 +1908,7 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="úrokem čtyři a půl procenta."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Bez lítosti a bez milosti."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Bez lítosti, bez milosti."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Lilo, venku strašně lilo,"/>
@@ -1862,7 +1932,7 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Trestem za ty kecy na pohovoru bylo třicet tisíc navíc."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Lež má krátký nohy a hrozí,"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Lež má krátké nohy a hrozí,"/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="ale dá se to uhrát,"/>
                 <para ALIGN="0"/>
@@ -1878,14 +1948,14 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Lhal jsem v sívíčku, Bůh mě potrestá."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jenže Bůh neexistuje, narozdíl od nájmu."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jenže Bůh neexistuje, na rozdíl od nájmu."/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Každý v sobě máme vnitřního Klause."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Slíbil jsem ti, že spolu budeme navěky."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="A už tehdy jsem tušil, že to je chyba."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="A už tehdy jsem tušil, že je to chyba."/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Už nejsi imaginární."/>
                 <para ALIGN="0"/>
@@ -1919,6 +1989,7 @@
                 <para ALIGN="0" NACH="23"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Když jsme byli dětmi, otec nepoužíval fyzické tresty, nemlátil nás, neškrtil nás, neřezal nás, řezal sám sebe. „Proč jsi mi to udělal?“ řval na mě, když jsem přinesl čtyřku z matematiky, zatímco si žiletkou prořezával kůži na zápěstí. Jeho rány krvácely dlouho potom, co mi odpustil."/>
                 <para ALIGN="0"/>
+                <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Po střední škole jsem otce opustil a začal žít podle vlastních pravidel. A přestože jsem už nikdy neviděl otce krvácet, začal jsem se řezat sám, aby otec nemusel."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
@@ -1941,7 +2012,7 @@
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Miluje teplé maso."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Na obědě společnosti Vulture IT se Java programátor loučí se zbytkem týmu. Po obědě se v kanclu rozebírá jeho vypůjčený majetek. Juniorní tester Karel Novotný si bere monitor a u toho se sám sebe ptá: „Žerou supi své vlastní druhy?“"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Na obědě společnosti Vulture IT se Java programátor loučí se zbytkem týmu. Po obědě se v kanclu rozebírá jeho vypůjčený majetek. Juniorní tester Erik Švarrc si bere monitor a u toho se sám sebe ptá: „Žerou supi své vlastní druhy?“"/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <trail ALIGN="0"/>
@@ -1968,7 +2039,7 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Bublinky pro dnešek nepraskají, mají svůj svátek!"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH=".íjižerp sán ěnjets ykétopyh ešaN"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH=".íjižerp sán ykétopyh ešaN"/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Bublinky se zdvojují do boubelatých čmeláků a varemýsují kolem balónků."/>
                 <para ALIGN="0"/>
@@ -1997,7 +2068,7 @@
                 <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH=".ňesáb ínen elhoT"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH=".íjižerp sán ěnjets ykétopyh ešaN"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH=".íjižerp sán ykétopyh ešaN"/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH=".menylp mýhard éněnlp ylabo éndzárp nej emsJ"/>
                 <para ALIGN="0"/>
@@ -2005,7 +2076,7 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH=".ňesáb ínen elhoT"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="!asýmerav ,asýmerav ,asýmerav"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="!asýmerav ,asýmerav ,asýmeraV"/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <trail ALIGN="0"/>
@@ -2088,11 +2159,11 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Co má pan Pták dělat?"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Pro možnost A: Znovu zkusit zvon."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Možnost A: Znovu zkusit zvon."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Pro možnost B: Použít dynamit."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Možnost B: Použít dynamit."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Pro možnost C: Strčit tam ruku."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Možnost C: Strčit tam ruku."/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Publikum napětím nedýchá."/>
                 <para ALIGN="0"/>
@@ -2146,7 +2217,10 @@
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Obloukem se vyhýbám planetám, které dřív bujely životem, teď je na nich jen uhlí a ropa. Jsou to planety Shell, Čepro nebo RobinOil. Novináři zde mají vstup navždy zapovězen."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Setkávám se se sadomasochistickou sektou toužící po autokracii, říkají si lidstvo. Role si rozdělují hodem mince: panna – robotník, orel – pán. Touží po autokracii, protože neví, jak si rozdělit práci. Zkoušeli rovnostářství, ale nikdo nic nedělal, zkoušeli si za práci platit, jenže nevěděli, kdo kolik komu má dát, a ti, co měli málo, záviděli těm, co mají hodně, a ti, co měli hodně, se styděli."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Setkávám se se sadomasochistickou sektou toužící po autokracii, říkají si lidstvo. Role si rozdělují hodem mince: panna – robotník, orel – pán."/>
+                <para ALIGN="0"/>
+                <para ALIGN="0" NACH="10"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Touží po autokracii, protože neví, jak si rozdělit práci. Zkoušeli rovnostářství, ale nikdo nic nedělal, zkoušeli si za práci platit, jenže nevěděli, kdo kolik komu má dát, a ti, co měli málo, záviděli těm, co mají hodně, a ti, co měli hodně, se styděli."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Prolétám kolem planety básníků. Jsou smutní, protože poezie spáchala sebevraždu skokem do černé díry a ta, která zůstala, zničila nakladatelství redaktorskými úpravami."/>
@@ -2173,9 +2247,7 @@
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Vstupuji do klece pro potkany, 12 pater proskleného kvádru. Hned v kuchyňce potkávám hlouček potkanů, probíhají mezi nimi dvě debaty: o tom, co bude k obědu, a jak ses ráno vysral. Debaty probíhají paralelně."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jsou dvě odpoledne a já dostávám podruhé vrácený ticket na modul KDL 5.4.3, o kterém mi nikdo neřekl, jak má fungovat. Myslím na to, jak se večer vožeru, takové malé každodenní vítězství. Všichni tu zabili svoje vnitřní dítě před svými vnitřními rodinami a své vnitřní otce přinutili držet pozornost na seberozvojových kurzech."/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Přijde za mnou potkan a dvacet minut šišlá něco o tom, jak má fungovat KDL 5.4.3. Svůj projev zakončuje slovy: „Hele, kámo, já vlastně nevím.“ V tu chvíli si představuju, jak mám na sobě několik kilo trhaviny. „Pojď, kancelářská budovo, zahrajeme si na jedenácté září.“ Říkám si, že to už je vlastně moc, možná by stačilo se vymočit do květináče nebo schovat toner od tiskárny, ale to je na revoluci strašně málo. „Už vím!“"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jsou dvě odpoledne a já dostávám podruhé vrácený ticket na modul KDL 5.4.3, o kterém mi nikdo neřekl, jak má fungovat. Myslím na to, jak se večer vožeru, takové malé každodenní vítězství. Všichni tu zabili svoje vnitřní dítě před svými vnitřními rodinami a své vnitřní otce přinutili držet pozornost na seberozvojových kurzech. Přijde za mnou potkan a dvacet minut šišlá něco o tom, jak má fungovat KDL 5.4.3. Svůj projev zakončuje slovy: „Hele, kámo, já vlastně nevím.“ V tu chvíli si představuju, jak mám na sobě několik kilo trhaviny. „Pojď, kancelářská budovo, zahrajeme si na jedenácté září.“ Říkám si, že to už je vlastně moc, možná by stačilo se vymočit do květináče nebo schovat toner od tiskárny, ale to je na revoluci strašně málo. „Už vím!“"/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jdu z open space jakoby na záchod, rozhlížím se, jestli okolo není nějaký potkan. Sahám po požárním alarmu, ještě se usměju do kamery. V tu chvíli se cítím jako Kubiš, Gabčík, Opálka, Patton, Churchill, Orwell a Koněv v jedné osobě, ale jen jednu pikosekundu. Po rozvučení zvonku div se nepomočím. Běžím do open space, kde už panikaří potkani."/>
@@ -2223,21 +2295,13 @@
             <StoryText><DefaultStyle/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="16" CH="Každý je vinný jen tak, jak se sám cítí"/>
                 <para ALIGN="0" NACH="23"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Obžalobo, ať přečtou znovu obvinění.“"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Obžalobo, ať přečtou znovu obvinění.“, „Mašinka Tomáš je obviněn ze spáchání zločinů proti lidskosti, konkrétně z účasti na takzvaném Tramvajovém dilematu. Při tomto dilematu bylo na železniční křižovatku přivázáno šest vězňů, přičemž pět jich bylo připoutáno na jedné koleji a jeden na druhé. Obžalovaný vždy najížděl na kolej s větším počtem osob. Můžou mi, pane obžalovaný, vysvětlit, proč najížděli na kolej s větším počtem lidí?“ „Nevím, čeho jsem se dopustil, prostě jsem jel dál.“"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Mašinka Tomáš je obviněn ze spáchání zločinů proti lidskosti, konkrétně z účasti na takzvaném Tramvajovém dilematu."/>
+                <para ALIGN="0" NACH="10"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Prokurátor pokračoval: „Klasické tramvajové dilema je koncipováno tak, že na jedné koleji je umístěno pět osob a na druhé pouze jedna. Cílem experimentu je zjistit, zda testovaný subjekt zůstane nečinný a najede rovně na pět osob, nebo v druhém případě použije výhybku a vědomě zabije jednoho člověka, ale zachrání pět ostatních. V jejich experimentu však měli jednu osobu na přímé cestě a na odbočce pět, což činí jejich provinění o to zrůdnější. Oni použili výhybku, aby přejeli více lidí.“"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Při tomto dilematu bylo na železniční křižovatku přivázáno šest vězňů, přičemž pět jich bylo připoutáno na jedné koleji a jeden na druhé."/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Obžalovaný vždy najížděl na kolej s větším počtem osob. Můžou mi, pane obžalovaný, vysvětlit, proč najížděli na kolej s větším počtem lidí?“"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Nevím, čeho jsem se dopustil, prostě jsem jel dál.“"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Prokurátor pokračoval:"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Klasické tramvajové dilema je koncipováno tak, že na jedné koleji je umístěno pět osob a na druhé pouze jedna. Cílem experimentu je zjistit, zda testovaný subjekt zůstane nečinný a najede rovně na pět osob, nebo v druhém případě použije výhybku a vědomě zabije jednoho člověka, ale zachrání pět ostatních. Ve Vašem experimentu však měli jednu osobu na přímé cestě a na odbočce pět, což činí jejich provinění o to zrůdnější. Oni použili výhybku, aby přejeli více lidí.“"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Jen jsem plnil rozkazy,“ odvětil Mašinka Tomáš."/>
+                <para ALIGN="0" NACH="10"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Jen jsem plnil rozkazy,“ řekl Mašinka Tomáš."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <trail ALIGN="0"/>
