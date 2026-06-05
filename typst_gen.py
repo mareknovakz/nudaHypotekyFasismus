@@ -3,9 +3,9 @@ import os
 import subprocess
 
 def create_typst_file(json_path, config_path, output_filename):
-    with open(json_path, 'r', encoding='utf-8') as f:
+    with open(json_path, 'r', encoding='utf-8-sig') as f:
         data = json.load(f)
-    with open(config_path, 'r', encoding='utf-8') as f:
+    with open(config_path, 'r', encoding='utf-8-sig') as f:
         config = json.load(f)
 
     layout = config['layout']
@@ -47,11 +47,12 @@ def create_typst_file(json_path, config_path, output_filename):
     typ.append(f'  ]')
     typ.append(f')')
     
-    # Global text settings: STRICTLY disable hyphenation
-    typ.append(f'#set text(font: "Courier Prime", size: {styles["verse"]["size"]}pt, lang: "cs", hyphenate: false)')
+    # hyphenate: auto = dělení jen v justify blocích (próza), ne v ragged-right (poezie)
+    typ.append(f'#set text(font: "Courier Prime", size: {styles["verse"]["size"]}pt, lang: "cs", hyphenate: auto)')
     
-    # Global paragraph settings (implementing the requested 1.65 line spacing)
+    # Global paragraph settings (prose: 1.65×, poetry: 1.5×)
     leading_val = styles["verse"]["line_spacing"] - styles["verse"]["size"]
+    leading_poetry = round(styles["verse"]["size"] * 0.75, 2)  # 1.75× line spacing
     typ.append(f'#set par(first-line-indent: 1.5em, justify: true, leading: {leading_val}pt)')
     
     # Helpers
@@ -140,12 +141,21 @@ def create_typst_file(json_path, config_path, output_filename):
   ]
 ]
 
-#let poem(title, body_content) = [
+#let poem-prose(title, body_content) = [
   #pagebreak(weak: true)
   #if title != "" [
     #heading(level: 2, title)
   ]
-  #set par(first-line-indent: 0pt, justify: false, leading: {leading_val}pt)
+  #set par(first-line-indent: 0pt, justify: true, leading: {leading_val}pt)
+  #body_content
+]
+
+#let poem-poetry(title, body_content) = [
+  #pagebreak(weak: true)
+  #if title != "" [
+    #heading(level: 2, title)
+  ]
+  #set par(first-line-indent: 0pt, justify: false, leading: {leading_poetry}pt, hanging-indent: 2em, spacing: {leading_poetry}pt)
   #body_content
 ]
 ''')
@@ -181,7 +191,9 @@ def create_typst_file(json_path, config_path, output_filename):
     for kapitola in data.get('kapitoly', []):
         typ.append(f'#chapter("{kapitola["nazev"]}", "{kapitola.get("ilustrace", "")}")')
         for basen in kapitola.get('basne', []):
-            typ.append(f'#poem("{basen["nazev"]}", [')
+            is_poetry = basen.get('isPoetry', False)
+            func_name = 'poem-poetry' if is_poetry else 'poem-prose'
+            typ.append(f'#{func_name}("{basen["nazev"]}", [')
             for sloka in basen.get('sloky', []):
                 for vers in sloka.get('verse', []):
                     clean_vers = vers.replace('"', '\\"')
@@ -191,9 +203,16 @@ def create_typst_file(json_path, config_path, output_filename):
                     elif clean_vers.startswith("ENUM:"):
                         content = clean_vers[len("ENUM:"):].strip()
                         typ.append(f'  + {content}')
+                    elif is_poetry:
+                        typ.append(f'  {clean_vers}')
+                        typ.append('')
                     else:
-                        typ.append(f'  {clean_vers} \\')
-                typ.append('\n  #v(1em)\n')
+                        typ.append(f'  {clean_vers}')
+                if is_poetry:
+                    typ.append('  #v(1em)')
+                    typ.append('')
+                else:
+                    typ.append('')
             typ.append('])')
 
     # Colophon (using consistent line breaks \)

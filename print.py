@@ -25,6 +25,12 @@ def run_command(command):
 def main():
     print("--- Starting Full Book Generation Flow ---")
 
+    # Remove stale PDFs before regenerating
+    for old_pdf in ["Blok_Slim.pdf", "Blok_B6.pdf", "Blok.pdf"]:
+        if os.path.exists(old_pdf):
+            os.remove(old_pdf)
+            print(f"Removed old: {old_pdf}")
+
     # 1. Run Scribus generation
     print("\n[1/3] Generating Scribus files...")
     run_command(f'"{sys.executable}" scribus_gen.py')

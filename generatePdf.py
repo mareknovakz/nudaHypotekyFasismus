@@ -33,8 +33,20 @@ def generate_pdf(typ_file):
     else:
         print(f"Warning: Extensions directory {extensions_dir} not found.")
 
-    if tinymist_path == "tinymist":
-        print("Checking PATH for 'tinymist'...")
+    # If still using the default fallback, try to find typst.exe in winget packages
+    if tinymist_path == "typst":
+        winget_base = os.path.expanduser(r"~\AppData\Local\Microsoft\WinGet\Packages")
+        if os.path.exists(winget_base):
+            for pkg_dir in os.listdir(winget_base):
+                if pkg_dir.lower().startswith("typst.typst"):
+                    candidate = os.path.join(winget_base, pkg_dir)
+                    for root, _, files in os.walk(candidate):
+                        if "typst.exe" in files:
+                            tinymist_path = os.path.join(root, "typst.exe")
+                            print(f"Found typst via winget: {tinymist_path}")
+                            break
+                if tinymist_path != "typst":
+                    break
 
     output_pdf = typ_file.replace(".typ", ".pdf")
     

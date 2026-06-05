@@ -8,9 +8,9 @@ def escape_xml(s):
 
 def create_guaranteed_sla(json_path, config_path):
     # Load data
-    with open(json_path, 'r', encoding='utf-8') as f:
+    with open(json_path, 'r', encoding='utf-8-sig') as f:
         data = json.load(f)
-    with open(config_path, 'r', encoding='utf-8') as f:
+    with open(config_path, 'r', encoding='utf-8-sig') as f:
         config = json.load(f)
 
     doc_cfg = config['document']
