@@ -1,6 +1,9 @@
 import json
 import os
+import sys
 import xml.etree.ElementTree as ET
+
+sys.stdout.reconfigure(encoding='utf-8')
 
 def escape_xml(s):
     if not isinstance(s, str): return str(s)

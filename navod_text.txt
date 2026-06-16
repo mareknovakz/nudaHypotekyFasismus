@@ -1,0 +1,237 @@
+﻿Stran: 8
+--- str.1 ---
+připravit
+dokument
+pro tisk
+Jak
+Dokument obsahuje šablony
+
+--- str.2 ---
+Shrnutí technických požadavků na tisk:
+1.
+Spadávka 2,5 mm a neutrální
+zóna 2,5 mm z každé strany 
+Pokud si připravujete vlastní graﬁku pro tisk, ukážeme vám, jak 
+připravit podklady pro tisk, aby je graﬁk nemusel upravovat. 
+Vaši zakázku tak můžeme zpracovat ještě rychleji a vytištěný 
+produkt bude přesně podle vašich představ.
+Dokument obsahuje šablony
+2.
+300 DPI
+(bodů na palec) 
+3.
+Barevný režim
+CMYK
+5.
+Výstupní formát
+tiskového dokumentu PDF
+4.
+Návod jak exportovat 
+šablonu do PDF
+
+--- str.3 ---
+Neutrální zóna
+Neutrální zóna představuje okrajovou část jakéhokoliv 
+graﬁckého návrhu (vizitky, plakátu, letáku apod.), v níž by se 
+neměly nacházet žádné obrázky ani text.
+Zóna je nevyhnutelná pro zachování 100% kvality vytištěných 
+materiálů – eliminuje viditelnost případných odchylek po oříznutí 
+tiskovin. Pod neutrální zónu spadá plocha ve vzdálenosti 2,5 
+mm od okraje tiskoviny.
+Příklad:
+Pokud máme podklad ve velikosti vizitky 90 × 50 mm, výsledné 
+rozměry budou: 90 + 2,5 mm × 50 + 2,5 mm = 95 × 55 mm
++420 117 123 456 / Praha 040 01 Hlavní 1
+/ vincent@roxor.cz / www.vincentroxor.cz
+Graﬁcký podklad musí plynule přecházet do spadávky!
+1.
+Spadávka
+neutrální zóna
+spadávka
+* Není třeba
+přidávat ořezové
+značky do graﬁky
+ 50 mm
+ 55 mm
+Rozměr vizitky 90 mm
+Rozměr graﬁckého návrhu 95 mm
+Jde o přidání 2,5 mm na každé straně, a to z toho důvodu, že 
+se vizitky či jiné propagační materiály po vytištění ořezávají. 
+Bez spadávky by ořez zasahoval do rozměrů (příp. i designu) 
+tiskoviny, a tím by ji znehodnotil.
+Spadávkou se označuje zóna, která se cíleně přidává 
+k rozměrům graﬁckého návrhu.
+
+--- str.4 ---
+2.
+Rozlíšení pro tisk
+Co z toho vyplýva?
+72 dpi
+běžné rozlišení 
+300 dpi
+rozlišení pro kvalitní tisk
+Často se stává, že při tisku potřebujete nějaký obrázek. 
+Stáhnete si ho z internetu a zdá se vám dostatečně velký a také 
+kvalitní. Později se však rozhodnete připravovat tiskové 
+materiály, na které chcete použít právě tento obrázek. A zde 
+nastává kámen úrazu.
+Obrázky, se kterými se běžně setkáváte na 
+internetu, jsou v jiném rozlišení než obrázky, 
+které jsou vhodné pro kvalitní tisk. Rozdíl je 
+v rozlišení DPI.
+DPI = dots per inch
+(počet bodů na jeden palec)
+Na internetu se běžně používá rozlišení 72 
+DPI, pro tisk je potřebných 300 DPI. Při 
+stejné velikosti obrázku v centimetrech je 
+obrázek při tisku až 4,17-krát nekvalitnější.
+Pokud chcete zachovat potřebnou kvalitu pro tisk, potřebujete 
+až 4krát větší obrázek, než je běžně dostupný na internetu.
+300 / 72 =
+4,17
+krát horší graﬁka
+
+--- str.5 ---
+3.
+Barevné režimy
+Všimněte si rozdíl v odstínu
+Každý tiskový materiál reprezentuje Vás nebo Vaši ﬁrmu. Je proto 
+nesmírně důležité, aby byl dokonalý a věrně kopíroval Vaši ﬁremní 
+identitu. Vysvětlíme si proto, na co si dávat pozor při barvách.
+RGB
+CMYK 
+Co z toho vyplýva?
+Pro zachování maximální barevné věrnosti doporućujeme 
+ukládat logo v CMYK. Pokud však nedisponujete graﬁckým 
+softwarem, pošlete nám alespoň přesné kódy barev
+CMY nebo CMYK režim představuje druhou 
+možnost, jak smíchat barvy. CMYK je 
+považován za tiskařský režim / paletu barev, 
+protože je výhodnější pro samotný tisk. 
+Důvodem je to, že v RGB režimu nelze 
+namíchat černou barvu. 
+CMY(K) 
+využívá 
+složky, 
+které 
+vznikly 
+smícháním dvojic barev v RGB modelu. 
+O CMYK režimu hovoříme v případě, kdy se 
+barvy míchají i se samostatnou černou (pro 
+lepší kvalitu vytištěného obrázku). CMYK 
+režim využívá také 32bitovou barevnou 
+hloubku.
+Buňky v lidském oku umožňují nahradit 
+viditelné světlo směsí tří základních barev 
+(červené, zelené a modré – ve zkratce RGB). 
+Složením všech tří barev vznikne bílá barva, 
+která je ovšem jiná než barva světla (to se 
+skládá z celého spektra barev). RGB režim 
+využívají monitory počítačů a televizory.
+R: 231
+G:     0
+B:   14
+C:  0%
+M: 100%
+Y:  100%
+K:  0%
+
+--- str.6 ---
+Návod jak exportovat Photoshop dokument (.psd) do PDF.
+1. V horní liště programu přejděte do nabídky „Soubor“ a klikněte na tlačítko „Uložit jako...“ 
+z nabídky.
+2. Když se zobrazí dialogové okno „Uložit jako“, z rozbalovací nabídky v dolní části okna 
+vyberte formát „Photoshop PDF“.
+3. Vyberte místo určení, kam chcete dokument PDF uložit, a klikněte na tlačítko „Uložiť“.
+4. Po kliknutí na tlačítko uložit se Vám otevře druhé dialogové okno s názvem „Uložit Adobe 
+PDF“. 
+5. Nakonec potvrďte tlačítkem „Uložit PDF“.
+4.
+Exportování do PDF
+Návod ako exportovať Adobe InDesign dokument (.indd) do PDF.
+1. V horní liště programu přejděte do nabídky „Soubor“ a klikněte na tlačítko „Exportovat...“
+z nabídky.
+2. Otevře se dialogové okno s názvem „Exportovat“. V tomto okně vyberete místo určení, kam 
+chcete dokument PDF uložit, zvolíte formát „Adobe PDF (Tisk)“ a potvrdíte tlačítkem 
+„Uložit“.
+3. Po klepnutí na tlačítko uložit se otevře druhé dialogové okno s názvem „Exportovat Adobe 
+PDF".
+4. V záložce „Všeobecné“ zvolte z horní rozbalovací nabídky „Kvalitní tisk“.
+5. A pak se přepněte do záložky „Značky a spadávky“ a zaškrtněte políčko „Použít nastavení 
+spadávky z dokumentu“. Nakonec potvrďte tlačítkem „Exportovat“.
+Návod jak exportovat Adobe Illustrator dokument (.ai) do PDF.
+1. V horní liště programu přejděte do nabídky „Soubor“ a klikněte na tlačítko „Uložit jako...“ 
+z nabídky.
+2. Když se zobrazí dialogové okno „Uložit jako...“, z rozbalovací nabídky v dolní části okna 
+vyberte mož
+
+--- str.7 ---
+1.
+2 .
+*
+Postup kroků 
+v záložce 
+Všeobecné
+*
+Postup kroků 
+v záložce Značky 
+a spadávky
+1
+2
+3
+4
+5
+
+--- str.8 ---
+5.
+Šablony pro tisk
+Photoshop
+šablony (.psd)
+A6
+A5
+Deska 15 stran
+Deska 50 stran
+A3
+A4
+Vizitka 90x50
+Třetina A4
+Vizitka 85x55
+Illustator
+šablony (.ai)
+A6
+A5
+Deska 15 stran
+Deska 50 stran
+A3
+A4
+Vizitka 90x50
+Třetina A4
+Vizitka 85x55
+InDesign 
+šablony (.idml)
+A6
+A5
+Deska 15 stran
+Deska 50 stran
+A3
+A4
+Vizitka 90x50
+Třetina A4
+Vizitka 85x55
+Afﬁnity
+šablony (.afdesign)
+A6
+A5
+Deska 15 stran
+Deska 50 stran
+A3 
+A4
+Vizitka 90x50
+Třetina A4
+Vizitka 85x55
+210 012 300
+Kontaktujte nás, pomůžeme Vám!
+volejte Po-Pá 7-20
+info@expresta.cz
+napište nám na náš e-mail
+

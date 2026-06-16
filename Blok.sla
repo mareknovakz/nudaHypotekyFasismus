@@ -347,19 +347,6 @@
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Táta odešel pro mléko, už se nevrátí."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Marek Novák si vymyslel slovo varemýsa"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="z řeckých slov"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="pro nudu a bohyni šílenství."/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Celé dny pak varemýsuje a píše špatné básně,"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="protože je osamělý a cítí se méněcenně."/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Píše básně, nemá se krásně."/>
-                <para ALIGN="0"/>
-                <para ALIGN="0" NACH="10"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Michal Pokorný nepil,"/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="nekouřil, nemyl se, nejedl,"/>
@@ -398,9 +385,9 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="neschopné již čehokoliv litovat,"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="otčímové, které nevlastní děti"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="otčímové, kteří nevlastní děti"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="oslovují jménem, přestože je živí a~"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="oslovují jménem, přestože je živí a"/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="předstírají, že je mají rádi, jako by byly jejich vlastní,"/>
                 <para ALIGN="0"/>
@@ -769,7 +756,7 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="ale prý se to vnitřně vyplatilo."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Dřív totiž bydleli u~"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Dřív totiž bydleli u"/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="jeho vnitřních rodičů:"/>
                 <para ALIGN="0"/>
@@ -927,38 +914,10 @@
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Holčička začala opět zpívat: „Alkep ohénjets ízrev íšvamt nej, mětšíčotú ínen onvád žu con a ínámalkz ohíšjerečv míňavočarkop nej ej onár edžák. Čyrp mísorp ěm etťsup, ínezěv ej mez, íneprtu ej toviž.“"/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„A co je tohle za jazyk?“"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„To je čeština, jen řečená pozpátku. A už se nás"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="na nic neptejte.“"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Dal jsem na jeho doporučení a přestal jsem si"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="jich všímat. Pak na mě holčička promluvila:"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Sami sebe jsme schopni poznat jen skrze"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="utrpení.“"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Přestaň! Tvůj nihilismus a předstíraná hereze je"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="jen projevem intelektuální lenosti. Jestli toho"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="nenecháš, potrestám tě,“ řekl otec dítěti."/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Otče, tvé hrozby jsou stejně mělké jako tvůj"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="smysl pro surovou pravdu.“"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„A mám toho dost! Za trest nepůjdeš do školky,"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="stejně tě to naučili tam.“"/>
-                <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„Tyrane!“ Holčička se rozplakala."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="„A co je tohle za jazyk?” „To je čeština, jen řečená pozpátku. A už se nás na nic neptejte.” Dal jsem na jeho doporučení a přestal jsem si jich všímat. Pak na mě holčička promluvila: „Sami sebe jsme schopni poznat jen skrze utrpení.” „Přestaň! Tvůj nihilismus a předstíraná hereze je jen projevem intelektuální lenosti. Jestli toho nenecháš, potrestám tě,” řekl otec dítěti. „Otče, tvé hrozby jsou stejně mělké jako tvůj smysl pro surovou pravdu.” „A mám toho dost! Za trest nepůjdeš do školky, stejně tě to naučili tam.” „Tyrane!” Holčička se rozplakala.”"/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Najednou se otevřelo nebe a pod ním se odsunula střecha Tesca. Otec s holčičkou se začali zvedat směrem k nebi. Holčička cestou zpívala Te Deum, jen více naštvaně. Roky jsem na ten den myslel, než mi došla jedna věc: To, že nezaplatili za nákup."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Najednou se otevřelo nebe a pod ním se odsunula střecha Tesca. Otec s holčičkou se začali zvedat směrem k nebi. Holčička cestou zpívala Te Deum, jen více naštvaně. Roky jsem na ten den myslel, než mi došla jedna věc: to, že nezaplatili za nákup."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <trail ALIGN="0"/>
@@ -1007,10 +966,10 @@
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Školní přestávka – čas a prostor, kde vládne tvrdý tribalismus. Mimo sociální skupinu neexistuje smysl pro sociální spravedlnost. Mimo sociální skupiny platí zákon džungle. Mimo sociální skupiny žije jedničkář Erik Švarrc."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Erik Švarrc je samotář, volný čas většinou tráví doma hraním her, občas jezdí na kole se svým jediným přítelem, ale o školní přestávce není nikdy sám. Se zazvoněním se kolem jeho přední lavice slézají třídní borci. Projevují o něj neobvyklý zájem."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Erik je samotář, volný čas většinou tráví doma hraním her, občas jezdí na kole se svým jediným přítelem, ale o školní přestávce není nikdy sám. Se zazvoněním se kolem jeho přední lavice slézají třídní borci. Projevují o něj neobvyklý zájem."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Borci ze zadních lavic s Karlem hrají bezva hry. Hry jako kolotoč, bazén, schody, odpadní koš, nebo se ho jen ptají na holky. Karel nerad chodí do školy. Borci ze zadních lavic neradi chodí domů, protože u nich doma platí zákon džungle."/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Borci ze zadních lavic s Erikem hrají bezva hry. Hry jako kolotoč, bazén, schody, odpadní koš, nebo se ho jen ptají na holky. Erik nerad chodí do školy. Borci ze zadních lavic neradi chodí domů, protože u nich doma platí zákon džungle."/>
                 <para ALIGN="0"/>
                 <para ALIGN="0" NACH="10"/>
                 <trail ALIGN="0"/>
@@ -1120,7 +1079,7 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="ložnic rodiny Göhrových."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jen himálajští mudrci se dožívají více let"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jen himalájští mudrci se dožívají více let"/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="než muži a ženy z rodiny Göhrových."/>
                 <para ALIGN="0"/>
@@ -1904,7 +1863,7 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="se teď musíme plahočit"/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="slzavým údolím s hypotečním "/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="slzavým údolím s hypotečním"/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="úrokem čtyři a půl procenta."/>
                 <para ALIGN="0"/>
@@ -1919,7 +1878,7 @@
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Jenže já jsem blbej, chudej – a ty imaginární."/>
                 <para ALIGN="0"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Uplácaná z poslední Adamovy mozkový buňky"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Uplácaná z poslední Adamovy mozkové buňky"/>
                 <para ALIGN="0"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="a Háchovy víry v Mnichovskou dohodu."/>
                 <para ALIGN="0"/>
@@ -2318,17 +2277,17 @@
             <StoryText><DefaultStyle/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Text © Mirek Mrkvička, 2026"/>
                 <para ALIGN="0" VOR="260.236" NACH="5"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Vydal: Marek Novák vlastním nákladem, Praha 2026"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Vydal: Marek Novák vlastním nákladem"/>
                 <para ALIGN="0" VOR="0" NACH="5"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="První vydání"/>
                 <para ALIGN="0" VOR="0" NACH="5"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Sazba a obálka: Mirek Mrkvička"/>
                 <para ALIGN="0" VOR="0" NACH="5"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Tisk: Vytištěno v České republice"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="Tisk: expresta Obchodno-výstavný objekt B, Devínska Nová Ves 7465, 841 07 Bratislava - mestská časť Devínska Nová Ves"/>
                 <para ALIGN="0" VOR="0" NACH="5"/>
                 <ITEXT FONT="Courier Prime" FONTSIZE="10" CH=""/>
                 <para ALIGN="0" VOR="0" NACH="5"/>
-                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="ISBN 978-80-12345-67-8"/>
+                <ITEXT FONT="Courier Prime" FONTSIZE="10" CH="ISBN 978-80-909916-0-6"/>
                 <para ALIGN="0" VOR="0" NACH="5"/>
                 <trail ALIGN="0"/>
             </StoryText>

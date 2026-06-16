@@ -38,7 +38,7 @@ def create_typst_file(json_path, config_path, output_filename):
     typ.append(f'  footer-descent: 30pt,')
     typ.append(f'  footer: context [')
     typ.append(f'    #set text(size: {styles["page_number"]["size"]}pt, font: "{styles["page_number"]["font"]}")')
-    typ.append(f'    #let page_num = counter(page).at(here()).first()')
+    typ.append(f'    #let page_num = counter(page).get().first()')
     typ.append(f'    #if calc.even(page_num) {{')
     typ.append(f'      align(left)[#page_num]')
     typ.append(f'    }} else {{')
@@ -61,30 +61,9 @@ def create_typst_file(json_path, config_path, output_filename):
   page(footer: none)[]
 }
 
-#let chapter-page-break() = {
-  // Goal: Chapters start on ODD pages. 
-  // If we are on an ODD page, we must add an EVEN blank page first.
-  context {
-    let cp = counter(page).at(here()).first()
-    if calc.odd(cp) {
-        blank-page()
-    } else {
-        pagebreak(weak: true)
-    }
-  }
-}
+#let chapter-page-break() = pagebreak(to: "odd")
 
-#let colophon-page-break() = {
-  // Goal: Colophon usually on EVEN (Left) page.
-  context {
-    let cp = counter(page).at(here()).first()
-    if calc.even(cp) {
-        blank-page()
-    } else {
-        pagebreak(weak: true)
-    }
-  }
-}
+#let colophon-page-break() = pagebreak(to: "even")
 ''')
 
     # Custom Heading Style
@@ -119,12 +98,12 @@ def create_typst_file(json_path, config_path, output_filename):
   #pagebreak()
   #set page(footer: context [
     #set text(size: {styles["page_number"]["size"]}pt, font: "{styles["page_number"]["font"]}")
-    #let page_num = counter(page).at(here()).first()
+    #let page_num = counter(page).get().first()
     #if calc.even(page_num) [ #align(left)[#page_num] ] else [ #align(right)[#page_num] ]
   ])
   
   #if not blank [
-    #page(margin: 3mm, footer: none)[
+    #page(margin: 0pt, footer: none)[
       #if img_path != "" and img_path != "404" [
         #set align(center + horizon)
         #image(img_path, width: 100%, height: 100%, fit: "cover")
@@ -146,7 +125,7 @@ def create_typst_file(json_path, config_path, output_filename):
   #if title != "" [
     #heading(level: 2, title)
   ]
-  #set par(first-line-indent: 0pt, justify: true, leading: {leading_val}pt)
+  #set par(first-line-indent: 0pt, justify: true, leading: {leading_val}pt, spacing: {styles["verse"]["line_spacing"]}pt)
   #body_content
 ]
 
@@ -155,7 +134,17 @@ def create_typst_file(json_path, config_path, output_filename):
   #if title != "" [
     #heading(level: 2, title)
   ]
-  #set par(first-line-indent: 0pt, justify: false, leading: {leading_poetry}pt, hanging-indent: 2em, spacing: {leading_poetry}pt)
+  #set text(hyphenate: false)
+  #set par(first-line-indent: 0pt, justify: true, leading: {leading_val}pt, spacing: {leading_val}pt)
+  #show par: it => layout(size => context {{
+    let w = measure(it).width
+    if w > size.width {{
+      set align(right)
+      it
+    }} else {{
+      it
+    }}
+  }})
   #body_content
 ]
 ''')
@@ -174,8 +163,6 @@ def create_typst_file(json_path, config_path, output_filename):
     typ.append(f'  #text(size: 16pt, font: "Courier Prime")[{config["document"].get("author", "Mirek Mrkvička")}]')
     typ.append(']')
     typ.append('#blank-page()')
-    typ.append('#blank-page()')
-    typ.append('#blank-page()')
     typ.append('#page(footer: none)[')
     typ.append('  #set par(first-line-indent: 0pt, justify: false)')
     typ.append('  #set align(center + top)')
@@ -183,10 +170,9 @@ def create_typst_file(json_path, config_path, output_filename):
     typ.append('  #text(style: "italic")[ Kde ztratili víru v Boha, nacházejí poslední útočiště v hypotéce. A kde na ni nedosáhnou, tam bují fašismus.]')
     typ.append(']')
     typ.append('#blank-page()')
-    typ.append('#page(footer: none)[')
+    typ.append('#page[')
     typ.append('  #outline(title: [Obsah #v(1em)], indent: 0pt)')
     typ.append(']')
-    typ.append('#blank-page()')
 
     for kapitola in data.get('kapitoly', []):
         typ.append(f'#chapter("{kapitola["nazev"]}", "{kapitola.get("ilustrace", "")}")')
@@ -209,32 +195,52 @@ def create_typst_file(json_path, config_path, output_filename):
                     else:
                         typ.append(f'  {clean_vers}')
                 if is_poetry:
-                    typ.append('  #v(1em)')
-                    typ.append('')
+                    typ.append(f'  #v({styles["verse"]["space_after_stanza"]}pt)')
                 else:
                     typ.append('')
             typ.append('])')
 
+    # Poděkování
+    podek = config['document'].get('podekování', '')
+    if podek:
+        typ.append('#pagebreak(to: "odd")')
+        typ.append('#page(footer: none)[')
+        typ.append('  #set align(left + top)')
+        typ.append('  #set par(first-line-indent: 0pt, justify: true)')
+        typ.append(f'  #show heading.where(level: 1): it => [')
+        typ.append(f'    #set align(left)')
+        typ.append(f'    #set text(size: {styles["poem_title"]["size"]}pt, weight: "bold", font: "{styles["poem_title"]["font"]}")')
+        typ.append(f'    #set par(first-line-indent: 0pt, justify: false)')
+        typ.append(f'    #v({styles["poem_title"]["space_before"]}pt, weak: true)')
+        typ.append(f'    #it.body')
+        typ.append(f'    #v({styles["poem_title"]["space_after"]}pt, weak: true)')
+        typ.append(f'  ]')
+        typ.append('  #v(30%)')
+        typ.append('  #heading(level: 1)[Poděkování]')
+        typ.append(f'  {podek}')
+        typ.append(']')
+
     # Colophon (using consistent line breaks \)
     typ.append('#colophon-page-break()')
-    typ.append('#page[')
+    typ.append('#page(footer: none)[')
     typ.append('  #set par(first-line-indent: 0pt, justify: false)')
     typ.append('  #set align(left + bottom)')
     typ.append(f'  {config["document"]["title"]} \\')
     typ.append(f'  © {config["document"].get("author", "Mirek Mrkvička")}, 2026 \\')
     typ.append(f'  Všechna práva vyhrazena. \\')
     typ.append(f'  {colophon["publisher"]} \\')
+    if colophon.get("publisher_address"):
+        typ.append(f'  {colophon["publisher_address"]} \\')
     typ.append(f'  {colophon["edition"]} \\')
+    if colophon.get("pages"):
+        typ.append(f'  {colophon["pages"]} stran \\')
+    if colophon.get("typesetting"):
+        typ.append(f'  Sazba: {colophon["typesetting"]} \\')
+    if colophon.get("printer"):
+        typ.append(f'  Tisk: {colophon["printer"]} \\')
     typ.append(f'  ISBN {config["document"]["isbn"]}')
     typ.append(']')
     
-    # --- FINAL EVEN PAGE LOGIC ---
-    typ.append('#context {')
-    typ.append('  let last_page = counter(page).at(here()).first()')
-    typ.append('  if calc.odd(last_page) {')
-    typ.append('    blank-page()')
-    typ.append('  }')
-    typ.append('}')
 
     with open(output_filename, 'w', encoding='utf-8') as f:
         f.write("\n".join(typ))

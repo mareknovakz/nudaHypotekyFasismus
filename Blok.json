@@ -86,16 +86,6 @@
                                                          },
                                                          {
                                                              "verse":  [
-                                                                           "Marek Novák si vymyslel slovo varemýsa",
-                                                                           "z řeckých slov",
-                                                                           "pro nudu a bohyni šílenství.",
-                                                                           "Celé dny pak varemýsuje a píše špatné básně,",
-                                                                           "protože je osamělý a cítí se méněcenně.",
-                                                                           "Píše básně, nemá se krásně."
-                                                                       ]
-                                                         },
-                                                         {
-                                                             "verse":  [
                                                                            "Michal Pokorný nepil,",
                                                                            "nekouřil, nemyl se, nejedl,",
                                                                            "nešukal, nehrál, nesvítil,",
@@ -123,7 +113,7 @@
                                                                            "a promarněného mládí, mírně opilé matky",
                                                                            "neschopné již čehokoliv litovat,",
                                                                            "otčímové, kteří nevlastní děti",
-                                                                           "oslovují jménem, přestože je živí a~",
+                                                                           "oslovují jménem, přestože je živí a",
                                                                            "předstírají, že je mají rádi, jako by byly jejich vlastní,",
                                                                            "milenky otců, o kterých matky tuší,",
                                                                            "milenky matek, po kterých otcové touží.",
@@ -311,7 +301,7 @@
                                            "isPoetry":  true
                                        }
                                    ],
-                         "ilustrace":  "DreamCoreObdelnik.png"
+                         "ilustrace":  "DreamCoreObdelnik.jpg"
                      },
                      {
                          "nazev":  "Moje vnitřní žena",
@@ -368,7 +358,7 @@
                                                                            "na který si vzali vnitřní hypotéku.",
                                                                            "Splátky je stojí půlku vnitřní výplaty,",
                                                                            "ale prý se to vnitřně vyplatilo.",
-                                                                           "Dřív totiž bydleli u~",
+                                                                           "Dřív totiž bydleli u",
                                                                            "jeho vnitřních rodičů:",
                                                                            "mého vnitřního dědka",
                                                                            "a vnitřní báby."
@@ -471,7 +461,7 @@
                                            "isPoetry":  false
                                        }
                                    ],
-                         "ilustrace":  "pole.png"
+                         "ilustrace":  "pole.jpg"
                      },
                      {
                          "nazev":  "Povídky z předměstí",
@@ -501,21 +491,7 @@
                                                          },
                                                          {
                                                              "verse":  [
-                                                                           "„A co je tohle za jazyk?“",
-                                                                           "„To je čeština, jen řečená pozpátku. A už se nás",
-                                                                           "na nic neptejte.“",
-                                                                           "Dal jsem na jeho doporučení a přestal jsem si",
-                                                                           "jich všímat. Pak na mě holčička promluvila:",
-                                                                           "„Sami sebe jsme schopni poznat jen skrze",
-                                                                           "utrpení.“",
-                                                                           "„Přestaň! Tvůj nihilismus a předstíraná hereze je",
-                                                                           "jen projevem intelektuální lenosti. Jestli toho",
-                                                                           "nenecháš, potrestám tě,“ řekl otec dítěti.",
-                                                                           "„Otče, tvé hrozby jsou stejně mělké jako tvůj",
-                                                                           "smysl pro surovou pravdu.“",
-                                                                           "„A mám toho dost! Za trest nepůjdeš do školky,",
-                                                                           "stejně tě to naučili tam.“",
-                                                                           "„Tyrane!“ Holčička se rozplakala."
+                                                                           "„A co je tohle za jazyk?” „To je čeština, jen řečená pozpátku. A už se nás na nic neptejte.” Dal jsem na jeho doporučení a přestal jsem si jich všímat. Pak na mě holčička promluvila: „Sami sebe jsme schopni poznat jen skrze utrpení.” „Přestaň! Tvůj nihilismus a předstíraná hereze je jen projevem intelektuální lenosti. Jestli toho nenecháš, potrestám tě,” řekl otec dítěti. „Otče, tvé hrozby jsou stejně mělké jako tvůj smysl pro surovou pravdu.” „A mám toho dost! Za trest nepůjdeš do školky, stejně tě to naučili tam.” „Tyrane!” Holčička se rozplakala.”"
                                                                        ]
                                                          },
                                                          {
@@ -524,7 +500,7 @@
                                                                        ]
                                                          }
                                                      ],
-                                           "isPoetry":  true
+                                           "isPoetry":  false
                                        },
                                        {
                                            "nazev":  "Václav Klaus jí špagety",
@@ -567,12 +543,12 @@
                                                          },
                                                          {
                                                              "verse":  [
-                                                                           "Erik Švarrc je samotář, volný čas většinou tráví doma hraním her, občas jezdí na kole se svým jediným přítelem, ale o školní přestávce není nikdy sám. Se zazvoněním se kolem jeho přední lavice slézají třídní borci. Projevují o něj neobvyklý zájem."
+                                                                           "Erik je samotář, volný čas většinou tráví doma hraním her, občas jezdí na kole se svým jediným přítelem, ale o školní přestávce není nikdy sám. Se zazvoněním se kolem jeho přední lavice slézají třídní borci. Projevují o něj neobvyklý zájem."
                                                                        ]
                                                          },
                                                          {
                                                              "verse":  [
-                                                                           "Borci ze zadních lavic s Karlem hrají bezva hry. Hry jako kolotoč, bazén, schody, odpadní koš, nebo se ho jen ptají na holky. Karel nerad chodí do školy. Borci ze zadních lavic neradi chodí domů, protože u nich doma platí zákon džungle."
+                                                                           "Borci ze zadních lavic s Erikem hrají bezva hry. Hry jako kolotoč, bazén, schody, odpadní koš, nebo se ho jen ptají na holky. Erik nerad chodí do školy. Borci ze zadních lavic neradi chodí domů, protože u nich doma platí zákon džungle."
                                                                        ]
                                                          }
                                                      ],
@@ -756,11 +732,11 @@
                                            "isPoetry":  false
                                        }
                                    ],
-                         "ilustrace":  "koně.png"
+                         "ilustrace":  "koně.jpg"
                      },
                      {
                          "nazev":  "Varemýsa",
-                         "ilustrace":  "predmesti.png",
+                         "ilustrace":  "predmesti.jpg",
                          "blank_page":  false,
                          "basne":  [
                                        {
@@ -1050,7 +1026,7 @@
                      },
                      {
                          "nazev":  "Ptačí republika",
-                         "ilustrace":  "věž.png",
+                         "ilustrace":  "věž.jpg",
                          "blank_page":  false,
                          "basne":  [
                                        {
@@ -1167,7 +1143,7 @@
                      },
                      {
                          "nazev":  "Vnitřní fašismus",
-                         "ilustrace":  "dveře.png",
+                         "ilustrace":  "dveře.jpg",
                          "blank_page":  false,
                          "basne":  [
                                        {
@@ -1478,7 +1454,7 @@
                      },
                      {
                          "nazev":  "Epilog",
-                         "ilustrace":  "postel3.png",
+                         "ilustrace":  "postel3.jpg",
                          "blank_page":  false,
                          "basne":  [
                                        {

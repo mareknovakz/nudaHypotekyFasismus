@@ -3,14 +3,17 @@
         "title": "Nuda, hypotéky, fašismus",
         "author": "Mirek Mrkvička",
         "output_file": "Blok.sla",
-        "isbn": "978-80-12345-67-8",
+        "isbn": "978-80-909916-0-6",
         "colophon": {
-            "publisher": "Marek Novák vlastním nákladem, Praha 2026",
+            "publisher": "Marek Novák vlastním nákladem",
+            "publisher_address": "Minská 625/9, 101 00 Praha 10 - Vršovice",
             "edition": "První vydání",
+            "pages": 94,
             "typesetting": "Mirek Mrkvička",
-            "printer": "Vytištěno v České republice"
+            "printer": "expresta Obchodno-výstavný objekt B, Devínska Nová Ves 7465, 841 07 Bratislava - mestská časť Devínska Nová Ves"
         },
-        "pages_to_generate": 100
+        "pages_to_generate": 100,
+        "podekování": "Tato sbírka by nemohla spatřit světlo světa bez podpory dvou osob. Magdaleně Burdkové vděčím za její podnětné připomínky k obsahu a Struno Lamovi za bystré oko a cenné redakční rady."
     },
     "layout": {
         "page_size": "110x180",
@@ -43,7 +46,7 @@
             "font": "Courier Prime",
             "size": 10,
             "alignment": "left",
-            "line_spacing": 17.5,
+            "line_spacing": 20,
             "space_after_stanza": 10
         },
         "toc_title": {
