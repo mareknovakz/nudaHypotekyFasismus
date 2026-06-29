@@ -163,7 +163,7 @@ def create_typst_file(json_path, config_path, output_filename):
     typ.append('  #v(2em)')
     typ.append(f'  #text(size: 16pt, font: "Courier Prime")[{config["document"].get("author", "Mirek Mrkvička")}]')
     typ.append('  #v(1fr)')
-    typ.append(f'  #text(size: {styles["verse"]["size"]}pt, font: "{styles["verse"]["font"]}")[Nakladatelství PVL]')
+    typ.append(f'  #text(size: {styles["verse"]["size"]}pt, font: "{styles["verse"]["font"]}")[Nakladatelství Poezie, vole]')
     typ.append('  \\')
     typ.append(f'  #text(size: {styles["verse"]["size"]}pt, font: "{styles["verse"]["font"]}")[Praha 2026]')
     typ.append('  #v(15%)')
