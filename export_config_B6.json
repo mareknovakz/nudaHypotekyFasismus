@@ -5,12 +5,14 @@
         "output_file": "Blok_B6.sla",
         "isbn": "978-80-909916-0-6",
         "colophon": {
-            "publisher": "Marek Novák vlastním nákladem",
-            "publisher_address": "Minská 625/9, 101 00 Praha 10 - Vršovice",
+            "publisher": "PVL, z. s.",
+            "publisher_address": "Heřmanova 1087/10, 170 00 Praha 7",
             "edition": "První vydání",
             "pages": 84,
             "typesetting": "Mirek Mrkvička",
-            "printer": "expresta Obchodno-výstavný objekt B, Devínska Nová Ves 7465, 841 07 Bratislava - mestská časť Devínska Nová Ves"
+            "editor": "Mgr. David Fojtík",
+            "printer": "expresta Obchodno-výstavný objekt B, Devínska Nová Ves 7465, 841 07 Bratislava - mestská časť Devínska Nová Ves",
+            "logo": "pvl_logo.png"
         },
         "pages_to_generate": 100,
         "podekování": "Tato sbírka by nemohla spatřit světlo světa bez podpory dvou osob. Magdaleně Burdkové vděčím za její podnětné připomínky k obsahu a Struno Lamovi za bystré oko a cenné redakční rady."

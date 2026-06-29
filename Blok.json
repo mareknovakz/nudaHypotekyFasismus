@@ -13,12 +13,7 @@
                                                                        ]
                                                          },
                                                          {
-                                                             "verse":  [
-                                                                           "Sestoupil jsem v Letňanech, abych to zjistil."
-                                                                       ]
-                                                         },
-                                                         {
-                                                             "verse":  [
+                                                             "verse":  [   "Sestoupil jsem v Letňanech, abych to zjistil.",
                                                                            "Letňanské předměstí lemují bílé",
                                                                            "rodinné domky, bílé jako jejich domácí,"
                                                                        ]
@@ -63,8 +58,8 @@
                                                          },
                                                          {
                                                              "verse":  [
-                                                                           "Slavnosti vína na Grébovce.",
-                                                                           "Štangle sušené zvířecí tkáně,",
+                                                                           "Slavnosti vína na Grébovce:",
+                                                                           "štangle sušené zvířecí tkáně,",
                                                                            "sudy s pivem, koše plné tácků",
                                                                            "umaštěných od hořčice, kuřata plná salmonely.",
                                                                            "Opodál stojí ramenatý cirkusák.",
@@ -72,7 +67,8 @@
                                                                            "cpe si do krku bochníky chleba",
                                                                            "a celé je polyká – pro pobavení.",
                                                                            "Pátrání po smyslu života:",
-                                                                           "Pravda je ve víně – Wine culture."
+                                                                           "_Pravda je ve víně_", 
+                                                                           "– Wine culture."
                                                                        ]
                                                          },
                                                          {
@@ -108,8 +104,8 @@
                                                          },
                                                          {
                                                              "verse":  [
-                                                                           "Slavnosti vína na Grébovce.",
-                                                                           "Nudou, životem a prací zničení otcové litující svých hypoték",
+                                                                           "Slavnosti vína na Grébovce:",
+                                                                           "nudou, životem a prací zničení otcové litující svých hypoték",
                                                                            "a promarněného mládí, mírně opilé matky",
                                                                            "neschopné již čehokoliv litovat,",
                                                                            "otčímové, kteří nevlastní děti",
@@ -118,11 +114,12 @@
                                                                            "milenky otců, o kterých matky tuší,",
                                                                            "milenky matek, po kterých otcové touží.",
                                                                            "Nejváženější členové domácnosti",
-                                                                           "české národní zvíře – psi.",
+                                                                           "české národní zvíře – pes.",
                                                                            "Psi serou na každém rohu a lížou si koule.",
                                                                            "Plastové kelímky s vínem dováženým z Moravy,",
                                                                            "které na Moravě nikdo nechce pít.",
-                                                                           "A děti – White culture."
+                                                                           "A děti.",
+                                                                           "– White culture."
                                                                        ]
                                                          }
                                                      ],
@@ -167,7 +164,7 @@
                                                              "verse":  [
                                                                            "Sreality dělají z lidí socialisty.",
                                                                            "Co nezvládli Marx, Engels a Chomsky,",
-                                                                           "to za odpoledne svedli makléři."
+                                                                           "to za odpoledne svedli zaměstnanci realitky."
                                                                        ]
                                                          },
                                                          {
@@ -185,6 +182,13 @@
                                                                            "z brokolice za dvaadvacet.",
                                                                            "Chudina naštěstí nebývá osamělá,",
                                                                            "vždycky se najde někdo, s kým jde brečet nad nájmem."
+                                                                       ]
+                                                         },
+                                                         {
+                                                             "verse":  [
+                                                                           "Sreality dělají z lidí socialisty.",
+                                                                           "Co nezvládli Marx, Engels a Chomsky,",
+                                                                           "to za odpoledne svedli zaměstnanci realitky."
                                                                        ]
                                                          },
                                                          {
@@ -225,7 +229,7 @@
                                                                            "Pod nánosy hlíny",
                                                                            "Ptákova matka spí.",
                                                                            "Pospěšme k místu,",
-                                                                           "kde spí zaměstnanci.",
+                                                                           "kde zaměstnanci spí.",
                                                                            "Ptákova milá",
                                                                            "na ostrově kočárků spí,",
                                                                            "nevzala si sick day."
@@ -314,9 +318,9 @@
                                                                            "Když mě sere nájem",
                                                                            "a na hypotéku nemám,",
                                                                            "mám prý najít svoji vnitřní ženu.",
-                                                                           "V chrámu obchodního centra Chodov",
-                                                                           "potkal jsem Ašranu Šranu.",
-                                                                           "Cvičitelku jógy."
+                                                                           "V chrámu Obchodní Centrum Chodov",
+                                                                           "potkal jsem Ašranu Šranu,",
+                                                                           "cvičitelku jógy, fitnes influencerku."
                                                                        ]
                                                          },
                                                          {
@@ -332,7 +336,7 @@
                                                                            "Byl to tučňák.",
                                                                            "„Sklouzni se,“ řekl.",
                                                                            "A sklouzl se.",
-                                                                           "Dost mizerná reference."
+                                                                           "_Dost mizerná reference._"
                                                                        ]
                                                          },
                                                          {
@@ -392,7 +396,7 @@
                                                          },
                                                          {
                                                              "verse":  [
-                                                                           "Dědek chodil jednou za rok, vždy v podvečer zimní rovnodennosti. U dveří se hlásil bušením pěstí a opileckým řevem. Rodiče pak před vchodem seřadili děti a odemkli. Dědek do domu vtrhl s rákoskou a spustil výhružky:"
+                                                                           "Dědek chodil jednou za rok, vždy v podvečer zimního slunovratu. U dveří se hlásil bušením pěstí a opileckým řevem. Rodiče pak před vchodem seřadili děti a odemkli. Dědek do domu vtrhl s rákoskou a spustil výhružky:"
                                                                        ]
                                                          },
                                                          {
@@ -417,7 +421,7 @@
                                                          },
                                                          {
                                                              "verse":  [
-                                                                           "Nedávno jsem obhájil disertační práci na téma: „Vliv tradicionalistických vzorců chování na výchovu dětí“. Její hodnocení bylo velmi kladné, až na brblání jednoho dědka v komisi."
+                                                                           "Nedávno jsem obhájil disertační práci na téma: _Vliv tradicionalistických vzorců chování na výchovu dětí_. Její hodnocení bylo velmi kladné, až na brblání jednoho dědka v komisi."
                                                                        ]
                                                          }
                                                      ],
@@ -459,6 +463,37 @@
                                                          }
                                                      ],
                                            "isPoetry":  false
+                                       },
+                                       {
+                                           "nazev":  "Milovat život",
+                                           "sloky":  [
+                                                         {
+                                                             "verse":  [
+                                                                           "Dobře se uč. Poslouchej učitele a bav se premianty. Choď do školy pětkrát týdně, tak dvanáct až třicet let. Naučíš se tam chlastat a nenávidět."
+                                                                       ]
+                                                         },
+                                                         {
+                                                             "verse":  [
+                                                                           "Nezapomeň na svoji rodinu. Opatruj mladší sourozence a starším naslouchej. Jezdi za svými rodiči minimálně jednou za měsíc. Trav s nimi čas a můžete společně chlastat a nenávidět."
+                                                                       ]
+                                                         },
+                                                         {
+                                                             "verse":  [
+                                                                           "Věnuj se sportu. Vyber si takovej, kterej budeš milovat, a pravidelně trénuj. Uč se od nejlepších. Sleduj všechna utkání národních týmů, to je super příležitost chlastat a nenávidět."
+                                                                       ]
+                                                         },
+                                                         {
+                                                             "verse":  [
+                                                                           "Organizuj se. Najdi si svoji partu, vstup do odborů, vídej se sousedy nebo cokoli jiného, co ti bude po chuti. Hlavně buď součástí komunity, se kterou pak budeš chlastat a nenávidět."
+                                                                       ]
+                                                         },
+                                                         {
+                                                             "verse":  [
+                                                                           "Všichni tě opustili. Ležíš na podlaze a chcípeš na cirhozu jater. Seš kurva v hajzlu. Čemu se divíš, když jsi celej život jen chlastal a nenáviděl."
+                                                                       ]
+                                                         }
+                                                     ],
+                                           "isPoetry":  false
                                        }
                                    ],
                          "ilustrace":  "pole.jpg"
@@ -486,12 +521,12 @@
                                                          },
                                                          {
                                                              "verse":  [
-                                                                           "Holčička začala opět zpívat: „Alkep ohénjets ízrev íšvamt nej, mětšíčotú ínen onvád žu con a ínámalkz ohíšjerečv míňavočarkop nej ej onár edžák. Čyrp mísorp ěm etťsup, ínezěv ej mez, íneprtu ej toviž.“"
+                                                                           "Holčička začala opět zpívat: „Alkep ohénjets ízrev íšvamt nej, mětšičotú ínen onvád žu con a ínámalkz ohíšjerečv mínávočarkop nej ej onár edžák. Čyrp mísorp ěm etťsup, ínezěv ej mez, íneprtu ej toviž.“"
                                                                        ]
                                                          },
                                                          {
                                                              "verse":  [
-                                                                           "„A co je tohle za jazyk?” „To je čeština, jen řečená pozpátku. A už se nás na nic neptejte.” Dal jsem na jeho doporučení a přestal jsem si jich všímat. Pak na mě holčička promluvila: „Sami sebe jsme schopni poznat jen skrze utrpení.” „Přestaň! Tvůj nihilismus a předstíraná hereze je jen projevem intelektuální lenosti. Jestli toho nenecháš, potrestám tě,” řekl otec dítěti. „Otče, tvé hrozby jsou stejně mělké jako tvůj smysl pro surovou pravdu.” „A mám toho dost! Za trest nepůjdeš do školky, stejně tě to naučili tam.” „Tyrane!” Holčička se rozplakala.”"
+                                                                           "„A co je tohle za jazyk?” „To je čeština, jen řečená pozpátku. A už se nás na nic neptejte.” Dal jsem na jeho doporučení a přestal jsem si jich všímat. Pak na mě holčička promluvila: „Sami sebe jsme schopni poznat jen skrze utrpení.” „Přestaň! Tvůj nihilismus a předstíraná hereze je jen projevem intelektuální lenosti. Jestli toho nenecháš, potrestám tě,” řekl otec dítěti. „Otče, tvé hrozby jsou stejně mělké jako tvůj smysl pro surovou pravdu.” „A mám toho dost! Za trest nepůjdeš do školky, stejně tě to naučili tam.” „Tyrane!” Holčička se rozplakala."
                                                                        ]
                                                          },
                                                          {
@@ -684,7 +719,7 @@
                                                          },
                                                          {
                                                              "verse":  [
-                                                                           "Když k nám zavedli optické kabely, začal své kousky točit na TikTok. Nejdřív polykal ukrojené patky, protože v krku dobře klouzou. Později přešel na silné krajice."
+                                                                           "Když k nám zavedli optické kabely, začal své kousky točit na TikTok. Nejdřív polykal ukrojené patky, protože v krku dobře kloužou. Později přešel na silné krajice."
                                                                        ]
                                                          },
                                                          {
@@ -776,7 +811,7 @@
                                                          {
                                                              "verse":  [
                                                                            "ENUM:Mirek Mrkvička byl postižen varemýsou; vzhledem k neschopnosti vytvářet kvalitní obsah předstírá projevy duševní poruchy, jež vydává za symptomy schizofrenie.",
-                                                                           "ENUM:Poslední pokus Mirka Mrkvičky o napsání knihy popisující projevy Cottardova syndromu působí varemýsově.",
+                                                                           "ENUM:Poslední pokus Mirka Mrkvičky o napsání knihy popisující projevy Cotardova syndromu působí varemýsově.",
                                                                            "ENUM:Někteří jedinci varemýsují, aby zakryli nedostatek tvůrčí originality či získali výjimečné postavení ve společnosti."
                                                                        ]
                                                          }
@@ -842,7 +877,7 @@
                                                              "verse":  [
                                                                            "Kostmi krmíme staré slepice.",
                                                                            "Dřív jsme je házeli i kohoutům, ale ti tuší.",
-                                                                           "Slepice taky tuší, ale neslyší.",
+                                                                           "Slepice také tuší, ale neslyší.",
                                                                            "Před každým jídlem pak parodujem Piláta.",
                                                                            "Myjeme si ruce,",
                                                                            "ruce od krve, myjeme si je od kuřecích hříchů.",
@@ -942,7 +977,7 @@
                                            "sloky":  [
                                                          {
                                                              "verse":  [
-                                                                           "Jak plíseň na chodidlech",
+                                                                           "Jak plíseň na chodidlech,",
                                                                            "šíří se zvěst o Göhrově nemoci.",
                                                                            "Jak Zarathustra v jeskyni",
                                                                            "starý Göhr je uzavřen v pracovně."
@@ -974,8 +1009,8 @@
                                                          },
                                                          {
                                                              "verse":  [
-                                                                           "Göhr nezemře na stáří, bídu,",
-                                                                           "Starý Göhr zemře na syfilitidu."
+                                                                           "Göhr nezemře na stáří, bídu;",
+                                                                           "starý Göhr zemře na syfilitidu."
                                                                        ]
                                                          }
                                                      ],
@@ -1059,7 +1094,7 @@
                                            "sloky":  [
                                                          {
                                                              "verse":  [
-                                                                           "Lámu kousky z tukového rohlíku",
+                                                                           "Salát trhám na cucky",
                                                                            "a slyším: „Krá, krá.“",
                                                                            "Hodím kus kachnám.",
                                                                            "A znovu: „Krá, krá.“"
@@ -1068,17 +1103,17 @@
                                                          {
                                                              "verse":  [
                                                                            "Odpoledne krmím holuby,",
-                                                                           "mám pro ně včerejší housky.",
+                                                                           "mám pro ně salát.",
                                                                            "A najednou slyším: „Krá, krá, krá.“",
                                                                            "Otočím se. Na opěradle lavičky",
                                                                            "sedí vrány.",
                                                                            "„Máte problém?“",
                                                                            "Jen na mě zírají.",
                                                                            "Podívám se na holuby,",
-                                                                           "cpou se houskou.",
+                                                                           "cpou se salátem.",
                                                                            "Zase to slyším. „Krá.“",
                                                                            "„Tak co je?“ zeptám se vran.",
-                                                                           "Lámu další housku pro holuby.",
+                                                                           "Dále cupuji salát.",
                                                                            "A v tu chvíli slyším, zřetelně a jasně:",
                                                                            "„Krá, krá, krá.“",
                                                                            "„Berou nám práci.“"
@@ -1104,8 +1139,7 @@
                                            "sloky":  [
                                                          {
                                                              "verse":  [
-                                                                           "Minulý týden jsem odehnal skupinku vran obtěžující jednoho holuba.",
-                                                                           "Zařídil jsem mu voliéru tak, jak jsem to viděl v okolí. Dal jsem mu tam mnoho hraček na zabavení."
+                                                                           "Minulý týden jsem odehnal skupinku vran obtěžující jednoho holuba. Zařídil jsem mu voliéru tak, jak jsem to viděl v okolí. Dal jsem mu tam mnoho hraček na zabavení."
                                                                        ]
                                                          },
                                                          {
@@ -1164,7 +1198,7 @@
                                                              "verse":  [
                                                                            "Lilo, venku strašně lilo,",
                                                                            "když jsem ti řekl, že tě mám rád,",
-                                                                           "Tvrdilas, že prý záleží jen na tom, že jsme spolu.",
+                                                                           "tvrdilas, že prý záleží jen na tom, že jsme spolu.",
                                                                            "Jenže já jsem blbej, chudej – a ty imaginární.",
                                                                            "Uplácaná z poslední Adamovy mozkové buňky",
                                                                            "a Háchovy víry v Mnichovskou dohodu.",
@@ -1176,11 +1210,9 @@
                                                              "verse":  [
                                                                            "Lhát se nemá, vrátí se to. A vrátilo.",
                                                                            "Trestem za ty kecy na pohovoru bylo třicet tisíc navíc.",
-                                                                           "Lež má krátké nohy a hrozí,",
-                                                                           "ale dá se to uhrát,",
-                                                                           "zlaté pravidlo korporátu:",
+                                                                           "Zlaté pravidlo korporátu:",
                                                                            "kdo nic nedělá, nic nezkazí.",
-                                                                           "od dob Adama a Evy jsme se konečně poučili.",
+                                                                           "Od dob Adama a Evy jsme se konečně poučili.",
                                                                            "Když vidíš jablko, dej ruce za záda.",
                                                                            "Na nic nesahej a hleď si svýho!",
                                                                            "Lhal jsem v sívíčku, Bůh mě potrestá.",
@@ -1242,6 +1274,30 @@
                                            "isPoetry":  false
                                        },
                                        {
+                                           "nazev":  "Přesně takhle to chtěl",
+                                           "sloky":  [
+                                                         {
+                                                             "verse":  [
+                                                                           "Prostoduchý Josífek pozoruje akvárium.",
+                                                                           "Mečovka rodí jednu rybku za druhou."
+                                                                       ]
+                                                         },
+                                                         {
+                                                             "verse":  [
+                                                                           "Josífek rád sleduje,",
+                                                                           "jak ostatní ryby trhají a polykají novorozeňata."
+                                                                       ]
+                                                         },
+                                                         {
+                                                             "verse":  [
+                                                                           "A Bůh se rád dívá na prostoduchého Josífka,",
+                                                                           "jak se raduje z krmení rybiček."
+                                                                       ]
+                                                         }
+                                                     ],
+                                           "isPoetry":  true
+                                       },
+                                       {
                                            "nazev":  "Bublifuková party",
                                            "sloky":  [
                                                          {
@@ -1251,14 +1307,14 @@
                                                                            ".ňesáb ínen elhoT",
                                                                            "Balónky mají benefit, že jsou plněny héliem.",
                                                                            "Bublinky pro dnešek nepraskají, mají svůj svátek!",
-                                                                           ".íjižerp sán ykétopyh ešaN",
+                                                                           ".íjižeřp sán ykétopyh ešaN",
                                                                            "Bublinky se zdvojují do boubelatých čmeláků a varemýsují kolem balónků.",
                                                                            "Hosté blahosklonně jásají.",
                                                                            ".menylp mýhard éněnlp ylabo éndzárp nej emsJ",
                                                                            "Je pozdě večer a gravitace jde pro dnešek spát.",
                                                                            "Hosté probublávají blokádou balónků, pavouků a bublifuků až k nebeskému blankytu.",
                                                                            "Nejstarší z bublinek vypráví vtip.",
-                                                                           "!asýmerav ejiž ťA .sumsišaf ínřtinv jůvs ěbos v emám inhcíšV",
+                                                                           "!asýmerav ejiž ťA .sumsišaf ínřtinv jůvs ěbos v emám inhcišV",
                                                                            "Večírek pomalu dobublává ke svému konci.",
                                                                            "Bublinky se loučí s balónky.",
                                                                            "Hosté už pomalu usínají a plují do svých postelí,",
@@ -1269,9 +1325,9 @@
                                                          {
                                                              "verse":  [
                                                                            ".ňesáb ínen elhoT",
-                                                                           ".íjižerp sán ykétopyh ešaN",
+                                                                           ".íjižeřp sán ykétopyh ešaN",
                                                                            ".menylp mýhard éněnlp ylabo éndzárp nej emsJ",
-                                                                           "!asýmerav ejiž ťA .sumsišaf ínřtinv jůvs ěbos v emám inhcíšV",
+                                                                           "!asýmerav ejiž ťA .sumsišaf ínřtinv jůvs ěbos v emám inhcišV",
                                                                            ".ňesáb ínen elhoT",
                                                                            "!asýmerav ,asýmerav ,asýmeraV"
                                                                        ]
@@ -1286,7 +1342,7 @@
                                                              "verse":  [
                                                                            "Jako supi se seběhlo příbuzenstvo starého Göhra kolem hrobky rodiny Göhrových.",
                                                                            "Anežka Göhrová ještě toho dne položila svého oblíbeného medvídka na máry",
-                                                                           "přiložila dvě eura na jeho oči.",
+                                                                           "a přiložila dvě eura na jeho oči.",
                                                                            "Zbylé hračky spálila v rodinném krematoriu.",
                                                                            "Z dětství jí zůstal jen posttraumatický stres",
                                                                            "a tajemství, které znají všichni nemocní.",
@@ -1404,7 +1460,7 @@
                                                          },
                                                          {
                                                              "verse":  [
-                                                                           "Rádi by dosáhli ideálu sparťanských válečníků, o kterých jim nikdo neřekl, že nejsou pravdiví. Jejich bitvy neprobíhají u Thermopyl, ale v excelovských tabulkách."
+                                                                           "Rádi by dosáhli ideálu sparťanských válečníků, o kterých jim nikdo neřekl, že ty ideály nejsou pravdivé. Jejich bitvy neprobíhají u Thermopyl, ale v excelovských tabulkách."
                                                                        ]
                                                          },
                                                          {
@@ -1419,7 +1475,7 @@
                                                          },
                                                          {
                                                              "verse":  [
-                                                                           "Planeta Vulture IT, jsem na planetě Vulture IT u malé krachující IT společnosti. Jedu autobusem a někdo si vedle mě čte Bibli, čte ji nahlas a já nevím, jestli se nás snaží obrátit na svou víru, nebo nás jen všechny ráno nasrat. Přes plastovou tabuli u dveří vidím stát feťáka, je 8 hodin ráno, feťák se klepe jak rosol a tře zuby o sebe. Jsem rád, že jezdím MHD a ušetřím za vlastní auto."
+                                                                           "Planeta Vulture IT, jsem na planetě Vulture IT – malá krachující IT společnost. Jedu autobusem a někdo si vedle mě čte Bibli, čte ji nahlas a já nevím, jestli se nás snaží obrátit na svou víru, nebo nás jen všechny po ránu nasrat. Přes plastovou tabuli u dveří vidím stát feťáka, je 8 hodin ráno, feťák se klepe jak rosol a tře zuby o sebe. Jsem rád, že jezdím MHD a ušetřím za vlastní auto."
                                                                        ]
                                                          },
                                                          {
@@ -1429,7 +1485,7 @@
                                                          },
                                                          {
                                                              "verse":  [
-                                                                           "Jsou dvě odpoledne a já dostávám podruhé vrácený ticket na modul KDL 5.4.3, o kterém mi nikdo neřekl, jak má fungovat. Myslím na to, jak se večer vožeru, takové malé každodenní vítězství. Všichni tu zabili svoje vnitřní dítě před svými vnitřními rodinami a své vnitřní otce přinutili držet pozornost na seberozvojových kurzech. Přijde za mnou potkan a dvacet minut šišlá něco o tom, jak má fungovat KDL 5.4.3. Svůj projev zakončuje slovy: „Hele, kámo, já vlastně nevím.“ V tu chvíli si představuju, jak mám na sobě několik kilo trhaviny. „Pojď, kancelářská budovo, zahrajeme si na jedenácté září.“ Říkám si, že to už je vlastně moc, možná by stačilo se vymočit do květináče nebo schovat toner od tiskárny, ale to je na revoluci strašně málo. „Už vím!“"
+                                                                           "Jsou dvě odpoledne a já dostávám podruhé vrácený ticket na modul KDL 5.4.3, o kterém mi nikdo neřekl, jak má fungovat. Myslím na to, jak se večer vožeru, takové malé každodenní vítězství. Všichni tu zabili svoje vnitřní dítě před svými vnitřními rodinami a své vnitřní otce přinutili držet pozornost na seberozvojových kurzech. Přijde za mnou potkan a dvacet minut šišlá něco o tom, jak má fungovat KDL 5.4.3. Svůj projev zakončuje slovy: „Hele, kámo, já vlastně nevím.“ V tu chvíli si představuju, jak mám na sobě několik kilo trhaviny. _Pojď, kancelářská budovo, zahrajeme si na jedenácté září._ Říkám si, že to už je vlastně moc, možná by stačilo se vymočit do květináče nebo schovat toner od tiskárny, ale to je na revoluci strašně málo. _Už vím!_"
                                                                        ]
                                                          },
                                                          {
@@ -1462,12 +1518,12 @@
                                            "sloky":  [
                                                          {
                                                              "verse":  [
-                                                                           "„Obžalobo, ať přečtou znovu obvinění.“, „Mašinka Tomáš je obviněn ze spáchání zločinů proti lidskosti, konkrétně z účasti na takzvaném Tramvajovém dilematu. Při tomto dilematu bylo na železniční křižovatku přivázáno šest vězňů, přičemž pět jich bylo připoutáno na jedné koleji a jeden na druhé. Obžalovaný vždy najížděl na kolej s větším počtem osob. Můžou mi, pane obžalovaný, vysvětlit, proč najížděli na kolej s větším počtem lidí?“ „Nevím, čeho jsem se dopustil, prostě jsem jel dál.“"
+                                                                           "„Obžalobo, ať přečtou znovu obvinění.” „Mašinka Tomáš je obviněn ze spáchání zločinů proti lidskosti, konkrétně z účasti na takzvaném Tramvajovém dilematu. Při tomto dilematu bylo na železniční křižovatku přivázáno šest vězňů, přičemž pět jich bylo připoutáno na jedné koleji a jeden na druhé. Obžalovaný vždy najížděl na kolej s větším počtem osob. Můžou mi, pane obžalovaný, vysvětlit, proč najížděli na kolej s větším počtem lidí?“ „Nevím, čeho jsem se dopustil, prostě jsem jel dál.“"
                                                                        ]
                                                          },
                                                          {
                                                              "verse":  [
-                                                                           "Prokurátor pokračoval: „Klasické tramvajové dilema je koncipováno tak, že na jedné koleji je umístěno pět osob a na druhé pouze jedna. Cílem experimentu je zjistit, zda testovaný subjekt zůstane nečinný a najede rovně na pět osob, nebo v druhém případě použije výhybku a vědomě zabije jednoho člověka, ale zachrání pět ostatních. V jejich experimentu však měli jednu osobu na přímé cestě a na odbočce pět, což činí jejich provinění o to zrůdnější. Oni použili výhybku, aby přejeli více lidí.“"
+                                                                           "Prokurátor pokračoval: „Klasické tramvajové dilema je koncipováno tak, že na jedné koleji je umístěno pět osob a na druhé pouze jedna. Cílem experimentu je zjistit, zda testovaný subjekt zůstane nečinný a najede rovně na pět osob, nebo v druhém případě použije výhybku a vědomě zabije jednoho člověka, ale zachrání pět ostatních. V jejich experimentu však měli jednu osobu na přímé cestě a na odbočce pět, což činí jejich provinění o to zrůdnější. Oni použili výhybku, aby přejeli více lidí!“"
                                                                        ]
                                                          },
                                                          {

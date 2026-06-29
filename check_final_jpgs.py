@@ -1,45 +1,27 @@
-from PIL import Image
-import os
+import fitz
 import sys
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
-# Hardkódovaný seznam používaných obrázků
-used_images = [
-    "DreamCoreObdelnik.jpg",
-    "pole.jpg",
-    "koně.jpg",
-    "predmesti.jpg",
-    "věž.jpg",
-    "dveře.jpg",
-    "postel3.jpg"
-]
+doc = fitz.open(r'c:\Repozitáře\nudaHypotekyFasismus\Blok_Slim.pdf')
+total = doc.page_count
+w = doc[0].rect.width * 25.4 / 72
+h = doc[0].rect.height * 25.4 / 72
+print(f"Stran: {total}")
+print(f"Rozmer: {w:.1f}mm x {h:.1f}mm")
 
-# Rozměry stránky se spadávkou v palcích (pro Slim 115x185mm)
-PAGE_W_IN = 115 / 25.4
-PAGE_H_IN = 185 / 25.4
+print("\n=== STRUKTURA ===")
+for i in range(total):
+    page = doc[i]
+    text = page.get_text().strip()
+    first_line = text.split('\n')[0][:60] if text else "[prazdna]"
+    print(f"  {i+1:3d}: {first_line}")
 
-print(f"{'Název souboru':<25} | {'Metadata DPI':<12} | {'Pixely':<12} | {'Reálné DPI na stránce'}")
-print("-" * 85)
+for idx, name in [(2, 'title'), (10, 'sample'), (total-1, 'colophon')]:
+    pix = doc[idx].get_pixmap(dpi=150)
+    out = f'c:\\Repozitáře\\nudaHypotekyFasismus\\check_{name}.png'
+    pix.save(out)
+    print(f"\nSaved check_{name}.png (page {idx+1})")
 
-for img_name in used_images:
-    if os.path.exists(img_name):
-        with Image.open(img_name) as img:
-            dpi = img.info.get('dpi', (0, 0))
-            w, h = img.size
-            
-            # Výpočet reálného DPI:
-            # Protože Typst používá "fit: cover", obrázek se roztáhne tak, 
-            # aby zakryl celou plochu (115x185mm).
-            # Reálné rozlišení je limitováno tou stranou, která se musí roztáhnout víc.
-            scale_w = w / PAGE_W_IN
-            scale_h = h / PAGE_H_IN
-            real_dpi = min(scale_w, scale_h)
-            
-            print(f"{img_name:<25} | {str(int(dpi[0])):<12} | {w:4}x{h:<7} | {real_dpi:.1f} DPI")
-    else:
-        print(f"{img_name:<25} | {'NENALEZENO':<12} | {'-':<12} | -")
-
-print("\nPoznámka: 'Reálné DPI' zohledňuje, že Typst obrázek roztáhne na celou plochu 115x185mm.")
-print("Pokud je toto číslo nad 300, je obrázek i po oříznutí a roztažení perfektně ostrý.")
+doc.close()

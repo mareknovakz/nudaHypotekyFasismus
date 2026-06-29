@@ -26,7 +26,7 @@ def main():
     print("--- Starting Full Book Generation Flow ---")
 
     # Remove stale PDFs before regenerating
-    for old_pdf in ["Blok_Slim.pdf", "Blok_B6.pdf", "Blok.pdf"]:
+    for old_pdf in ["Blok_production.pdf", "Blok_Slim.pdf", "Blok_B6.pdf", "Blok.pdf"]:
         if os.path.exists(old_pdf):
             os.remove(old_pdf)
             print(f"Removed old: {old_pdf}")
@@ -35,41 +35,26 @@ def main():
     print("\n[1/3] Generating Scribus files...")
     run_command(f'"{sys.executable}" scribus_gen.py')
 
-    # 2. Run Typst generation (creates .typ files for A5 and B6)
-    print("\n[2/3] Generating Typst source files...")
+    # 2. Run Typst generation
+    print("\n[2/3] Generating Typst source file...")
     run_command(f'"{sys.executable}" typst_gen.py')
 
-    # 3. Generate PDFs
-    print("\n[3/3] Compiling PDFs...")
-    # These rely on generatePdf.py being present
-    # Primary output: Slim format (110x180mm)
-    if not run_command(f'"{sys.executable}" generatePdf.py Blok.typ'):
-        print("\n[!] Stopping: Failed to generate Blok.typ")
+    # 3. Generate PDF
+    print("\n[3/3] Compiling PDF...")
+    if not run_command(f'"{sys.executable}" generatePdf.py Blok_production.typ'):
+        print("\n[!] Stopping: Failed to generate Blok_production.typ")
         return
-
-    # Secondary output: B6 format
-    if not run_command(f'"{sys.executable}" generatePdf.py Blok_B6.typ'):
-        print("\n[!] Stopping: Failed to generate Blok_B6.typ")
-        return
-
-    # Rename Blok.pdf to Blok_Slim.pdf for clarity
-    if os.path.exists("Blok.pdf"):
-        if os.path.exists("Blok_Slim.pdf"):
-            os.remove("Blok_Slim.pdf")
-        os.rename("Blok.pdf", "Blok_Slim.pdf")
-        print("Renamed: Blok.pdf -> Blok_Slim.pdf")
 
     # CLEANUP
     print("\n--- Cleaning up temporary files ---")
-    
-    # Files to remove as requested
+
     to_delete = [
-        "Blok.typ", "Blok_B6.typ", "Blok_A5.typ",
+        "Blok.typ", "Blok_B6.typ", "Blok_A5.typ", "Blok_production.typ",
         "export_config_130x200.json", "export_config_110x180.json",
         "chaps.txt", "all_imgs.txt", "check_images.py", "test.py", "test2.py",
         "Blok_130x200.pdf", "Blok_110x180.pdf", "Blok_130x200.typ", "Blok_110x180.typ"
     ]
-    
+
     for f in to_delete:
         if os.path.exists(f):
             try:
@@ -83,7 +68,7 @@ def main():
         os.remove(log)
         print(f"Deleted log: {log}")
 
-    print("\n--- DONE! Your print-ready PDFs are ready: Blok_Slim.pdf and Blok_B6.pdf ---")
+    print("\n--- DONE! Print-ready PDF: Blok_production.pdf ---")
 
 if __name__ == "__main__":
     main()

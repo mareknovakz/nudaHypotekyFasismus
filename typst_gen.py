@@ -155,12 +155,18 @@ def create_typst_file(json_path, config_path, output_filename):
     # Title Page
     typ.append('#page(footer: none, margin: 1.5cm)[')
     typ.append('  #set par(first-line-indent: 0pt)')
-    typ.append('  #set align(center + horizon)')
+    typ.append('  #set align(center + top)')
     typ.append('  #set par(justify: false)')
+    typ.append('  #v(25%)')
     typ.append('  #text(size: 22pt, weight: "bold", font: "Courier Prime")[Nuda, hypotéky,] \\')
     typ.append('  #text(size: 22pt, weight: "bold", font: "Courier Prime")[fašismus]')
     typ.append('  #v(2em)')
     typ.append(f'  #text(size: 16pt, font: "Courier Prime")[{config["document"].get("author", "Mirek Mrkvička")}]')
+    typ.append('  #v(1fr)')
+    typ.append(f'  #text(size: {styles["verse"]["size"]}pt, font: "{styles["verse"]["font"]}")[Nakladatelství PVL]')
+    typ.append('  \\')
+    typ.append(f'  #text(size: {styles["verse"]["size"]}pt, font: "{styles["verse"]["font"]}")[Praha 2026]')
+    typ.append('  #v(15%)')
     typ.append(']')
     typ.append('#blank-page()')
     typ.append('#page(footer: none)[')
@@ -215,7 +221,6 @@ def create_typst_file(json_path, config_path, output_filename):
         typ.append(f'    #it.body')
         typ.append(f'    #v({styles["poem_title"]["space_after"]}pt, weak: true)')
         typ.append(f'  ]')
-        typ.append('  #v(30%)')
         typ.append('  #heading(level: 1)[Poděkování]')
         typ.append(f'  {podek}')
         typ.append(']')
@@ -225,6 +230,9 @@ def create_typst_file(json_path, config_path, output_filename):
     typ.append('#page(footer: none)[')
     typ.append('  #set par(first-line-indent: 0pt, justify: false)')
     typ.append('  #set align(left + bottom)')
+    if colophon.get("logo"):
+        typ.append(f'  #align(center)[#image("{colophon["logo"]}", height: 3em)]')
+        typ.append('  #v(1em)')
     typ.append(f'  {config["document"]["title"]} \\')
     typ.append(f'  © {config["document"].get("author", "Mirek Mrkvička")}, 2026 \\')
     typ.append(f'  Všechna práva vyhrazena. \\')
@@ -234,10 +242,14 @@ def create_typst_file(json_path, config_path, output_filename):
     typ.append(f'  {colophon["edition"]} \\')
     if colophon.get("pages"):
         typ.append(f'  {colophon["pages"]} stran \\')
+    if colophon.get("editor"):
+        typ.append(f'  Redakce: {colophon["editor"]} \\')
     if colophon.get("typesetting"):
         typ.append(f'  Sazba: {colophon["typesetting"]} \\')
     if colophon.get("printer"):
         typ.append(f'  Tisk: {colophon["printer"]} \\')
+    if colophon.get("print_run"):
+        typ.append(f'  Náklad: {colophon["print_run"]} \\')
     typ.append(f'  ISBN {config["document"]["isbn"]}')
     typ.append(']')
     
@@ -248,5 +260,4 @@ def create_typst_file(json_path, config_path, output_filename):
 if __name__ == "__main__":
     base_path = os.path.dirname(os.path.abspath(__file__))
     json_p = os.path.join(base_path, "Blok.json")
-    create_typst_file(json_p, os.path.join(base_path, "export_config.json"), "Blok.typ")
-    create_typst_file(json_p, os.path.join(base_path, "export_config_B6.json"), "Blok_B6.typ")
+    create_typst_file(json_p, os.path.join(base_path, "export_config.json"), "Blok_production.typ")
