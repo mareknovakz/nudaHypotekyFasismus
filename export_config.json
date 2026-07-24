@@ -3,14 +3,20 @@
         "title": "Nuda, hypotéky, fašismus",
         "author": "Mirek Mrkvička",
         "output_file": "Blok.sla",
-        "isbn": "978-80-12345-67-8",
+        "isbn": "978-80-909989-0-2",
         "colophon": {
-            "publisher": "Marek Novák vlastním nákladem, Praha 2026",
+            "logo": "assets/logo_pvl.png",
+            "publisher": "Vydal PVL, z.s., pod značkou Nakladatelství Poezie, vole.",
+            "publisher_address": "Heřmanova 1087/10, 170 00 Praha 7",
             "edition": "První vydání",
+            "pages": 96,
+            "editor": "Mgr. David Fojtík",
             "typesetting": "Mirek Mrkvička",
-            "printer": "Vytištěno v České republice"
+            "printer": "expresta Obchodno-výstavný objekt B, Devínska Nová Ves 7465, 841 07 Bratislava - mestská časť Devínska Nová Ves",
+            "naklad": 150
         },
-        "pages_to_generate": 100
+        "pages_to_generate": 100,
+        "podekování": "Tato sbírka by nemohla spatřit světlo světa bez podpory dvou osob. Magdaléně Burdkové vděčím za její podnětné připomínky k obsahu a Strunolamovi za bystré oko a cenné redakční rady."
     },
     "layout": {
         "page_size": "110x180",
@@ -22,7 +28,9 @@
             "inner": 65,
             "outer": 45
         },
-        "units": "pt"
+        "units": "pt",
+        "chapter_own_page": true,
+        "chapter_illustration": true
     },
     "styles": {
         "chapter_title": {
@@ -43,7 +51,7 @@
             "font": "Courier Prime",
             "size": 10,
             "alignment": "left",
-            "line_spacing": 17.5,
+            "line_spacing": 20,
             "space_after_stanza": 10
         },
         "toc_title": {

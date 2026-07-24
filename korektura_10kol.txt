@@ -1,0 +1,557 @@
+KOREKTURA SBÍRKY „NUDA, HYPOTÉKY, FAŠISMUS“ — 10 KOL
+Zdroj: Blok.json (čteno jako utf-8-sig, 7 kapitol, 42 básní)
+Referenční kontext: Blok_production_korektura.txt (3kolová korektura starší verze PDF,
+větev opravy-tiraz-jazyk) — nálezy z něj byly ověřeny proti AKTUÁLNÍMU stavu Blok.json.
+Datum korektury: 2026-06-30
+
+DŮLEŽITÁ POZNÁMKA K METODICE:
+Blok.json je strukturovaný zdrojový text (kapitoly -> básně -> sloky -> verse), NE
+vysázený PDF výstup. Velká část nálezů ve staré PDF korektuře (chybějící velká písmena
+po tečce, chybějící čárky mezi "slitými" větami) vznikla TÍM, že PDF sazba spojila
+jednotlivé verše básně do plynulého odstavce prózy a ztratila tak hranice veršů. V
+Blok.json jsou verše uložené odděleně (každý jako samostatný prvek pole "verse"), takže
+tyto konkrétní problémy se zde netýkají - posuzuji tedy gramatiku/interpunkci/velká
+písmena VZHLEDEM K STRUKTUŘE VERŠŮ, ne k plynulému textu. To je zásadní rozdíl oproti
+referenčnímu PDF nálezu a vysvětluje, proč část starých nálezů níže zamítám jako
+neaplikovatelné na JSON.
+
+================================================================================
+PRŮBĚH KOL — LOG DISKUZE
+================================================================================
+
+--------------------------------------------------------------------------------
+KOLO 1 — PŘEKLEPY A FONETICKY PODOBNÉ ZÁMĚNY
+--------------------------------------------------------------------------------
+Nejprve jsem ověřil status nálezů ze staré PDF korektury vůči aktuálnímu JSON:
+
+- "himálajští" (přesmyčka) -> v Blok.json je už SPRÁVNĚ "himalájští mudrci"
+  (Lepkavost na podlaze infekčního oddělení, sloka 1, verš 9). Starý nález je v
+  aktuálním textu VYŘEŠEN, nezahrnuji.
+
+- Reverzní (pozpátku psaný) text v básni "Bodíky sbíráte?" (sloka 4): dekódoval jsem
+  programově celý úsek. Naprostá většina textu je v pořádku, ALE dvě dílčí chyby
+  přetrvávají i v aktuálním JSON:
+    * "míňavočarkop" se čte pozpátku jako "pokračovaňím" - má být "pokračováním"
+      (záměna -aňím/-áním).
+    * "edžák" se čte pozpátku jako "kážde" - má být "každé" (přesmyčka hlásek).
+  Toto je POTVRZENÝ nález, technicky reálná chyba v šifrovaném textu, byť jde o
+  okrajový hříčkový prvek nízké priority (viz Kolo 10).
+
+- Krkovice/krkavice (Wine culture, sloka 5): "Jednou mu sklouzne bench a rozdrtí si
+  krkovici" - našel jsem totéž slovo i v aktuálním JSON. Podle staré korektury má jít
+  o krční tepnu (krkavice), ne o vepřovou krkovici. Toto NENÍ v JSON opraveno -
+  POTVRZUJI jako reálný nález (viz Kolo 2 pro gramatické zdůvodnění).
+
+Nově nalezené kandidáty v Kole 1 (nebyly ve staré korektuře, protože se týkají
+pasáží, které ve staré verzi pravděpodobně zněly jinak nebo extrakce PDF text
+nezachytila čistě):
+
+- "vádej se sousedy" (Milovat život, sloka 4) - sloveso "vádit" v češtině neexistuje;
+  vzhledem k imperativnímu rejstříku celé básně (opatruj, naslouchej, vyber si,
+  trénuj, organizuj se, najdi si, vstup) jde pravděpodobně o překlep za "hádej se"
+  (vadit se / hádat se se sousedy dává v kontextu smysl - sousedské spory).
+  Označuji jako kandidáta, ověřuji dál v Kole 2 (gramatika).
+
+--------------------------------------------------------------------------------
+KOLO 2 — CHYBNÉ GRAMATICKÉ TVARY (skloňování, časování, shoda podmětu s přísudkem)
+--------------------------------------------------------------------------------
+Navazuji na Kolo 1:
+
+- "krkovici" POTVRZUJI gramaticky/věcně: sloveso "rozdrtit si krkovici" nedává
+  smysl - krkovice je kus masa (vepřová krkovice), člověk si ji nemůže "rozdrtit"
+  při cvičení (bench press). Anatomicky správný a foneticky blízký výraz je
+  "krkavice" (krční tepna) - to dává v kontextu cvičení a "těsně před smrtí"
+  smysl. Hodnotím jako vysokou jistotu - jde o věcnou/lexikální záměnu
+  podobně znějících slov, ne o gramatickou chybu v užším smyslu, ale zařazuji
+  sem, protože ji takto klasifikovala i referenční korektura.
+
+- "vádej se sousedy" POTVRZUJI i gramaticky: existující slovesa jsou "vadit se"
+  (hádat se, nesnášet se) nebo "vodit" (something/somebody), ale tvar "vádej" jako
+  rozkazovací způsob neodpovídá žádnému z nich (rozkaz. způsob od "vadit se" by byl
+  "vaď se"). Nejpravděpodobnější oprava je "Hádej se se sousedy" nebo "Vaď se se
+  sousedy" - obojí by gramaticky i významově do věty "vstup do odborů, vádej se
+  sousedy nebo cokoli jiné, co ti bude po chuti" zapadlo (jde o výčet sociálních
+  aktivit/konfliktů). Střední až vysoká jistota, že jde o překlep/chybný tvar.
+
+- Nově: ve stejné větě "cokoli jiné, co ti bude po chuti" - "cokoli jiné" je
+  gramaticky vadný tvar, ustálená vazba je "cokoli jiného" (cokoli + genitiv/
+  neutrum -ého). Přidávám jako samostatný gramatický nález ve stejné větě jako
+  výše (možná souvisí se stejnou redakční úpravou věty).
+
+- Nově: "Můžou mi, pane obžalovaný, vysvětlit, proč najížděli..." (Každý je vinný
+  jen tak, jak se sám cítí, sloka 1) - prokurátor/soud oslovuje obžalovaného
+  v jednotném čísle ("pane obžalovaný"), ale sloveso je v množném čísle 3. osoby
+  ("můžou" = oni mohou) místo zdvořilostního/správného "můžete" (2. os. mn. č.,
+  vykání) nebo "můžeš" (tykání). Jde o neshodu osoby/čísla mezi oslovením a
+  slovesem - gramatická chyba. Vysoká jistota (viz i Kolo 7 níže pro further
+  potvrzení z hlediska shody osoby).
+
+- Nově: "učil mě hrát šachy" (Fíkus, sloka 2) - věta vyjmenovává, co vypravěč DĚLAL
+  PRO otce (fíkus): "Ukazoval jsem mu známky..., učil mě hrát šachy, já jsem mu
+  říkal, jak používat internet..." Směr slovesa "učil mě" je opačný (otec by učil
+  syna), což nesedí do výčtu, kde je opakovaně podmětem "já" konající VŮČI otci.
+  Možná jde o záměrnou ironii (mlčenlivý fíkus "učí" tím, že nic neříká?), ale
+  syntakticky to spíš vypadá jako přehozený pád/tvar - čekali bychom "učil jsem ho
+  hrát šachy". Označuji jako kandidáta se střední jistotou - ponechávám k
+  otevřené otázce, protože ironický/symbolický výklad (fíkus mlčky "učí" tím, že
+  je k ničemu) je v duchu zbytku absurdní básně myslitelný.
+
+--------------------------------------------------------------------------------
+KOLO 3 — NEKONZISTENTNÍ/NEÚMYSLNÉ MÍCHÁNÍ SPISOVNÉ A NESPISOVNÉ ČEŠTINY
+--------------------------------------------------------------------------------
+Navazuji na Kola 1-2: žádný z dosavadních nálezů se netýká rejstříku, takže je
+nechávám beze změny a přidávám nová pozorování.
+
+- Báseň "Milovat život" (kde jsem už v Kole 1-2 našel "vádej"/"cokoli jiné") je
+  primárně spisovná/neutrální v imperativech (Poslouchej, Opatruj, Jezdi, Věnuj se,
+  Organizuj se...) a teprve v poslední sloce přechází záměrně do drsné hovorové
+  češtiny ("Seš kurva v hajzlu", "celej život"). To je JASNÝ ZÁMĚR - gradace stylu
+  k pointě básně (život jako fráze z příručky -> nakonec surová realita). Potvrzuji
+  jako záměrné, neopravovat REJSTŘÍK jako takový - opravy z Kola 1-2 ("vádej",
+  "cokoli jiné") zůstávají v platnosti jako gramatické chyby, ne jako otázka
+  rejstříku.
+
+- Báseň "Svěcená voda s voctem": přímá řeč dědka je důsledně hovorová/vulgární
+  ("sajrajti zasraný", "vděčnej", "dědci chlastaj") - to je charakterizační prvek
+  postavy, rámující vyprávění (vypravěč sám naopak píše spisovně - "obhájil jsem
+  disertační práci"). Kontrast je zde zjevně funkční a záměrný. Potvrzuji jako
+  záměr, neopravovat.
+
+- Báseň "Ten večer, když jsem ti přiznal...": "blbej, chudej", "v prázdným bytě",
+  "šťastnej", "svýho" - hovorové tvary jsou soustředěny v pasážích, kde lyrický
+  mluvčí mluví o sobě/citově nejintenzivněji, zatímco zbytek básně (kulturní
+  odkazy na Adama, Evu, Kafku, Háchu) je spisovný. Funguje to jako stylizace
+  "syrového" osobního vyznání uprostřed knižních narážek - záměr, neopravovat.
+
+- Žádnou NEÚMYSLNOU směs spisovné/nespisovné češtiny uvnitř jedné repliky/pásma
+  jsem nenašel (na rozdíl od staré korektury, kde šlo o problém rodu vypravěče,
+  ne rejstříku - to řeším v Kole 7).
+
+--------------------------------------------------------------------------------
+KOLO 4 — INTERPUNKCE (čárky ve větách, uvozovky, pomlčky vs. spojovníky)
+--------------------------------------------------------------------------------
+Navazuji na Kola 1-3:
+
+- Ověřil jsem starou korekturu bod "Pátrání po smyslu života: / Pravda je ve víně
+  – Wine culture." (Wine culture, sloka 6) - v Blok.json je TOTO UŽ SPRÁVNĚ (verš
+  9 končí dvojtečkou, verš 10 má pomlčku před "Wine culture"). Starý nález byl
+  artefaktem PDF sazby (sloučení veršů), v JSON neplatí - NEZAHRNUJI.
+
+- Ověřil jsem "od dob Adama a Evy jsme se konečně poučili." (Ten večer..., sloka 3,
+  malé "od" na začátku verše) - v JSON jde o samostatný VERŠ poezie. Malá písmena
+  na začátku veršů jsou v této sbírce běžná stylistická konvence (viz např. "mírně
+  opilé matky" pokračující výčet ve Wine culture, sloka 10, nebo "otčímové, kteří
+  nevlastní děti" tamtéž) - je to pokračování průběžné věty přes víc veršů, ne
+  chyba. Starý nález byl opět jen artefaktem PDF sloučení vět - NEZAHRNUJI.
+
+- Ověřil jsem "Tvrdilas, že prý záleží jen na tom..." (Ten večer..., sloka 2) -
+  verš začíná velkým písmenem uprostřed souvětí, hned po čárce na konci
+  předchozího verše ("...že tě mám rád,"). To je nekonzistentní s tím, jak jinde
+  báseň zachází s velkými/malými písmeny na začátku veršů (viz bod výše - malá
+  písmena uprostřed souvětí jsou normou). Zde je ale velké písmeno uprostřed
+  věty/souvětí bez tečky před ním - to PŮSOBÍ jako pozůstatek interpunkční chyby
+  (chybějící tečka před "Tvrdilas", nebo zbytečně velké písmeno). Ponechávám jako
+  kandidáta se střední jistotou - možná je to záměrný důraz na zlomový verš
+  (přímá řeč milenky uvozená jako v dialogu), ale nekonzistence v rámci básně je
+  patrná.
+
+- Nově: "Anežka Göhrová ještě toho dne položila svého oblíbeného medvídka na máry
+  / přiložila dvě eura na jeho oči." (Pohřeb Göhra) - mezi dvěma souřadnými větami
+  se stejným podmětem chybí čárka/spojka na konci verše "na máry". Ověřil jsem
+  statisticky: 82 % veršů v poezii v této sbírce končí na nějaké interpunkční
+  znaménko (tečka, čárka, dvojtečka apod.) - absence čárky zde je tedy odchylkou
+  od převažující praxe v knize, ne běžnou konvencí "verš bez tečky". Hodnotím se
+  střední až vyšší jistotou jako pravděpodobnou chybu.
+
+- Nově: "„Obžalobo, ať přečtou znovu obvinění.“, „Mašinka Tomáš je obviněn..."
+  (Každý je vinný jen tak, jak se sám cítí, sloka 1) - čárka hned po uzavírací
+  uvozovce a před další uvozovkou je nestandardní; působí to, jako by zde chybělo
+  uvození druhé repliky (kdo to říká - soudce? zapisovatel?). Bez kontextu kdo
+  mluví je přechod matoucí. Nízká až střední jistota - může jít o záměrnou
+  útržkovitost soudního přepisu (žánr "protokol"), ale interpunkčně je to na
+  hraně. Zařazuji do otevřených otázek.
+
+--------------------------------------------------------------------------------
+KOLO 5 — VELKÁ/MALÁ PÍSMENA (vlastní jména, začátky vět po dvojtečce, citáty)
+--------------------------------------------------------------------------------
+Navazuji na Kolo 4: téma velkých/malých písmen na začátcích veršů jsem už vyřešil
+(jde o stylovou konvenci sbírky, ne chybu) - ZDE už nález nepřidávám.
+
+- Zkontroloval jsem konzistenci vlastních jmen: "Sreality" (s velkým S na začátku
+  věty, jinak jde o název webu sreality.cz psaný s malým s) - na začátku věty je
+  velké písmeno v pořádku, žádný problém.
+
+- "Václav Klaus", "Erik Švarc", "Anežka Göhrová", "Mirek Mrkvička", "Mašinka
+  Tomáš", "Ašrana Šranu" - všechna vlastní jména jsou psána konzistentně velkými
+  písmeny na obou/všech místech výskytu v celém souboru. Žádný nález.
+
+- Citáty/přímá řeč: dvojtečka před přímou řečí je téměř všude následována velkým
+  písmenem v uvozovkách v souladu s normou ("hlas Ašrany.", uvozující věty před
+  přímou řečí apod.) - žádná systematická chyba nalezena.
+
+- Žádné další problémy s velkými/malými písmeny nad rámec Kola 4 nenalezeny.
+
+--------------------------------------------------------------------------------
+KOLO 6 — VNITŘNÍ KONZISTENCE (jména postav, fakta, reálie napříč básněmi)
+--------------------------------------------------------------------------------
+Navazuji na předchozí kola a explicitně ověřuji nález staré korektury o jménu
+Erik/Karel:
+
+- Stará korektura: báseň "Velká přestávka" měla nekonzistentně přecházet ze jména
+  "Erik Švarrc" na "Karel" v polovině textu. OVĚŘENO: v aktuálním Blok.json se
+  jméno "Karel" VŮBEC NEVYSKYTUJE (0 výskytů v celém souboru) a "Velká přestávka"
+  používá důsledně "Erik" na všech třech místech (sloka 1: "Erik Švarc", sloka 2:
+  "Erik je samotář", sloka 3: "s Erikem", "Erik nerad chodí"). Tento problém byl
+  MEZITÍM OPRAVEN - NEZAHRNUJI jako aktuální chybu, jen potvrzuji, že oprava
+  proběhla a nedošlo k regresi.
+
+- Jméno "Erik Švarc" se navíc objevuje shodně (stejné příjmení, stejný pravopis
+  s jedním "r") i v básni "Zákon džungle" ("Juniorní tester Erik Švarc") -
+  konzistence napříč básněmi potvrzena, žádný rozpor.
+
+- Rodina Göhrových: ověřil jsem programově všech 25 výskytů jména "Göhr" a jeho
+  tvarů (Göhra, Göhrová, Göhrových, Göhrově, Göhrovo, Göhrové) napříč básněmi
+  "Lepkavost na podlaze infekčního oddělení", "Podává se koliva", "Pohřeb Göhra" -
+  skloňování je gramaticky správné a důsledné, žádný nález.
+
+- "Tesco" - skloňování (v Tescu, z Tesca) je konzistentní ve všech výskytech
+  (Wine culture, Žádost o zařazení..., Bodíky sbíráte?, Řešení problému tří
+  těles) - žádný nález.
+
+- "Pan Pták" - postava prochází čtyřmi básněmi (Pan Pták si vzal sick day, Pan
+  Pták si dělá zbrojní průkaz, Pan Pták má ucpaný záchod) - jméno a fakta o
+  "milé" na ostrově kočárků jsou konzistentní napříč básněmi (umírá utopením ve
+  vaně, dříve "spí" na ostrově kočárků - to je gradace téže metafory, ne rozpor).
+  Žádný nález.
+
+- "Ašrana Šranu" - skloňování konzistentní (viz Kolo 1 poznámka), žádný nález.
+
+ZÁVĚR KOLA 6: Jediný věcný nález staré korektury v této kategorii (Erik/Karel) byl
+mezitím v textu opraven. Žádné nové vnitřní nekonzistence faktů/jmen nalezeny.
+
+--------------------------------------------------------------------------------
+KOLO 7 — SHODA RODU/ČÍSLA/OSOBY V RÁMCI JEDNÉ BÁSNĚ (typicky vypravěč)
+--------------------------------------------------------------------------------
+Navazuji na Kola 1-6, zejména na zadání korektury výslovně zmiňující dvě básně,
+které byly vráceny do staršího stavu: "Milovat život" a "Přesně takhle to chtěl".
+
+- Stará korektura: "Svěcená voda s voctem" - rozpor "Musely jsme" (ženský rod) vs.
+  "obhájil jsem" (mužský rod) v rámci jednoho vypravěče. OVĚŘENO v aktuálním
+  Blok.json: text má "Museli jsme sedět potichu..." (obecný/mužský tvar, ne
+  "Musely"), což je v souladu s pozdějším "obhájil jsem". Rozpor NEEXISTUJE v
+  aktuálním textu - byl mezitím opraven. NEZAHRNUJI jako chybu, potvrzuji opravu.
+
+- Stará korektura zmiňovala "Anemoia" se ženským rodem ("bydlely", "cestovaly")
+  jako pravděpodobně záměrnou autorskou volbu. OVĚŘENO: aktuální Blok.json má
+  "Jako děti jsme bydleli... a cestovali..." - obecný/mužský tvar konzistentně u
+  obou sloves, žádný vnitřní rozpor v rámci básně. (Jde patrně o jinou/dřívější
+  verzi téhož textu než ta, kterou viděla stará korektura - ale to není relevantní,
+  oba tvary jsou same-gender konzistentní, takže žádná CHYBA v aktuálním textu.)
+
+- Cíleně jsem zkontroloval, zda se v "Milovat život" a "Přesně takhle to chtěl"
+  (obě vrácené do staršího stavu) nevyskytuje rozpor rodu/čísla/osoby:
+    * "Milovat život" je psána v jednotném imperativu 2. osoby po celou dobu
+      (Uč se, Poslouchej, Opatruj, Jezdi, Věnuj se, Organizuj se...) až po
+      závěrečnou sloku v indikativu 2. osoby ("Všichni tě opustili. Ležíš...").
+      Osoba/číslo zůstávají konzistentní (stále se oslovuje jedna osoba, ty).
+      Žádný rozpor rodu/čísla zde není - gramatické nálezy z Kola 1-2 (vádej,
+      cokoli jiné) jsou tvarové/lexikální chyby, ne chyby shody rodu/čísla.
+    * "Přesně takhle to chtěl" je krátká báseň o "Josífkovi" - mužský rod
+      jednotného čísla důsledně ("pozoruje", "rád sleduje") - žádný rozpor.
+  Obě básně tedy z hlediska shody rodu/čísla/osoby PROŠLY bez nálezu.
+
+- Nově potvrzuji z Kola 2: "Můžou mi, pane obžalovaný, vysvětlit..." - toto JE
+  přesně případ neshody osoby/čísla (oslovení v jednotném čísle vs. sloveso ve
+  3. os. mn. č. namísto 2. os. zdvořilostního "můžete"). Kolo 7 toto POTVRZUJE
+  jako nejsilnější nález tohoto kola - jde o jasnou gramatickou neshodu uvnitř
+  jedné repliky, ne o stylizaci (v celé básni "Každý je vinný jen tak, jak se sám
+  cítí" jinak nejsou žádné nespisovné/nestandardní tvary, jde o formální
+  soudní/protokolární text, kde podobná neshoda vyčnívá obzvlášť).
+
+--------------------------------------------------------------------------------
+KOLO 8 — OPAKOVÁNÍ SLOV / NEOBRATNÉ FORMULACE PŮSOBÍCÍ JAKO NEDOPATŘENÍ
+--------------------------------------------------------------------------------
+Navazuji na předchozí kola - v textu je MNOHO záměrných opakování coby básnický
+prostředek (refrény, anafora). Cílem tohoto kola je odlišit je od nedopatření.
+
+- "Dort, který jíme, když někdo umře" - masivní opakování "Na talířích jsou těla
+  bakterií salmonely. / Těla bakterií salmonely jsou na talíři." (variace pořadí
+  slov) je zjevně řízená kompoziční technika (rituální/liturgický rejstřík
+  evokující pravoslavnou kolivu) - potvrzuji jako ZÁMĚR, ne chybu.
+
+- "Infikované mléko pijeme a pijem a nepijem, jen když se nadechujem" - gradovaný
+  trojčlenný výčet se schválně zkrácenými/hovorovými tvary (pijem, nepijem,
+  nadechujem) je rytmický a záměrný (rým/spád) - potvrzuji jako ZÁMĚR, stará
+  korektura toto mylně považovala za interpunkční chybu (čárka navíc) kvůli PDF
+  sloučení vět; v JSON je to jeden samostatný verš bez problému.
+
+- "Kachny" - opakované "Krá, krá" / "Krá, krá, krá" je gradace (zvuk vran sílí) -
+  záměr.
+
+- "vnitřní" v básni "Vnitřní dědek" - slovo "vnitřní" se opakuje desítky krát
+  (vnitřní žena, vnitřní muž, vnitřní pes, vnitřní dítě... až "vnitřní vnitřní
+  ucho", "vnitřní vnitřní bohyni") - to je EXPLICITNÍ koncept celé série básní o
+  "vnitřním" sebepoznání (parodie na new age terapeutický žargon), gradující až
+  k absurdnímu zdvojení "vnitřní vnitřní" jako vrcholu parodie. Jednoznačně
+  ZÁMĚR.
+
+- "Holubi se nepoznají v zrcadle" - "Pátý den sjednával povinná ručení pro
+  Generali. ... Sedmý den sjednával povinná ručení pro Generali." - opakování
+  fráze v jinak gradované enumeraci (1.-11. den) působí jako záměrná ironie
+  (otrocká rutina), ne nedopatření - dny mezi tím jsou jiné činnosti, takže jde o
+  vědomé vsunutí stejné fráze do jinak narativní gradace. Potvrzuji ZÁMĚR.
+
+- Žádné NOVÉ nechtěné opakování nebo neobratnou formulaci, která by vypadala jako
+  nedopatření (na rozdíl od jasně rytmizovaných/koncepčních opakování výše), jsem
+  v tomto kole nenašel.
+
+--------------------------------------------------------------------------------
+KOLO 9 — TYPOGRAFIE (mezery, uvozovky, tři tečky, spojovníky vs. pomlčky)
+--------------------------------------------------------------------------------
+Navazuji na Kolo 4 (interpunkce) a Kolo 5 (velká písmena) - typografii řeším čistě
+na úrovni znaků/sazby.
+
+- POTVRZUJI nový nález (poprvé zaznamenaný při čtení v Kole 1, zpřesněný zde):
+  v básni "Bodíky sbíráte?", sloka 5, se v rámci JEDNÉ básně střídají DVA různé
+  typy uvozovek: sloky 3-4 používají správné české uvozovky „..." (U+201E a
+  U+201C), ale sloka 5 používá otevírací českou „ (U+201E), avšak ZAVÍRACÍ
+  anglickou pravou ” (U+201D) místo české “ (U+201C) - ověřeno programovou
+  extrakcí znaků. Jde o typografickou nekonzistenci uvnitř jedné básně (na
+  rozdíl od staré korektury, která tvrdila, že je to v produkčním PDF už
+  opravené - to se ale netýká stavu v Blok.json, kde nekonzistence framework
+  trvá). POTVRZUJI jako platný nález s vysokou jistotou (jde o jasně
+  zjistitelnou, objektivní typografickou chybu, ne o stylistickou volbu).
+
+- Zkontroloval jsem pomlčky vs. spojovníky v celém textu: krátké spojovníky
+  (n-pomlčka by se v běžném textu nepoužívala) se vyskytují korektně jen ve
+  složených slovech ("otcovsko-synovský", "proteinovo-banánové"); delší pomlčka
+  "–" se používá důsledně jako oddělovač vět/apozice ("Školní přestávka – čas a
+  prostor", "blbej, chudej – a ty imaginární", "panna – robotník, orel – pán").
+  Žádná nekonzistence nalezena (tiráž/kolofon, kde stará korektura našla problém
+  s adresou tiskárny, není součástí Blok.json - týkala se jen PDF sazby).
+
+- Tři tečky/výpustky: "A ty…" (Ten večer..., sloka 5) používá správný typografický
+  znak horizontální elipsy (U+2026), konzistentně s "za nás… za nás…" ve Svěcené
+  vodě s voctem. Žádný nález.
+
+- Apostrofy ve fonetickém přepisu (Definice/Varemýsa): "/va.re'mi.sa/" a
+  "/'li.sa/" - oba používají STEJNÝ rovný apostrof (', ASCII), na rozdíl od staré
+  PDF korektury, kde šlo o dva různé typografické znaky. V JSON je to konzistentní
+  (byť žádný z nich není formální IPA značka přízvuku ˈ, to už je otázka budoucí
+  sazby, ne textu). Žádný nález v JSON.
+
+--------------------------------------------------------------------------------
+KOLO 10 — ZÁVĚREČNÁ SYNTÉZA
+--------------------------------------------------------------------------------
+Procházím všech 9 předchozích kol a rozhoduji, co je potvrzená chyba vs. záměr:
+
+POTVRZENÉ CHYBY (zahrnuty do finálního seznamu):
+1. "krkovici" -> "krkavici" (Wine culture) - potvrzeno v Kolech 1, 2. Vysoká
+   jistota.
+2. "vádej se sousedy" - gramaticky neexistující tvar (Milovat život) - potvrzeno
+   v Kolech 1, 2, 3 (rejstřík vyloučen jako příčina). Střední až vysoká jistota.
+3. "cokoli jiné" -> "cokoli jiného" (Milovat život) - potvrzeno v Kole 2. Vysoká
+   jistota (jde o ustálenou vazbu).
+4. "Můžou mi, pane obžalovaný, vysvětlit" -> "Můžete mi... vysvětlit" (Každý je
+   vinný jen tak, jak se sám cítí) - potvrzeno v Kolech 2 a 7 (dvakrát nezávisle
+   identifikováno jako neshoda osoby/čísla). Vysoká jistota.
+5. Pozpátku psaný text v "Bodíky sbíráte?" - dvě dílčí hláskové chyby
+   ("pokračovaňím" m. "pokračováním", "kážde" m. "každé") - potvrzeno v Kole 1
+   programovým dekódováním. Vysoká jistota, ale nízká priorita (okrajový
+   hříčkový prvek).
+6. Nekonzistentní uvozovky v "Bodíky sbíráte?" (sloka 5: „...” místo „...“) -
+   potvrzeno v Kole 9 programovou extrakcí znaků. Vysoká jistota.
+
+NÁLEZY SE STŘEDNÍ JISTOTOU (zahrnuty, ale s výhradou v textu):
+7. "Tvrdilas" s velkým písmenem uprostřed souvětí (Ten večer...) - možná záměrný
+   důraz na uvozenou "citaci" milenčiných slov, možná pozůstatek staré
+   interpunkční chyby. Střední jistota.
+8. Chybějící čárka/spojka mezi "na máry" a "přiložila" (Pohřeb Göhra) - statisticky
+   podloženo (82 % veršů v knize končí interpunkcí), ale mohlo by jít o záměrný
+   enjambement bez interpunkce. Střední jistota.
+9. "učil mě hrát šachy" m. "učil jsem ho hrát šachy" (Fíkus) - gramaticky
+   podezřelé, ale možná záměrná ironie (mlčenlivý fíkus). Nízká až střední
+   jistota -> přesunuto do otevřených otázek.
+
+ZAMÍTNUTÉ STARÉ NÁLEZY (potvrzeno, že v aktuálním Blok.json už NEJSOU přítomny,
+protože byly mezitím opraveny nebo jde o artefakty PDF sazby, které se netýkají
+JSON):
+- "himálajští" -> v JSON už správně "himalájští". OPRAVENO.
+- Jméno "Karel" v "Velká přestávka" -> v JSON důsledně "Erik". OPRAVENO.
+- "Musely"/"obhájil" rozpor rodu ve "Svěcená voda s voctem" -> v JSON je
+  "Museli", rozpor neexistuje. OPRAVENO.
+- Chybějící dvojtečka/pomlčka "Pátrání po smyslu života: / Pravda je ve víně –
+  Wine culture" -> v JSON je to už správně se separátními verši. NETÝKÁ SE JSON
+  (byl to artefakt PDF sloučení veršů).
+- Malé "od" na začátku verše "od dob Adama a Evy..." -> v JSON jde o legitimní
+  pokračování souvětí přes víc veršů s malým písmenem, což je v této sbírce
+  zavedená konvence (viz více příkladů v Kole 4). NENÍ CHYBA v kontextu JSON.
+- Chybějící čárka v "pijeme a pijem a nepijem" -> v JSON je to jeden ucelený
+  verš bez problému, čárka tam není potřeba a její absence není chybou (gradovaný
+  výčet). NENÍ CHYBA.
+- Chybějící uvozovky/dvojtečka u názvu disertace ve "Svěcená voda s voctem" -> v
+  JSON je už správně: 'na téma: „Vliv tradicionalistických vzorců chování na
+  výchovu dětí“'. OPRAVENO.
+- Krátká pomlčka v tiráži, nekonzistentní apostrofy v IPA přepisu - týkalo se jen
+  PDF sazby/tiráže, která není součástí Blok.json. NETÝKÁ SE JSON.
+
+CELKOVÉ HODNOCENÍ:
+Text Blok.json je po jazykové stránce velmi čistý a naprostá většina nálezů ze
+staré PDF korektury byla mezitím v tomto zdrojovém souboru opravena nebo se na
+strukturovaný JSON vůbec nevztahovala (šlo o artefakty převodu veršů na plynulou
+prózu při sazbě PDF). Nově identifikované nálezy jsou malého rozsahu - dvě
+gramaticky vadné slovní spojení v básni "Milovat život" (vádej se sousedy, cokoli
+jiné), jedna neshoda osoby/čísla v Epilogu, lexikální záměna v básni Wine culture,
+dvě hláskové chyby ve skrytém pozpátku psaném textu a jedna typografická
+nekonzistence uvozovek. Žádný z nálezů nenarušuje vyznění sbírky.
+
+================================================================================
+FINÁLNÍ KONSOLIDOVANÝ SEZNAM POTVRZENÝCH CHYB
+================================================================================
+
+1) KAPITOLA: Návštěva na Zemi | BÁSEŇ: Wine culture | sloka 5, verš 8
+   Původní text: „Jednou mu sklouzne bench a rozdrtí si krkovici,"
+   Navrhovaná oprava: „Jednou mu sklouzne bench a rozdrtí si krkavici,"
+   Zdůvodnění: Krkovice je kus masa (vepřová krkovice) - nedává smysl, že si ji
+   bodybuilder "rozdrtí" při cvičení s činkou. Anatomicky a foneticky blízké
+   slovo "krkavice" (krční tepna) v kontextu cvičení a bezprostředně následující
+   smrti ("těsně před smrtí si uvědomí...") dává smysl. Jde o lexikální záměnu
+   podobně znějících slov.
+   Jistota: vysoká
+
+2) KAPITOLA: Moje vnitřní žena | BÁSEŇ: Milovat život | sloka 4
+   Původní text: „...vstup do odborů, vádej se sousedy nebo cokoli jiné, co ti
+   bude po chuti..."
+   Navrhovaná oprava: „...vstup do odborů, hádej se se sousedy nebo cokoli
+   jiného, co ti bude po chuti..." (případně "vaď se se sousedy")
+   Zdůvodnění: Sloveso "vádit" v češtině neexistuje - jde o chybný/neexistující
+   tvar. Vzhledem k důslednému imperativnímu rejstříku celé básně (opatruj,
+   naslouchej, vyber si, trénuj, organizuj se, najdi si) zde chybí platný
+   imperativ. Nejpravděpodobnější emendace je "hádej se" nebo "vaď se" (od
+   "vadit se" = mít spory), což odpovídá smyslu výčtu sociálních interakcí.
+   Zároveň "cokoli jiné" je gramaticky vadný tvar - ustálená vazba vyžaduje
+   genitiv/neutrum "cokoli jiného".
+   Jistota: vysoká (gramatická vadnost tvarů), střední (přesné znění opravy)
+
+3) KAPITOLA: Epilog | BÁSEŇ: Každý je vinný jen tak, jak se sám cítí | sloka 1
+   Původní text: „Můžou mi, pane obžalovaný, vysvětlit, proč najížděli na kolej
+   s větším počtem lidí?"
+   Navrhovaná oprava: „Můžete mi, pane obžalovaný, vysvětlit, proč jste najížděl
+   na kolej s větším počtem lidí?"
+   Zdůvodnění: Obžalovaný je oslovován v jednotném čísle ("pane obžalovaný"), ale
+   sloveso je ve 3. osobě množného čísla ("můžou" = oni mohou) místo zdvořilostní
+   2. osoby množného čísla ("můžete"). Jde o jasnou neshodu osoby/čísla uvnitř
+   jedné repliky ve formálním/protokolárním kontextu, kde podobná neshoda
+   obzvlášť vyčnívá (na rozdíl od básní s vědomě nespisovným vypravěčem).
+   Jistota: vysoká
+
+4) KAPITOLA: Povídky z předměstí | BÁSEŇ: Bodíky sbíráte? | sloka 4 (pozpátku
+   psaný text)
+   Původní text: „...míňavočarkop nej ej onár edžák..."
+   Po dekódování jednotlivých slov pozpátku (v pořadí, v jakém jdou ve větě):
+   míňavočarkop -> "pokračovaňím", nej -> "jen", ej -> "je", onár -> "ráno",
+   edžák -> "kážde". Celá fráze se tedy čte pozpátku jako "...je jen
+   pokračovaňím kážde ráno..." místo gramaticky správného "...je jen
+   pokračováním každé ráno...".
+   Navrhovaná oprava: záměna "míňavočarkop" -> "mínávočarkop" (tak aby se
+   pozpátku četlo "pokračováním" místo "pokračovaňím") a "edžák" -> "édžak"
+   (tak aby se pozpátku četlo "každé" místo "kážde").
+   Zdůvodnění: Báseň obsahuje úmyslně pozpátku zapsaný text, který se má při
+   přečtení odzadu dát smysluplnou českou větu. Dvě dílčí slova obsahují
+   hláskové přesmyčky, takže se po přečtení pozpátku nezíská gramaticky správný
+   tvar ("pokračovaňím" místo "pokračováním", "kážde" místo "každé").
+   Jistota: vysoká (technicky ověřeno dekódováním), ale nízká priorita (jde o
+   okrajový hříčkový prvek, ne hlavní text)
+
+5) KAPITOLA: Povídky z předměstí | BÁSEŇ: Bodíky sbíráte? | sloka 5
+   Původní text: „„A co je tohle za jazyk?” „To je čeština, jen řečená
+   pozpátku. A už se nás na nic neptejte.”" (a další repliky v téže sloce)
+   Navrhovaná oprava: nahradit zavírací anglické uvozovky ” českými „ "
+   (např. „A co je tohle za jazyk?“)
+   Zdůvodnění: V téže básni (sloky 3 a 4) jsou použity správné české uvozovky
+   „..." (otevírací dole, zavírací nahoře), ale ve sloce 5 se zavírací uvozovka
+   mění na anglickou pravou ” (U+201D) místo české “ (U+201C). Jde o
+   typografickou nekonzistenci uvnitř jedné básně, ověřeno programovou extrakcí
+   znaků.
+   Jistota: vysoká
+
+6) KAPITOLA: Moje vnitřní žena | BÁSEŇ: Moje vnitřní žena | sloka 3
+   Původní text: „Sklouzl jsem se za ním, / ještě hlouběji. A tam ji potkal, /
+   svou vnitřní ženu."
+   Navrhovaná oprava: „Sklouzl jsem se za ním, / ještě hlouběji. A tam jsem ji
+   potkal, / svou vnitřní ženu."
+   Zdůvodnění: Celá báseň je důsledně vyprávěna v 1. osobě jednotného čísla
+   minulého času ("potkal jsem", "vnořil jsem se", "prošel jsem", "stanul
+   jsem", "sklouzl jsem se"). Bezprostředně po "Sklouzl jsem se za ním"
+   následuje "A tam ji potkal" bez pomocného slovesa "jsem", čímž věta
+   gramaticky přechází do 3. osoby jednotného čísla ("on potkal"), což je v
+   rozporu se zbytkem básně i s předchozí větou téhož souvětí. Doplněn
+   nezávisle od finálního ověření - jde o nejzávažnější gramatický nález
+   shody osoby v celé korektuře, jasné přehlédnutí (vynechané "jsem"), ne
+   stylizace.
+   Jistota: vysoká
+
+================================================================================
+OTEVŘENÉ OTÁZKY / NÍZKÁ JISTOTA
+================================================================================
+
+A) KAPITOLA: Vnitřní fašismus | BÁSEŇ: Ten večer, když jsem ti přiznal... |
+   sloka 2
+   Text: „Lilo, venku strašně lilo, / když jsem ti řekl, že tě mám rád, /
+   Tvrdilas, že prý záleží jen na tom, že jsme spolu."
+   Otázka: Verš "Tvrdilas..." začíná velkým písmenem uprostřed souvětí, hned po
+   čárce na konci předchozího verše - to je v této básni ojedinělé (jinde
+   pokračující věty mívají malé počáteční písmeno verše). Jde o záměrný důraz na
+   citovaná slova milenky, nebo o přehlédnutou interpunkční nesrovnalost (mělo by
+   tu být malé "tvrdilas", případně tečka před tím)? Neopravoval bych bez
+   autorského potvrzení záměru.
+
+B) KAPITOLA: Vnitřní fašismus | BÁSEŇ: Pohřeb Göhra | sloka 1
+   Text: „Anežka Göhrová ještě toho dne položila svého oblíbeného medvídka na
+   máry / přiložila dvě eura na jeho oči."
+   Otázka: Mezi dvěma souřadnými větami se stejným podmětem chybí čárka/spojka
+   na konci verše "na máry". Je to záměrný enjambement bez interpunkce (verš
+   plynule pokračuje), nebo chybí čárka? Vzhledem k tomu, že 82 % veršů v
+   poezii v této sbírce končí interpunkcí, kloním se spíš k tomu, že jde o
+   chybějící čárku, ale neuvádím v hlavním seznamu kvůli nejistotě o autorském
+   záměru u konkrétně tohoto verše.
+
+C) KAPITOLA: Moje vnitřní žena | BÁSEŇ: Fíkus | sloka 2
+   Text: „Ukazoval jsem mu známky a záznamy z fotbalových utkání, učil mě hrát
+   šachy, já jsem mu říkal, jak používat internet..."
+   Otázka: Sloveso "učil mě" obrací směr akce oproti zbytku výčtu (jinde vždy
+   "já" něco dělám PRO mlčenlivého otce-fíkusa). Má jít o "učil jsem ho hrát
+   šachy"? Nebo je to záměrná ironická pointa (mlčenlivý fíkus paradoxně "učí"
+   syna tím, že nic neříká)? Vzhledem k absurdnímu/ironickému vyznění celé
+   básně (otec je doslova rostlina) nelze vyloučit záměr - neuvádím jako jistou
+   chybu.
+
+D) KAPITOLA: Epilog | BÁSEŇ: Každý je vinný jen tak, jak se sám cítí | sloka 1
+   Text: „„Obžalobo, ať přečtou znovu obvinění.“, „Mašinka Tomáš je obviněn..."
+   Otázka: Čárka hned po uzavírací uvozovce, následovaná další uvozovkou bez
+   jasného uvození (kdo říká druhou repliku?), působí matoucím dojmem. Jde o
+   záměrnou útržkovitost soudního protokolu, nebo chybí uvozující text/sloveso
+   ("řekl soudce", "ozvalo se")? Nízká jistota, neuvádím jako chybu.
+
+DODATEK (nezávislé doplnění nálezu č. 6):
+Při paralelním čtení celého Blok.json byl navíc identifikován nález v básni
+"Moje vnitřní žena" (sloka 3): věta "A tam ji potkal," vynechává pomocné
+sloveso "jsem", čímž uprostřed jinak důsledně udržené 1. osoby jednotného
+čísla nečekaně přechází do 3. osoby. Tento nález nebyl zachycen v Kolech 1-9
+výše (zaměřených převážně na jiné básně v dané pasáži), ale byl ověřen jako
+platný stejnou metodou (čtení vzorce osoby/čísla v celé básni) a je zahrnut
+jako položka 6 finálního seznamu s vysokou jistotou - jde o nejvýraznější
+jednotlivý gramatický nález (vynechané sloveso) v celé sbírce.
+
+================================================================================
+SHRNUTÍ
+================================================================================
+Potvrzených chyb v hlavním seznamu: 6 (z toho 5 s vysokou jistotou z hlediska
+existence problému, 1 s vysokou jistotou existence problému ale střední jistotou
+přesného znění opravy)
+Otevřených otázek s nízkou jistotou: 4
+Starých nálezů ze staré PDF korektury ověřeno jako JIŽ OPRAVENO v Blok.json: 4
+(himálajští, jméno Karel/Erik, rod Musely/Museli, uvozovky+dvojtečka u názvu
+disertace)
+Starých nálezů ze staré PDF korektury vyhodnoceno jako NETÝKAJÍCÍ SE Blok.json
+(byly to artefakty PDF sazby/sloučení veršů, nebo se týkaly jen tiráže): 4

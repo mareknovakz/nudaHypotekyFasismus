@@ -1,0 +1,767 @@
+================================================================================
+REDAKČNÍ POSUDEK — „IMPULZ" (Mirek Mrkvička)
+================================================================================
+
+Recenzent: redakční posudek
+Datum: červen 2026
+
+================================================================================
+KAPITOLA I — Shrnutí
+================================================================================
+
+Tomáš, přesvědčený, že je mrtvý, pozoruje Klárku při ranní rutině
+(snídaně, balení cigaret, odchod do práce). Poté se toulá předměstím
+a bloudí krajinou. Kapitola zakládá klíčové motivy: rázostroj, popelnice,
+tabatěrka s orlicí, Klárčiny kozačky, Tomášovo „nebytí".
+
+--- DRHNOU (awkward / clunky) ---
+
+1) „I přes znechucení pocítil nutkání ji pohladit po lýtku a zajet jí
+   prsty do vlasů, jako to dělával dřív. Chytil by ji kolem ramen, políbil
+   na tvář a Klárka by se usmála a pohledem do podlahy by se svůj úsměv
+   pokusila skrýt."
+   — Kap. I. Přechod z indikativu do kondicionálu je neohrabaný. Čtenář
+   se ztratí v tom, co se děje a co je jen představa. DOPORUČENÍ: oddělit
+   reálný impuls (indikativ) od fantazie (kondicionál) jasněji, např.
+   odstavcem nebo typograficky.
+
+2) „Odebral se do obývacího pokoje k obývací stěně s vitrínami
+   a prosklenými skříněmi, jak se to podle zvyklostí dvacátého století
+   ve východní Evropě dělalo."
+   — Kap. I. Vsuvka „jak se to podle zvyklostí…" je těžkopádná
+   a vysvětlující tam, kde by stačil pouhý obraz. Autorský komentář rozbíjí
+   perspektivu postavy. DOPORUČENÍ: škrtnout vsuvku, nechat jen popis.
+
+3) „Snad by tam žila stvoření s obrácenou kůží a bez jazyků, takže by si
+   nemusel dělat hlavu, že jim nerozumí. Celé dny by trávili novými
+   zálibami. V pondělí by vyráběl masového žraloka z nevypočitatelného
+   množství domácích zvířat."
+   — Kap. I. Pasáž o „masovém žralokovi z domácích zvířat" a ojetých
+   pneumatikách je absurdistická, ale nesedí tónově s okolním textem.
+   Působí násilně surreálně. DOPORUČENÍ: zkrátit na jednu větu nebo úplně
+   vystřihnout.
+
+4) „Poslední říjnové projevy léta jsou jako umírající důchodce na oddělení
+   LDN. Z posledních sil září kolem sebe, směje se na vnoučata…"
+   — Kap. I. Přirovnání počasí k umírajícímu důchodci je rozvedené do
+   celého odstavce. Jako metafora je funkční (smrt, podzim), ale je příliš
+   rozvláčné — zabírá 6 vět. DOPORUČENÍ: zkrátit na 2–3 věty.
+
+--- NEPODSTATNÉ (unnecessary) ---
+
+5) „Mohl by zkusit ještě Jihlavu, na škole tam měl poměr s jistou Lenkou,
+   nebo se možná jmenovala Alenka. Už ani nevěděl, proč mu to s ní nevyšlo
+   …"
+   — Kap. I. Celá odbočka o Lence/Alence: Tomáš si představuje její
+   rodinu, snídaně, oblečení. Pasáž se nikdy nevrátí, postava nemá žádnou
+   funkci v příběhu. Navíc popis jejího oblečení (nepadnoucí halenka,
+   džíny, kozačky) je záměrně totožný s Klárčiným — to je zajímavý detail
+   o Tomášově fixaci, ale zbytečně utopený v příliš dlouhém odstavci.
+   DOPORUČENÍ: zkrátit na 3–4 věty, ponechat jen detail o kozačkách
+   a „osobité patině" (echo Klárky).
+
+6) „Dávno se však oprostil od pozemských obav pramenících z primitivního
+   rasismu, který se dědil v rodinách jako stříbrné příbory. Nikdy přece
+   nezáleželo na tom, jestli je člověk bílý, nebo modrý. Vždyť střeva
+   Holanďana jsou stejně dlouhá jako střeva Inda a žlučníky, ty mají taky
+   všichni stejné."
+   — Kap. I. Pasáž o rasismu a střevech je tematicky izolovaná.
+   „Modrý" člověk a srovnání střev Holanďana a Inda nijak nerezonují
+   se zbytkem díla. DOPORUČENÍ: škrtnout celou vsuvku; myšlenka o cestě
+   do Londýna může zůstat bez ideologické odbočky.
+
+--- NEVYUŽITÉ (unused setup) ---
+
+7) Pohled od bratrance Matěje z Costa Brava — zmíněn jednou v kap. I,
+   nikdy se nevrátí. Bratranec Matěj nemá žádnou roli. DOPORUČENÍ: buď
+   ho vyhodit, nebo ho zapojit do fabule (např. jako kontrastní postavu
+   „normálního života").
+
+8) „Jestli se za hvězdami zahrady pěstují, kam pak duše tamních tvorů
+   putují?" — Básnická vsuvka (kap. I) je osamělá, nikde se nevrací,
+   tónově vyčnívá. DOPORUČENÍ: buď ji integrovat jako leitmotiv, nebo
+   škrtnout.
+
+--- PŘÍLIŠNÝ DETAIL ---
+
+9) „Rázostroj – Newtonova houpačka – se skládal ze dvou rovnoběžných rámů
+   na dřevěné desce. Na nich bylo zavěšeno osm kuliček z nerezové oceli
+   o stejné hmotnosti…"
+   — Kap. I. Technický popis rázostroje je příliš encyklopedický. Čtenář
+   ví, co je Newtonova houpačka. Když ne, stačí jedna věta. Rázostroj je
+   důležitý symbol, ale jeho fyzikální popis mu ubírá na poetičnosti.
+   DOPORUČENÍ: zkrátit na „Rázostroj – Newtonova houpačka – stál na
+   čestném místě uprostřed komody."
+   (Poznámka: v kap. XI je rázostroj překrásně popsán symbolicky — „Pět
+   kuliček… Nemohou se urvat z rámu ani si zvolit nehybnost." To je
+   správný přístup.)
+
+10) Detailní popis Klárčina oblékání (kap. I): výběr prádla, čichání
+    oblečení, otírání plosek nohou — 10+ vět. Některé detaily jsou funkční
+    (ukazují Klárčin úpadek), ale celek je příliš minutový.
+    DOPORUČENÍ: zkrátit o třetinu. Ponechat nejsilnější obrazy (čichání
+    k oblečení, jogurt na nohou).
+
+
+================================================================================
+KAPITOLA II — Shrnutí
+================================================================================
+
+Tomášův pracovní den: střet s nadřízeným Křivkou kvůli chybě s Kouckého
+flotilou, oběd s kolegy (Patrik, Alois), zmínka Martina jako padawana.
+Zakládá pojišťovácké prostředí a vztah Tomáš–Martin.
+
+--- DRHNOU ---
+
+11) „Tomáš se odvážil opustit svůj kout, obešel stůl tou nejdelší cestou
+    a upřel zrak na jeho střed…"
+    — Pardon, toto je z kap. I, ale princip platí pro celý text:
+    nadužívání vycpávkových sloves „odebral se", „odvážil se", „setrvával".
+    DOPORUČENÍ: nahradit aktivnějšími slovesy.
+
+12) „Práce pojišťovacího agenta se pro Tomáše stala hnědým údělem bytí,
+    ale přesto měl svoji profesi rád."
+    — Kap. II. Následující odstavec o pojišťovnictví (empatie, kalkulace,
+    komunikace) je funkční charakterizace, ale přechází do zobecňujícího
+    eseje o „průměrných pojišťovácích" (karlínské bary, Jižák, gin
+    s tonikem, sebelítost). Celý tento blok trvá příliš dlouho, než se
+    vrátí k ději. DOPORUČENÍ: zkrátit pasáž o kolegách-neúspěšných
+    obchodnících na polovinu.
+
+13) „Tomáš v něm brzy začal vidět sám sebe. Byla to nepopiratelná, byť
+    zakřiknutější podoba. Tomáš měl občas mrazivý pocit, že Martin je jen
+    jeho nedokonalá derivace."
+    — Kap. II. „Nedokonalá derivace" je krásný obraz, ale věta „Odštěpek
+    vlastní podstaty, který se zhmotnil jen proto, aby mu neustále zrcadlil
+    jeho vlastní lenost a necílevědomost" je redundantní — říká totéž
+    jinými slovy. DOPORUČENÍ: ponechat jen jednu z formulací.
+
+--- NEPODSTATNÉ ---
+
+14) Dialog o grilovačce, hospodě U Krtka, přírodovědeckém muzeu a vycpaných
+    ptácích (kap. II) — zabírá ~10 replik. Patrikova pozvánka do muzea
+    je vtipná, ale scéna se táhne. Funkčně jen ukazuje denní kolorit
+    kanceláře. DOPORUČENÍ: zkrátit na 4–5 replik.
+
+15) „Kolegové ztráceli při prvním sezení klidně sedm klientů z deseti.
+    Všichni průměrní pojišťováci jsou stejní. Přes den největší frajeři…"
+    — Kap. II. Celý odstavec o „průměrných pojišťovácích" v karlínských
+    barech a dědkovských nálevnách je sociologická esej, ne narativ.
+    DOPORUČENÍ: škrtnout nebo zkondenzovat do 2 vět.
+
+--- NEVYUŽITÉ ---
+
+16) Ztracená ID karta (kap. II): Tomáš ji hledá v tašce, vysype půlku
+    obsahu na recepci. Epizoda slouží jen jako mechanismus, jak ho vrátit
+    ke Martinovi. DOPORUČENÍ: najít elegantnější způsob setkání.
+
+
+================================================================================
+KAPITOLA III — Shrnutí
+================================================================================
+
+Dvojdílná kapitola. První část: Tomášova realita se prolamuje — Klárka
+ho vidí, mluví s ním jako s nemocným/zvířetem. Šok. Druhá část: Tomáš
+u doktora Garniera, diagnóza „Vögtliho syndrom" pro Klárku, odhalení
+řezných ran (které jsou od gumiček).
+
+--- DRHNOU ---
+
+17) Encyklopedický blok o Vögtliho syndromu (kap. III): „Roku 1890 vydal
+    švýcarský psychiatr a neurolog Dr. Heinrich Vögtli publikaci…"
+    — Celý odstavec (~180 slov) čte jako Wikipedii. Příběh Marie X je
+    zajímavý, ale forma je suchá. DOPORUČENÍ: buď převyprávět Garnierovými
+    slovy (zachovat jeho charakter — rozvláčnost, odbočky), nebo zkrátit
+    na 3 věty.
+
+18) Garnierovo odbočení k fotbalu (Sparta vs. Vítkovice 3:2, penalty,
+    strkanice u lajny) — kap. III.
+    — Funkčně to ukazuje Garnierovu mánii zdržovat a uhýbat od tématu.
+    Jenže v kontextu opakovaných odboček (fotbal, haggis, schodiště, nehty)
+    se vzorec opakuje příliš mnohokrát. DOPORUČENÍ: ponechat jednu nebo dvě
+    ukázkové odbočky za celý text, zbytek zkrátit.
+
+--- PŘÍLIŠNÝ DETAIL ---
+
+19) Popis Garnierovy ordinace (kap. III): „holé stěny s jakousi
+    hnědo-béžovou barvou, místnost bez oken, šest kusů secesního nábytku…"
+    — 8 vět jen o nábytku. Ordinace se vrací opakovaně; popis by stačil
+    jednou, stručněji. DOPORUČENÍ: zkrátit na 3 věty. Mahagonový nábytek
+    je důležitý (vrací se jako motiv), ostatní detail ne.
+
+20) Garnierovo odbočení k receptům (foie gras, ovar, haggis) — kap. III.
+    — Scéna je zábavná a ukazuje Garnierovu manipulativnost, ale trvá
+    příliš dlouho (7 replik). DOPORUČENÍ: zkrátit na 3–4 repliky.
+
+--- NEVYUŽITÉ ---
+
+21) „Ty nehty… Koukám, že si je začala lakovat na žluto. Žlutá jí vůbec
+    nesluší." — Kap. III. Pointa s nehty nalakovanými na žluto je vtipná,
+    ale nikdy se nevrací. Žlutá barva je spojená s Tomášovým „žlutým
+    údělem", ale tato spojitost zůstává nevyužitá. DOPORUČENÍ: buď žluté
+    nehty vrátit později jako motiv, nebo pointu přeformulovat.
+
+
+================================================================================
+KAPITOLA IV — Shrnutí
+================================================================================
+
+Klárčina perspektiva: Tomáš jako duševně nemocný (Cotardův syndrom),
+krmení vnitřnostmi, trestání proutkem, spálená ruka na sporáku. Klárčino
+dětství (posedlost jezevčíky, pavouk v hlavě). Druhá polovina: Klára
+u Garniera, odhalení diagnózy Cotardova syndromu.
+
+--- DRHNOU ---
+
+22) „Lidé, kteří se přirozeně a snadno pohybují ve společenských situacích,
+    připomínají ptáky. Instinktivně roztáhnou křídla a vzlétnou…"
+    — Kap. IV. Metafora ptáků a Leonarda da Vinci je rozvedená do 3 plných
+    odstavců (kasta zdravých, kasta aklimatizovaných, metafora letu). Jako
+    esej je to zajímavé, ale v kontextu novely zastavuje děj na ~400 slov.
+    Klárčina filozofie je důležitá pro její charakter, ale forma je příliš
+    přednášková. DOPORUČENÍ: zkondenzovat do jednoho odstavce (max. 150
+    slov). Zachovat metaforu ptáka a Leonarda, zbytek škrtnout.
+
+23) „Mohla se buď naučit povrchně řadu znalostí o všech plemenech…
+    Rozhodla se pro jezevčíka."
+    — Kap. IV. Klárčino dětství s psy (kynologie, jezevčík, dimenze
+    poznání) zabírá 3 odstavce. Detail o tom, jak ve třetí třídě studovala
+    učebnici kynologie místo vyjmenovaných slov, je roztomilý. Ale celý
+    blok se opakuje (šířka vs. hloubka poznání → totéž na gymplu
+    s „multidimenzionálním pavoukem"). DOPORUČENÍ: sloučit do jednoho
+    odstavce. Ponechat jezevčíka (vrací se jako motiv) a pavouka.
+
+24) „Těžkopádným pohybem shodila nohy ze stolu" → „Stůl dvakrát přejela
+    a hadr vrátila na kuchyňskou linku."
+    — Toto je z kap. I, ale vzorec se opakuje i v kap. IV: minutový popis
+    Klárčiných pohybů (jak vstane, kam šlápne, co otře). DOPORUČENÍ:
+    selektovat — ne každý pohyb musí být zaznamenán.
+
+--- NEPODSTATNÉ ---
+
+25) Encyklopedický blok o Cotardově syndromu (kap. IV): „Cotardův syndrom,
+    syndrom chodící mrtvoly nebo méně známé označení nihilistická bludná
+    porucha…"
+    — Druhý encyklopedický blok v textu (po Vögtliho syndromu). Opět
+    čte jako Wikipedie. DOPORUČENÍ: sloučit oba encyklopedické bloky do
+    jednoho, prezentovaného Garnierovým hlasem. Nebo je rozptýlit do dialogu.
+
+26) „Na ženu docela bystrý úsudek, přesně tak to je." — Kap. IV.
+    Garnierova sexistická poznámka je charakterizační, ale trochu topí
+    v jinak hutné scéně. DOPORUČENÍ: ponechat, ale zkrátit okolní kontext.
+
+--- PŘÍLIŠNÝ DETAIL ---
+
+27) Popis přípravy ledvin (kap. IV): „Oblíbeným velkým nožem, který byl
+    původně určen na krájení chleba, odstranila z ledvin blány a močovody.
+    Naporcovala je a zasypala směsí divokého koření…"
+    — Kulinářský detail je funkční (hnus, péče o nemocného), ale
+    „původně určen na krájení chleba" je zbytečná informace.
+    DOPORUČENÍ: ponechat v kratší podobě.
+
+
+================================================================================
+KAPITOLA V — Shrnutí
+================================================================================
+
+Zrcadlení: Tomáš u Garniera (z Tomášovy perspektivy — Klárka ho bije,
+krmí vnitřnostmi, uspala ho puškou). Garnier nabízí „řešení" — klášter
+nebo lobotomii. Pak přechod: Tomáš jako přízrak, retrospektiva nehody
+(jel pro plecko, srazil se s bavorákem).
+
+--- DRHNOU ---
+
+28) „V pekle nás týrají ti, které milujeme."
+    — Kap. V. Krásná věta, ale je vklíněna syntakticky neobratně uprostřed
+    odstavce o hrobech: „…nutí mě ve sklepě kopat pro nás dva hroby."
+    V pekle nás týrají ti, které milujeme." — Působí jako by autor zapomněl
+    na uvozovky nebo na odstavec. DOPORUČENÍ: vyčlenit jako samostatný
+    odstavec (případně kurzivu).
+
+29) „Tomáš si představil, jak asi vypadá peklo. Vzpomněl si na absurdně
+    komickou pasáž z Bratrů Karamazových. Fjodor Pavlovič Karamazov…"
+    — Kap. V. Exkurz o pekle v Bratrech Karamazových je zajímavý, ale
+    zabírá dva plné odstavce (od háků a nízkých stropů po „subtilní,
+    všeprostupující disonanci"). Text osciluje mezi Tomášovým hlasem
+    a autorskou esejí. DOPORUČENÍ: zkrátit na max. 5 vět. Ponechat
+    hlavní myšlenku: „Peklo je místo k nerozeznání podobné životu."
+
+30) Popis Kláštera svaté Jany Aloisové (kap. V) je velmi podrobný
+    (louky, pole, kuchyně ve školní jídelně, sedativa, klečení na hrachu,
+    klečení na vařečce). Jako expozice pro kap. IX je funkční, ale
+    v kap. V se jeví jako přetížený výčet. DOPORUČENÍ: rozdělit informace
+    — část nechat v kap. V (základní představa), zbytek odhalit
+    v kap. IX, kde Klára klášter skutečně zažívá.
+
+--- NEPODSTATNÉ ---
+
+31) Garnierova odbočka o schodišti (kap. V): „Snad se vám to nestalo na
+    našich schodech. Určitě hádáte, že tu jsou dlouho… točité schodiště
+    je unikátní ještě jednou věcí…"
+    — 5 replik o gotickém schodišti. Sice to buduje prostředí a Garnierův
+    charakter, ale přichází podruhé (po fotbalu v kap. III) a čtenář už
+    ví, jak Garnier uhýbá. DOPORUČENÍ: zkrátit na 2 repliky.
+
+32) „Mohl byste samozřejmě část peněz jí posílat na nadstandard…"
+    — Kap. V. Garnierova pasáž o financích, zdanění příjmů pacientek
+    a opatrovnictví je příliš detailní. DOPORUČENÍ: zkrátit; stačí naznačit
+    princip.
+
+--- NEVYUŽITÉ ---
+
+33) Lobotomie (kap. V): Garnier ji nabídne jako „druhou možnost", ale
+    scéna je přerušena (…) a téma se nevrátí jinak než letmou zmínkou
+    v kap. VIII. DOPORUČENÍ: buď lobotomii rozvést (třeba jako další
+    Garnierovu manipulaci), nebo ji škrtnout a nechat jen klášter
+    a eutanazii.
+
+
+================================================================================
+KAPITOLA VI — Shrnutí
+================================================================================
+
+Tomáš v práci: opakující se smyčka vyplňování pojistky (Srnec/Jelen,
+data mizí, jídlo mizí, nakonec žere červy). Klárka doma — cigarety,
+televize, úvaha o trestu smrti, svobodě.
+
+--- DRHNOU ---
+
+34) Celá první polovina kap. VI (pojistka Srnec/Jelen) je záměrná
+    repetice — Tomáš opakovaně vyplňuje totéž, formulář mizí. Jako
+    formální experiment je to skvělé (peklo jako nekonečná byrokracie).
+    Nicméně třetí opakování je PŘÍLIŠ podrobné — obsahuje kompletní výčet
+    (užitná plocha 700 m², sklad 300 m², hala 180 m², povodňový stupeň 2,
+    vzdálenost od hasičů 3,4 km, ocelový skelet, drátěné pletivo 2 m,
+    limit 8 500 000 Kč…). DOPORUČENÍ: třetí opakování buď výrazně zkrátit
+    (čtenář pochopil princip), nebo naopak zdeformovat (data se mění,
+    realita se hroutí — což autor částečně dělá změnou názvu firmy).
+
+--- NEPODSTATNÉ ---
+
+35) Klárčin monolog o svobodě (kap. VI): „Svoboda – to by měla být
+    nejvyšší priorita. Nikoliv peníze nebo Bůh…"
+    — Celý odstavec (vegetariáni ve steakhousu, kněží v masážních salonech,
+    polonahý běžec s maskou koně) je myšlenkově zajímavý, ale nesouvisí
+    s dějem ani s Klárčinou situací. Působí jako autorská esej.
+    DOPORUČENÍ: škrtnout nebo zkrátit na 2 věty.
+
+36) Reportáž o muži, co zlomil dětem kosti + úvaha o trestu smrti (kap. VI)
+    — tematicky izolovaná pasáž. Klárčina úvaha o „utracení antilidí"
+    sice rezonuje s tématem eutanazie (kap. VIII), ale spojení je příliš
+    volné. DOPORUČENÍ: buď explicitněji propojit s Garnierovou nabídkou
+    eutanazie, nebo škrtnout.
+
+--- PŘÍLIŠNÝ DETAIL ---
+
+37) Viz bod 34 — detailní výčet pojistných parametrů.
+
+
+================================================================================
+KAPITOLA VII — Shrnutí
+================================================================================
+
+Klára u Garniera: výsledky vyšetření, Garnier oznámí, že Tomáš je
+„ztracen", nabízí formulář k podpisu. Klára popisuje Tomovy sny
+(klášter, pitvání, Martinova sebevražda). Garnier mluví o „věšteckých
+schopnostech". Nabádá Kláru, aby si našla někoho jiného.
+
+--- DRHNOU ---
+
+38) Garnierova pasáž o okultních vědách (kap. VII): „Za desítky let praxe
+    v psychiatrii jsem se setkal s opravdu bizarními jevy… Nekronomicon…"
+    — Přechod od medicíny k „jasnovidci z pohádky" je záměrně absurdní,
+    ale čtenář neví, jestli má Garnierovi věřit. To je dobré — ale pasáž
+    je rozvláčná. DOPORUČENÍ: zkrátit; Garnier by měl naznačit, ne
+    vysvětlovat.
+
+39) Dialog o knihovně (kap. VII): „Tam? Myslíte tu knihovnu?" — „Ano,
+    co v ní je?" — „Knihy." — „Jak vypadají…"
+    — 8 replik, než se dostaneme k pointě (okultní knihy). Příliš
+    sokratovské, Garnier by to řekl příměji. DOPORUČENÍ: zkrátit na 3–4
+    repliky.
+
+--- NEPODSTATNÉ ---
+
+40) Garnierova rada ohledně rande s bratrancem kolegyně (kap. VII):
+    — „Já už teď moc nikam nechodím, ale jedna kolegyně má bratrance…"
+    — Scéna je funkční (ukazuje Garnierovu manipulativnost), ale
+    konkrétnost bratrance je zbytečná. DOPORUČENÍ: ponechat princip
+    (Garnier jí radí, aby si našla někoho jiného), ale zkrátit.
+
+
+================================================================================
+KAPITOLA VIII — Shrnutí
+================================================================================
+
+Klárka ve škole (úvaha o studentech, učňácích). Bolest nohou
+(plantární hyperémie). Policie jí oznamuje Tomášův „incident"
+s jezevčíkem. Scéna s koronerem/doktorem. Klára se rozhodne podepsat
+formulář k eutanazii — ale nakonec nepodepíše.
+
+--- DRHNOU ---
+
+41) „Jsou děti, které zvládnou psát nápadité povídky a nejde jim moc
+    fyzika. Jsou děti, které umí hrát fotbal… Jsou děti, které nechápou
+    záporná čísla, a pak jdou na gympl."
+    — Kap. VIII. Úvodní odstavce o studentech a učňácích. Anafora „jsou
+    děti" je stylisticky pěkná, ale následující dva odstavce se rozjíždějí
+    do eseje o českém školství. DOPORUČENÍ: zkrátit; učňák je funkční jako
+    Klárčin jazykový „prohřešek", ale sociologická esej zdržuje.
+
+42) „Potvrzení o nucené eutanazii nesvéprávné osoby." — Kap. VIII.
+    Scéna s podpisem je vynikající, ale cesta k ní je příliš klikatá.
+    Klárčiny vnitřní úvahy se opakují (třikrát řeší, jestli podepsat).
+    DOPORUČENÍ: zúžit na dvě iterace.
+
+--- NEPODSTATNÉ ---
+
+43) Pasáž o satí (upálení indických vdov) — kap. VIII.
+    — „Až do 19. století existoval v Indii rituál zvaný satí…"
+    Encyklopedická vsuvka bez přímé návaznosti. DOPORUČENÍ: škrtnout.
+    Myšlenku (Klárka jako „vdova u hranice") lze vyjádřit jednou větou.
+
+--- PŘÍLIŠNÝ DETAIL ---
+
+44) Klárčina bolest nohou a proces vstávání ze židle (kap. VIII) — 6 vět
+    o tom, jak vstane, jak daleko jsou dveře, jak se chytí parapetu.
+    Plantární hyperémie je důležitá (vrací se jako motiv), ale samotný
+    proces vstávání je příliš minutový. DOPORUČENÍ: zkrátit.
+
+45) Scéna s mužem v plášti / koronerem (kap. VIII): „Já nejsem koroner."
+    — Dialog je působivý, ale trvá příliš dlouho. Informace o jezevčíkovi
+    se opakují (čtenář je zná z kap. V). DOPORUČENÍ: zkrátit opakovanou
+    expozici; nechat jen Klárčinu emocionální reakci.
+
+--- NEVYUŽITÉ ---
+
+46) Muž v plášti, co „není koroner" a „není doktor" — zajímavá postava,
+    která zmizí beze stopy. Klára si ho prohlíží jako potenciálního
+    partnera, ale nikdy se nevrátí. DOPORUČENÍ: buď postavu škrtnout,
+    nebo jí dát drobný návrat (třeba jen jako zmínku).
+
+
+================================================================================
+KAPITOLA IX — Shrnutí
+================================================================================
+
+Martinova sebevražda. Klárčin sen/realita v Klášteře sv. Jany Aloisové.
+Anežka Pokorná jako Klárčina projekce. Klára si uvědomuje svou nemoc.
+Lucidní sen — test reality.
+
+--- DRHNOU ---
+
+47) „Martinova sebevražda nebyl čin spáchaný v afektu, ale dlouho
+    připravovaná jistota. Půl roku chodil po lese a hledal ten správný
+    strom."
+    — Kap. IX. Odstavec o Martinově hledání stromu je krásný a bolestný.
+    Ale přechod „Tomáš chvíli přemýšlel nad Martinovou sebevraždou a pak
+    šel vyplnit hromadné povinné ručení" je záměrně antiemotivní — a právě
+    proto silný. ŽÁDNÁ ZMĚNA — jen upozornění, že je to jeden z nejlepších
+    momentů textu.
+
+48) Encyklopedická vsuvka o Klášteře (kap. IX): „Klášter svaté Jany
+    Aloisové měl navíc zákonnou výjimku pro délku směn…"
+    — Opakuje informace z kap. V. DOPORUČENÍ: škrtnout, co už bylo řečeno.
+
+--- NEPODSTATNÉ ---
+
+49) Anežčin „výkrm" v korekci (kap. IX): „Moderní korekce byla dobře
+    vytápěná samotka bez oken…"
+    — Princip korekce je důležitý (Klára se jí bojí), ale detaily
+    o Anežčině zotavení (zdravě zbělela apod.) jsou nadbytečné.
+    DOPORUČENÍ: zkrátit na 2 věty.
+
+50) „Strach z korekce v ní rezonoval hlouběji, než byla ochotna si přiznat.
+    Možná právě takhle nějak vypadá peklo…"
+    — Kap. IX. Další úvaha o pekle. V textu je to čtvrtá variace na téma
+    „co je peklo" (kap. V, VI, IX, XI). Variace jsou obsahově různé
+    a tematicky oprávněné, ale čtyři explicitní definice pekla v jedné
+    novele je příliš. DOPORUČENÍ: ponechat max. dvě — nejsilnější jsou
+    v kap. V („místo k nerozeznání podobné životu") a kap. IX (dialog
+    Klára–Anežka).
+
+
+================================================================================
+KAPITOLA X — Shrnutí
+================================================================================
+
+Klárčin erotický sen o Tomášovi a dceři Natálce. Noční krize — úzkost,
+sebepoškozování, modlitba k Bohu, pokus o sebevraždu vysunovacím nožem.
+Gumičky na zápěstí.
+
+--- DRHNOU ---
+
+51) „Zabila Toma, udělala z něj debilního kripla." / „Copak si tam ta líná
+    neschopná píča nemohla dojet sama?"
+    — Kap. X. Vulgarita je funkční (Klárčina sebedestrukce), ale
+    „neschopná píča" je příliš plakátové; Klárka je vzdělaná žena, její
+    sebeodmítání by mohlo být rafinovanější. DOPORUČENÍ: ponechat, ale
+    zvážit, zda „neschopná" + „líná" + „píča" není příliš naráz.
+
+--- NEPODSTATNÉ ---
+
+52) František Horvát (kap. X) — soused, který ji pozoruje z lodžie.
+    Zavedená postava, která se nikdy nevrátí. Scéna ukazuje, že Kláru
+    někdo vidí, ale funkčně nic nepřináší. DOPORUČENÍ: škrtnout, nebo
+    integrovat do kap. XI (soused jako svědek, který upozorní policii).
+
+53) Vzpomínka na stříhání nehtu s třískou (kap. X): „Jak si jako sedmiletá
+    vrazila třísku hluboko pod nehet…"
+    — Metafora sebepoškozování je funkční, ale přechod ke „špendlíkům pod
+    každý nehet" je příliš rozvláčný. DOPORUČENÍ: zkrátit na 3 věty.
+
+--- PŘÍLIŠNÝ DETAIL ---
+
+54) Dechová cvičení (kap. X): „Zhluboka se nadechla nosem, delší dobu dech
+    zadržovala a pak, co nejpomaleji to šlo, vypouštěla vzduch srdíčkem
+    vytvořeným mezi rty."
+    — Popis je anatomicky přesný, ale pro scénu úzkosti zbytečně technický.
+    DOPORUČENÍ: zkrátit.
+
+--- POZITIVNÍ POZNÁMKA ---
+
+55) Scéna s vysunovacím nožem a modlitba k Bohu (kap. X) je emocionálně
+    nejsilnější moment celé novely. „Čekala na impulz. Impulz, který
+    provede ten pohyb ruky…" — to je tematické jádro celého díla.
+    Bez změn. Výborné.
+
+
+================================================================================
+KAPITOLA XI — Shrnutí
+================================================================================
+
+Policista Jakub Švarc se vrací do služby po synově sebevraždě. Dostane
+nového kolegu — Martina Dostála. Případ pohřešované Kláry Vondruškové.
+Nalezení mrtvoly.
+
+--- DRHNOU ---
+
+56) Úvodní scéna s alkohol testerem (kap. XI) — vtipná, ale zabírá
+    7 replik kvůli jednomu vtipu (falešný výsledek 0,06). DOPORUČENÍ:
+    zkrátit na 4 repliky.
+
+57) Dialogová scéna Švarc–Kalousek o návratu do služby (kap. XI) —
+    důležitá (charakterizuje Švarce), ale 30+ replik je pro vedlejší
+    postavu příliš. DOPORUČENÍ: zkrátit o třetinu. Zachovat klíčové
+    informace: synova sebevražda, alkoholismus, nový kolega Martin.
+
+--- NEPODSTATNÉ ---
+
+58) Pasáž o paní Novotné (mrtvola v činžáku, Pardubicko, eidam skrz gril):
+    — Kap. XI. Švarcova první mrtvola je barvitě popsaná, ale jde
+    o backstory, který neslouží hlavní fabuli. DOPORUČENÍ: zkrátit na
+    3 věty (stačí naznačit, že Švarc je otrlý).
+
+59) Dialog s Monikou o čaji (kap. XI): „Mátový nemáme." — „Tak lipový."
+    — „Ten taky nemáme."
+    — Scéna je vtipná (kontrastuje banalitu s naléhavostí), ale
+    v kontextu detektivní urgence trochu zdržuje. DOPORUČENÍ: ponechat,
+    ale zkrátit o jednu repliku.
+
+60) Petrželková o duchovi Tomáše (kap. XI): „Já si myslím, že ve skutečnosti
+    neodešel. Že tam s ní žije dál, jako duch nebo anděl."
+    — Funkční — dává čtenáři alternativní čtení celého příběhu. Ponechat.
+
+--- PŘÍLIŠNÝ DETAIL ---
+
+61) Švarcova instruktáž o kopání do dveří (kap. XI): „Takhle blbě bys
+    nevykopl ani stoletý zrezivělý zámek… musíš mířit na futra, na rám.
+    Tam je dřevo…"
+    — Kap. XI. Detailní návod na vyražení dveří je vtipný (starý mazák učí
+    mladíka), ale tři věty by stačily. DOPORUČENÍ: zkrátit.
+
+
+================================================================================
+KAPITOLA XII — Shrnutí
+================================================================================
+
+Klára se probouzí — neví, jestli v klášteře, nemocnici nebo posmrtném
+životě. Garnier jako „Bůh". Cyklický návrat na začátek: Klára s nohama
+na stole, jogurt, cigarety, Tomáš v rohu.
+
+--- DRHNOU ---
+
+62) „Masivní gotické klenby kláštera se v tu chvíli začaly tiše smršťovat
+    a ztrácet ostrost. Kamenné sloupy bledly a měnily se v povědomou
+    texturu laciné tapety."
+    — Kap. XII. Přechod z kláštera do reality je krásný, ale mohl by být
+    ještě odvážnější — ztrácení ostrosti je poněkud konvenční.
+    DOPORUČENÍ: zvážit radikálnější řez (např. střih bez přechodu).
+
+--- POZITIVNÍ POZNÁMKA ---
+
+63) Dialog Klára–Garnier v kap. XII je nejlepší scéna v celé knize.
+    „Zabila jsem Toma?" — „Ano." — „Zabila jsem sebe?" — „Ano." —
+    „Žiju?" — „Ano." — Geniální. Bez změn.
+
+64) Závěrečná scéna (kap. XII): návrat na začátek (houska, jogurt, nohy
+    na stole, „da da da") je přesně správný. Cyklická struktura funguje
+    dokonale. Bez změn.
+
+
+================================================================================
+CELKOVÉ STRUKTURNÍ PŘIPOMÍNKY
+================================================================================
+
+A) TEMPO A DÉLKA KAPITOL
+
+   Kapitoly s největšími problémy s tempem:
+   — Kap. I: příliš dlouhá na úvodní kapitolu (~2500 slov). Čtenář ještě
+     neví, o čem příběh je, a je bombardován detaily. DOPORUČENÍ: zkrátit
+     o 20–30 %, hlavně odbočky (Lenka/Alenka, masový žralok, rasismus).
+   — Kap. IV: nejdelší kapitola. Tři esejistické bloky (kasty lidí,
+     dětství s psy, Cotardův syndrom) zpomalují narativ.
+   — Kap. V: přetížená — obsahuje Tomášovu schůzku s Garnierem, popis
+     kláštera, Tomášovu retrospektivu nehody a esej o pekle.
+   — Kap. VI: repetice pojistek je záměrná a efektní, ale třetí opakování
+     je příliš detailní. Klárčina polovina kapitoly je naopak vyvážená.
+   — Kap. VIII: nejkomplikovanější struktura (škola → bolest → policie →
+     koroner → Garnier → eutanazie). Příliš mnoho scén v jedné kapitole.
+   — Kap. XI: scéna se Švarcem je skvěle napsaná, ale je příliš dlouhá
+     na to, že jde o postavu zavedenou v předposlední kapitole.
+
+   Kapitoly s nejlepším tempem:
+   — Kap. IX: klášter + Anežka — hustá, dobře vystavěná.
+   — Kap. X: emocionálně nejsilnější. Bez zbytečností.
+   — Kap. XII: vynikající závěr.
+
+B) KONZISTENCE POSTAV
+
+   — Tomáš: V kap. I–III je pozorný, empatický, inteligentní. V kap. V
+     náhle začíná mluvit jako pasivní oběť. Přechod je příliš prudký.
+     DOPORUČENÍ: naznačit Tomášovu pasivitu už v kap. II (např. jak se
+     nechá Křivkou ponížit bez odporu).
+
+   — Klára: Velmi konzistentní postava. Jediná nesrovnalost: v kap. IV
+     je popsána jako žena, která „se neobtěžovala" říct diagnózu plantární
+     hyperémie Tomášovi — ale v kap. XII je vidět, že ji trápí neschopnost
+     komunikovat. Toto je spíš síla textu než chyba.
+
+   — Garnier: Záměrně nekonzistentní (je jiný pro Tomáše a pro Kláru).
+     Výborně funkční. V kap. XII nabývá mytických rozměrů. Nicméně jeho
+     sexismus („Na ženu docela bystrý úsudek") se v pozdějších kapitolách
+     nevyrovnává — buď ho posílit jako rys postavy, nebo škrtnout.
+
+   — Martin: Jako postava funguje skvěle — je stín, double, memento.
+     Ale jeho smrt (kap. IX) má malý emocionální dopad, protože ho čtenář
+     zná jen z kap. II (pár vět). DOPORUČENÍ: přidat jednu krátkou scénu
+     v kap. VI nebo VII, kde Martin promluví nebo je zachycen sám.
+
+C) DĚJOVÉ NITKY, KTERÉ NIKAM NEVEDOU
+
+   — Koucký a flotily: Opakovaně zmiňovaný problém (kap. II, III, V, VI),
+     ale nikdy se nevyřeší ani nepřeroste v nic. Slouží jen jako příklad
+     Tomášovy pracovní frustrace. To je v pořádku, ale čtenář očekává
+     pointu. DOPORUČENÍ: buď snížit důraz (méně opakování), nebo dát
+     Kouckému drobný dějový oblouk.
+
+   — Bratranec Matěj / Costa Brava (kap. I): viz bod 7.
+
+   — Muž v plášti z nemocnice (kap. VIII): viz bod 46.
+
+   — František Horvát, soused (kap. X): viz bod 52.
+
+   — Lenka/Alenka z Jihlavy (kap. I): viz bod 5.
+
+D) OPAKUJÍCÍ SE MOTIVY — CO FUNGUJE A CO NE
+
+   Funguje výborně:
+   — Rázostroj / Newtonova houpačka: skvělý symbol (determinismus, impulz,
+     předvídatelnost). Vrací se v kap. I, IV, VI, IX, XI, XII.
+   — Hliníková popelnice s umazaným víkem: funguje jako kotva reality.
+   — Tabatěrka s orlicí/svastikou: černý humor, Klárčin vzdor.
+   — Kozačky: symbol kontinuity, prošlapaný život.
+   — „Hnědý/žlutý úděl bytí": leitmotiv, funguje.
+   — Vnitřnosti / žlučník: groteskní symbol Tomášovy obsese s vlastním
+     rozkladem.
+
+   Funguje, ale je přetížené:
+   — „Co je peklo": 4–5 explicitních definic (kap. V, VI, IX, XI).
+     DOPORUČENÍ: zredukovat na 2.
+   — Garnierovy odbočky: fotbal, haggis, schodiště, recepty, knihovna.
+     Princip je jasný po dvou. DOPORUČENÍ: ponechat 2–3, zbytek zkrátit.
+   — Encyklopedické bloky (Vögtli, Cotard): viz body 17, 25.
+
+E) NARATIVNÍ STRUKTURA
+
+   Největší síla textu spočívá v perspektivním přepínání. Čtenář je nucen
+   neustále přehodnocovat, co je „pravda":
+   — Kap. I–III: Tomáš je mrtvý duch → ALE: Klárka ho vidí, mluví s ním
+     jako s nemocným.
+   — Kap. IV: Odhalení — Tomáš žije, ale má Cotardův syndrom.
+   — Kap. V: Zpět k Tomášově verzi — Klárka ho týrá.
+   — Kap. VIII: Klára odmítne podepsat eutanazii → rozhodne se starat.
+   — Kap. IX: Klášter jako sen / realita / metafora.
+   — Kap. X: Klárčin pokus o sebevraždu — emocionální vrchol.
+   — Kap. XI: Objektivní pohled (policie) — Klára je mrtvá.
+   — Kap. XII: Cyklus se uzavírá.
+
+   Tato struktura je brilantní. Hlavní strukturální problém je, že
+   kap. V je přetížená (snaží se obsáhnout příliš mnoho — Garniera,
+   klášter, retrospektivu nehody I peklo) a kap. XI přichází pozdě
+   s novou hlavní postavou (Švarc).
+
+F) CELKOVÉ DOPORUČENÍ
+
+   1. Zkrátit text o cca 15–20 %. Hlavní oblasti ke krácení:
+      — Esejistické bloky (kasty lidí, školství, svoboda, peklo)
+      — Encyklopedické pasáže (Vögtli, Cotard)
+      — Garnierovy odbočky (ponechat max. 2–3)
+      — Detailní výčty (pojistné parametry v kap. VI, popis ordinace)
+      — Opakovanou expozici (jezevčík, klášter)
+
+   2. Posílit Martinovu přítomnost před jeho smrtí (kap. IX).
+
+   3. Sjednotit „co je peklo" — ponechat 2 definice místo 4–5.
+
+   4. Zvážit rozdělení kap. V na dvě kapitoly.
+
+   5. Zvážit zkrácení kap. XI (Švarc) — jeho backstory je zajímavá,
+      ale pro postavu, kterou čtenář potká teprve v předposlední kapitole,
+      je příliš rozsáhlá.
+
+   6. NEMĚNIT: závěr (kap. XII), scénu s nožem (kap. X), dialog
+      Klára–Garnier v kap. XII, Martinovo hledání stromu (kap. IX),
+      cyklickou strukturu, dvojí čtení příběhu.
+
+================================================================================
+ZÁVĚR
+================================================================================
+
+„Impulz" je ambiciózní, strukturálně promyšlená novela s vynikajícím
+konceptem a několika výjimečnými scénami. Hlavní problém je nadváha textu
+— esejistické odbočky a repetitivní detaily zpomalují jinak silný příběh.
+Autor má dar pro dialog (zejména Garnier) a pro budování atmosféry
+(kap. X, XII), ale občas neodolá pokušení vysvětlovat, co by stačilo
+ukázat. Při zkrácení o ~15 % a posílení Martinovy linky má text potenciál
+být velmi silný.
+
+Nejsilnější aspekty díla:
+— Perspektivní přepínání (kdo je nemocný? kdo komu ubližuje?)
+— Cyklická struktura a závěrečná scéna
+— Postava Garniera (nespolehlivý, manipulativní, ambivalentní)
+— Scéna s impulzem (kap. X) — tematické jádro
+— Symbol rázostroje / Newtonovy houpačky
+
+Nejslabší aspekty:
+— Esejistické pasáže, které zastavují děj
+— Nedostatečně rozvinutý Martin před jeho smrtí
+— Opakované definice pekla
+— Příliš pozdní zavedení Švarce (kap. XI)
+
+================================================================================
+
+Moje postřehy:
+
+Kpaitola II
+
+- Úvaha mezi o flotile a Křivkovi, se vedle sebe nehodí, moc prukdý přechod
+- úvaha o pojišťovacích, ale zase moc náhlé, čtyři úvahy za sebou - poslendí možná moc dlouhá
+
+
+NÁPADY
+Další díl bude Atlas Slimáků - bezpříběhová próza v sueralistické Šumavě, rozebírající vnitnřní život postav z Impulzu, více prostoru pro postavy z minulého dílu
+
+NEMOCNiCE
+3. Díl bude v horovoé nemocnici, kde bude Garnier léčit neortodoxními metodami, dialýza prováděna kartáčem a čištěním krvinek, Chemoterapie vdechováním sava - čistý tělesný a sociální horor.
+ 

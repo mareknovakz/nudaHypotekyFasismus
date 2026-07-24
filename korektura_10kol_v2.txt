@@ -1,0 +1,533 @@
+KOREKTURA SBÍRKY „NUDA, HYPOTÉKY, FAŠISMUS“ — 10 KOL (BĚH 2 / V2)
+Zdroj: Blok.json (čteno jako utf-8-sig, 7 kapitol, 42 básní)
+Navazuje na: korektura_10kol.txt (předchozí desetikolová korektura, datum 2026-06-30)
+Toto kolo: nové, doplňkové úhly pohledu (sady témat 1-10 dle zadání), nezávislý průchod.
+Datum korektury: 2026-06-30
+
+================================================================================
+OVĚŘENÍ 6 FIXŮ Z PŘEDCHOZÍHO KOLA (programové ověření proti aktuálnímu Blok.json)
+================================================================================
+
+1. "krkovici" -> "krkavici" (Wine culture, sloka 5, verš 8)
+   OVĚŘENO: v JSON je "rozdrtí si krkavici". FIX PROBĚHL SPRÁVNĚ.
+
+2. "vádej se sousedy" -> "hádej se se sousedy" a "cokoli jiné" -> "cokoli jiného"
+   (Milovat život, sloka 4)
+   OVĚŘENO: v JSON je "hádej se se sousedy nebo cokoli jiného, co ti bude po chuti".
+   FIX PROBĚHL SPRÁVNĚ.
+
+3. "Můžou mi, pane obžalovaný, vysvětlit" -> "Můžete mi... vysvětlit" (Epilog)
+   OVĚŘENO: v JSON je text STÁLE NEZMĚNĚN: "Můžou mi, pane obžalovaný, vysvětlit,
+   proč najížděli na kolej s větším počtem lidí?"
+
+   >>> DŮLEŽITÉ ZJIŠTĚNÍ — REGRESE / FIX SE NEAPLIKOVAL <<<
+   Tento konkrétní fix z minulého kola NEBYL v aktuálním Blok.json proveden. Text
+   obsahuje stále původní vadný stav, a to dokonce s DVĚMA souvisejícími problémy
+   neshody čísla/osoby v jedné větě: "Můžou mi... vysvětlit" (3. os. mn. č. místo
+   zdvořilostního "Můžete") A NAVÍC "proč najížděli" (3. os. mn. č. slovesa
+   vztahující se k jedinému obžalovanému, který je oslovován v jednotném čísle
+   "pane obžalovaný" a o němž se v předchozí větě mluví v jednotném čísle:
+   "Obžalovaný vždy najížděl..."). Nález se tedy v tomto kole ZNOVU POTVRZUJE a
+   je zařazen do hlavního seznamu níže (viz nález č. 1), nyní s upřesněním obou
+   míst neshody. Neopravuji soubor, pouze hlásím dle zadání.
+
+4. Skrytý pozpátku psaný text v "Bodíky sbíráte?" (pokračovaňím -> pokračováním,
+   kážde -> každé)
+   OVĚŘENO programovým dekódováním celé sloky 3 pozpátku: text se nyní čte
+   "...je jen pokračováním každé ráno..." (slova "mínávočarkop" a "édžak" se
+   pozpátku čtou správně jako "pokračováním" a "každé"). FIX PROBĚHL SPRÁVNĚ.
+
+5. Sjednocení uvozovek v "Bodíky sbíráte?", sloka 5 (číslováno od 0 jako sloka 4)
+   OVĚŘENO programovou extrakcí znaků: všechny uvozovky v celé básni jsou nyní
+   typu „ (U+201E) a “ (U+201C), žádná anglická pravá uvozovka ” (U+201D) se již
+   nevyskytuje. FIX PROBĚHL SPRÁVNĚ. (Viz však níže nový nález č. 2 - jiný,
+   nesouvisející problém s uvozovkami v téže básni, který tento fix neřešil.)
+
+6. "A tam ji potkal" -> "A tam jsem ji potkal" (Moje vnitřní žena)
+   OVĚŘENO: v JSON je "A tam jsem ji potkal,". FIX PROBĚHL SPRÁVNĚ.
+
+SHRNUTÍ OVĚŘENÍ: 5 z 6 fixů proběhlo správně. Fix č. 3 (Můžou/Můžete v Epilogu)
+NEPROBĚHL a nález se vrací do hlavního seznamu (viz níže), nyní rozšířený o druhé
+místo neshody čísla ve stejné větě.
+
+================================================================================
+PRŮBĚH KOL — LOG DISKUZE (BĚH 2)
+================================================================================
+
+--------------------------------------------------------------------------------
+KOLO 1 — PŘEKLEPY A FONETICKY PODOBNÉ ZÁMĚNY (nezávisle, celý text)
+--------------------------------------------------------------------------------
+Programově jsem prošel všech 605 veršů/odstavců napříč 42 básněmi a hledal jsem
+ojedinělá slova, foneticky podezřelé shluky a překlepy. Vzhledem k bohaté a
+neotřelé slovní zásobě sbírky (1762 slov s frekvencí 1 a délkou nad 4 znaky) není
+čistě statistická detekce použitelná - spolehl jsem se na pečlivé čtení celého
+textu po kapitolách.
+
+Žádný nový čistý překlep (chybně napsané existující slovo) jsem nenašel. Nejprve
+jsem znovu ověřil status fixu č. 3 (viz sekce výše) - to NENÍ překlep, ale
+gramatická chyba shody, řeším podrobně v Kole 2.
+
+Všiml jsem si jedné formulace, kterou je třeba prověřit dál v Kole 4 (typografie/
+shoda): konec sloky 4 básně "Bodíky sbíráte?" - „...Tyrane!“ Holčička se
+rozplakala.“ - na úplném konci je zavírací uvozovka za větou, která už není
+přímou řečí. Vrátím se k tomu v Kole 4 (interpunkce/uvozovky), kde to ověřím
+programově párováním uvozovek.
+
+--------------------------------------------------------------------------------
+KOLO 2 — CHYBNÉ GRAMATICKÉ TVARY (skloňování, časování, shoda podmětu s přísudkem)
+--------------------------------------------------------------------------------
+Navazuji na Kolo 1: detailně rozebírám gramatickou neshodu z bodu "Důležité
+zjištění" výše.
+
+- POTVRZUJI (znovu, nezávisle) neshodu v Epilogu: "Obžalovaný vždy najížděl na
+  kolej s větším počtem osob. Můžou mi, pane obžalovaný, vysvětlit, proč
+  najížděli na kolej s větším počtem lidí?" V rámci dvou sousedních vět téhož
+  odstavce se sloveso vztahující se k JEDNOMU obžalovanému střídá mezi jednotným
+  číslem ("najížděl") a množným ("najížděli", "můžou"), ačkoli jde o tutéž osobu
+  oslovovanou v jednotném čísle ("pane obžalovaný"). Jde o dvojitou neshodu
+  shody v rámci jedné souvislé pasáže, ne jedna - obě části věty ("Můžou mi...
+  vysvětlit" i "proč najížděli") vyžadují opravu na jednotné číslo/2. osobu
+  zdvořilostní množné. Vysoká jistota - jde o stejný nález jako identifikovaný
+  v minulém běhu, ale tentokrát zahrnuji do navrhované opravy obě místa.
+
+- Skloňování vlastních jmen jsem znovu programově prověřil (Göhr/Göhrová/
+  Göhrových - 25 výskytů, Ašrana/Ašranu/Ašrany - 2 výskyty, Pan Pták/Ptáka/
+  Ptákovi - 16 výskytů): všechny tvary jsou pádově správné a konzistentní. Žádný
+  nový nález.
+
+- Prověřil jsem báseň "Wine culture", sloka 9, verš "otčímové, kteří nevlastní
+  děti / oslovují jménem, přestože je živí a / předstírají, že je mají rádi,
+  jako by byly jejich vlastní" - sloveso "byly" (množné, ž./s. rod) odkazuje na
+  "děti" (ona, množné) - gramaticky správně, žádný nález.
+
+- Prověřil jsem "Pardubický fénix" (reinkarnace stará paní Novotná -> novorozeně
+  -> stará panna -> kotelnice): všechna slovesa v ženském rodě jednotného čísla
+  jsou udržena konzistentně ("zrodila se", "zemřela", "prokapala se", "zůstala")
+  navzdory tomu, že se "stane" novorozenětem (rod střední) - gramaticky je to v
+  pořádku, protože podmětem zůstává po celou dobu "ona" (paní Novotná/duše).
+  Žádný nález, jde o záměrnou grotesku, ne chybu.
+
+- Nově: V básni "Žádost o zařazení do evidence zájemců o zaměstnání", sloka 1:
+  "Sreality dělají z lidí socialisty." - zkontroloval jsem shodu - "Sreality"
+  (název webu) + "dělají" (mn. č.) je gramaticky přijatelné (název interpretován
+  jako plurál), žádný nález.
+
+--------------------------------------------------------------------------------
+KOLO 3 — NEKONZISTENTNÍ/NEÚMYSLNÉ MÍCHÁNÍ SPISOVNÉ A NESPISOVNÉ ČEŠTINY
+--------------------------------------------------------------------------------
+Navazuji na Kola 1-2 (gramatické nálezy se netýkají rejstříku, ponechávám beze
+změny). Cílem tohoto kola bylo najít básně, kde se spisovná/nespisovná čeština
+mísí NEÚMYSLNĚ v rámci jedné promluvy/vypravěče, na rozdíl od záměrné stylizace
+(potvrzené už v minulém běhu u "Milovat život", "Svěcená voda s voctem", "Ten
+večer...").
+
+- Prověřil jsem báseň "Bodíky sbíráte?" (próza): celá vypravěčská linie je
+  spisovná, přímé řeči otce a holčičky jsou rovněž spisovné/knižní (dokonce
+  stylizovaně archaicky - "Tvůj nihilismus a předstíraná hereze je jen
+  projevem intelektuální lenosti") - to je zjevně ZÁMĚR (kontrast mezi
+  grotesktní situací v Tescu a vznosně formálním jazykem postav). Žádná
+  neúmyslná směs.
+
+- Prověřil jsem "Polykač chlebů": vypravěč mluví spisovně, citovaná řeč otce
+  k synovi je vědomě hovorová/vulgární ("Jako vrták ses narodil...", "Dělat
+  ucpávače?") - charakterizační kontrast, stejný typ jako u "Svěcená voda s
+  voctem". Potvrzuji jako ZÁMĚR.
+
+- Prověřil jsem "Václav Klaus jí špagety" a "Velká přestávka": obě důsledně
+  spisovné, žádné míchání rejstříků zde vůbec nenastává.
+
+- Prověřil jsem "Zákon džungle": spisovné vypravěčské pásmo i přímá řeč Erika
+  Švarce - žádný nález.
+
+- Žádnou NOVOU neúmyslnou směs spisovné/nespisovné češtiny jsem v tomto kole
+  nenašel - potvrzuji závěr minulého běhu, že rejstříkový kontrast v textu
+  funguje vždy záměrně a funkčně.
+
+--------------------------------------------------------------------------------
+KOLO 4 — INTERPUNKCE (čárky ve větách, uvozovky, pomlčky vs. spojovníky)
+--------------------------------------------------------------------------------
+Navazuji na Kolo 1 (avizovaný nález k ověření) a Kola 2-3 (beze změny).
+
+- POTVRZUJI A UPŘESŇUJI nový nález z Kola 1: programově jsem spočítal otevírací
+  (U+201E) a zavírací (U+201C) uvozovky v každé básni zvlášť. V celém souboru
+  vychází 41 otevíracích vůči 42 zavíracím - rozdíl je soustředěn výhradně
+  v jedné básni. V básni "Bodíky sbíráte?" je 11 otevíracích, ale 12 zavíracích
+  uvozovek - JEDNA UVOZOVKA NAVÍC. Lokalizace: sloka 4 (číslováno od 0) končí
+  takto: "...„A mám toho dost! Za trest nepůjdeš do školky, stejně tě to
+  naučili tam.“ „Tyrane!“ Holčička se rozplakala.“" - po uzavření repliky
+  "Tyrane!" následuje vypravěčská věta "Holčička se rozplakala." (NENÍ přímá
+  řeč), ale ihned za tečkou je navíc zavírací uvozovka, která nemá žádnou
+  otevírací protějšek a nic neuvozuje. Jde o jasnou, objektivně ověřitelnou
+  typografickou/interpunkční chybu. Vysoká jistota - jde o nový, nezávislý
+  nález oproti uvozovkové opravě v sloce 5 z minulého běhu (ta byla o typu
+  znaku, tato je o párování/počtu).
+
+- Ověřil jsem přímo otázku B z minulého běhu (Pohřeb Göhra, "na máry" /
+  "přiložila"): v TÉŽE básni jsem našel analogickou konstrukci o dva verše dál:
+  "Z dětství jí zůstal jen posttraumatický stres / a tajemství, které znají
+  všichni nemocní." - zde je enjambement BEZ interpunkce na konci verše, ALE SE
+  spojkou "a" uvozující pokračování. Naproti tomu ve verších "na máry /
+  přiložila" chybí jak čárka, TAK spojka - jde o prosté asyndetické řazení dvou
+  sloves se stejným podmětem. Srovnání v rámci téže básně mírně POSILUJE
+  podezření na chybějící čárku/spojku, ale nejde o jednoznačný důkaz -
+  ponechávám v otevřených otázkách, viz vyřešení otázky B níže.
+
+- Prověřil jsem dvojici uvozovek v "Epilogu" znovu, cíleně na otázku D (čárka
+  za uzavírací uvozovkou): „Obžalobo, ať přečtou znovu obvinění.“, „Mašinka
+  Tomáš je obviněn...". Srovnatelné konstrukce jinde v textu (zejména v
+  "Bodíky sbíráte?", kde se přímé řeči nejvíc střídají) ukazují jiný vzorec -
+  tam je mezi uzavírací a další otevírací uvozovkou vždy uvozující sloveso
+  ("zeptal jsem se", "odpověděl otec"), nikdy jen čárka. To znamená, že vzorec
+  "uvozovka + čárka + uvozovka" v Epilogu je v CELÉM SOUBORU OJEDINĚLÝ. To
+  zvyšuje podezření, že jde o chybu (chybějící uvozující text), ne o zavedenou
+  stylovou konvenci. Posouvám jistotu této otázky výš - viz vyřešení otázky D
+  níže.
+
+--------------------------------------------------------------------------------
+KOLO 5 — VELKÁ/MALÁ PÍSMENA (vlastní jména, začátky vět po dvojtečce, citáty)
+--------------------------------------------------------------------------------
+Navazuji na Kolo 4. Cíleně jsem ověřil otázku A (Tvrdilas).
+
+- Programově jsem prošel všechny dvojice po sobě jdoucích veršů v celé knize,
+  kde první verš končí čárkou a druhý začíná velkým písmenem (mimo případy
+  uvozené uvozovkou nebo spojkou "A"). Nalezl jsem pouze TŘI takové případy
+  v celé sbírce:
+    1) "Doma sleduje Netflix," / "Jacka Danielse zapíjí Kozlem," (Wine culture)
+       - zde jde o začátek nové, gramaticky uzavřené věty, čárka je tu jen
+       rytmická/básnická místo tečky - běžná básnická licence, ne chyba.
+    2) "Göhr nezemře na stáří, bídu," / "Starý Göhr zemře na syfilitidu."
+       (Podává se koliva) - opět dvě paralelní, kontrastní, samostatné věty
+       ("Göhr nezemře na X" / "Göhr zemře na Y"), čárka místo tečky je tu
+       typická básnická licence, ne chyba.
+    3) "když jsem ti řekl, že tě mám rád," / "Tvrdilas, že prý záleží jen na
+       tom, že jsme spolu." (Ten večer...) - TOTO JE OTÁZKA A. Na rozdíl od
+       bodů 1) a 2) zde "Tvrdilas..." NENÍ začátek nové nezávislé věty -
+       gramaticky navazuje na souvětí "Lilo, venku strašně lilo, / když jsem
+       ti řekl, že tě mám rád, Tvrdilas, že..." - čárka před "Tvrdilas" tedy
+       odděluje vedlejší větu časovou od hlavní věty, která pokračuje, a velké
+       písmeno uprostřed takového souvětí NEMÁ obdobu nikde jinde v knize.
+       Toto rozlišení (oproti bodům 1 a 2, kde šlo o nové věty) zpřesňuje a
+       POSILUJE nález A oproti minulému běhu - zde jde s vyšší pravděpodobností
+       o setrvačnost po starší verzi věty než o záměrný typografický důraz.
+       Vyřešení viz níže.
+
+- Vlastní jména znovu zkontrolována ("Otmar Freiherr von Verschuer" -
+  historická postava/narážka na nacistického "rasového vědce", psána správně s
+  "von" malým, jak je v němčině zvykem u predikátu šlechtického titulu - NENÍ
+  chyba, je to korektní transkripce reálného jména). Žádný nový nález.
+
+- Žádné další problémy s velkými/malými písmeny nenalezeny.
+
+--------------------------------------------------------------------------------
+KOLO 6 — VNITŘNÍ KONZISTENCE (jména postav, fakta, reálie, čísla/data)
+--------------------------------------------------------------------------------
+Navazuji na Kola 1-5 (žádný z dosavadních nálezů se netýká konzistence faktů).
+
+- Znovu programově ověřeno: jméno "Karel" se v souboru nevyskytuje ani jednou,
+  "Erik Švarc" je důsledný na všech 3 místech (Velká přestávka) + 1 místo
+  (Zákon džungle). Potvrzuji, že stav z minulého běhu trvá, žádná regrese.
+
+- Zkontroloval jsem všechna čísla a data v textu (35 let - Fíkus, 6. třída -
+  3:15, hvězdné datum 563 - Nuda hypotéky fašismus, 234/30/5 - planeta Google,
+  30 let hypotéky, 12 pater, KDL 5.4.3, sedm let - Anežka Göhrová v "Pohřeb
+  Göhra"). Žádná dvě čísla se netýkají téhož faktu napříč básněmi (každé patří
+  jiné samostatné básni/postavě), takže vnitřní rozpor čísel nelze zjistit -
+  všechna jsou interně konzistentní v rámci své vlastní básně. Žádný nález.
+
+- Anežka Göhrová: v "Lepkavost na podlaze infekčního oddělení" je popsána jako
+  "nejmladší z rodiny Göhrových", v "Pohřeb Göhra" jí je doslova "sedm let" -
+  obě tvrzení jsou vzájemně kompatibilní. Žádný rozpor.
+
+- "Pan Pták": prošel jsem znovu všechny 4 básně s touto postavou a její "milou"
+  na "ostrově kočárků" - gradace od "spí" až po explicitní "utopila se ve
+  vaně" (poslední báseň) je konzistentní gradací odhalení, ne rozpor. Potvrzuji
+  závěr minulého běhu.
+
+- Postava "Mirek Mrkvička" se objevuje ve třech kontextech (Ten večer...,
+  Nuda hypotéky fašismus, Definice) jako opakující se vedlejší postava/running
+  gag napříč různými básněmi - to je soudržné s charakterem sbírky, ne chyba.
+
+- "Tesco/Tescu/Tesca": skloňování opět zkontrolováno ve všech výskytech -
+  konzistentní. Žádný nález.
+
+ZÁVĚR KOLA 6: Žádné nové vnitřní nekonzistence faktů, jmen ani čísel nalezeny.
+Sbírka je v této kategorii čistá.
+
+--------------------------------------------------------------------------------
+KOLO 7 — SHODA RODU/ČÍSLA/OSOBY V RÁMCI JEDNÉ BÁSNĚ (typicky vypravěč)
+--------------------------------------------------------------------------------
+Navazuji na Kola 1-6, zejména na Kolo 2 (Epilog - shoda osoby/čísla).
+
+- Programově jsem prošel VŠECHNY básně a hledal jsem současný výskyt mužských
+  (-l jsem) a ženských (-la jsem) tvarů příčestí v rámci jedné básně, abych
+  zachytil případný rozpor rodu vypravěče. VÝSLEDEK: ŽÁDNÁ BÁSEŇ v aktuálním
+  Blok.json nevykazuje takový rozpor. To potvrzuje, že oprava rodu vypravěče
+  ve "Svěcená voda s voctem" (Musely -> Museli, zaznamenaná v minulém běhu)
+  zůstala stabilní a žádná nová podobná chyba nevznikla.
+
+- Cíleně jsem zkontroloval "Svatý Petr": báseň přechází mezi "jsme byli dětmi"
+  (1. os. mn. č., zahrnuje vypravěče a sourozence - "nás") a "jsem přinesl",
+  "jsem otce opustil" (1. os. j. č., jen vypravěč sám). To NENÍ rozpor - "my"
+  v úvodu odkazuje na vypravěče + sourozence společně ("otec... nemlátil nás"),
+  zatímco konkrétní vzpomínkové věty jsou v jednotném čísle za samotného
+  vypravěče. Logicky konzistentní, žádný nález.
+
+- Cíleně jsem zkontroloval "Fíkus" (relevantní pro otázku C): celá báseň je
+  vyprávěna důsledně v 1. osobě jednotného čísla mužského rodu (potvrzeno),
+  takže neexistuje rozpor ROD/ČÍSLO/OSOBA v užším slova smyslu - problém s
+  "učil mě hrát šachy" NENÍ shoda rodu/čísla, ale spíš sémantická
+  nekonzistence VALENCE/SMĚRU slovesa v rámci výčtu (patří spíš do Kola 8).
+  Přesouvám definitivní vyřešení do sekce otevřených otázek níže.
+
+- Znovu POTVRZUJI Epilog jako nejsilnější nález kategorie shody osoby/čísla v
+  celé sbírce (viz Kolo 2) - dvakrát nezávisle ověřeno v tomto běhu (Kolo 2 a
+  Kolo 7), navíc poprvé objevena DRUHÁ část neshody ("proč najížděli").
+
+--------------------------------------------------------------------------------
+KOLO 8 — SLOVOSLED, VALENCE SLOVES (pádové vazby), PŘEDLOŽKOVÉ VAZBY
+--------------------------------------------------------------------------------
+Navazuji na Kolo 7 (přesměrovaná otázka C).
+
+- Detailní rozbor "Fíkus", sloka 1 (číslováno od 0): "Ukazoval jsem mu známky a
+  záznamy z fotbalových utkání, učil mě hrát šachy, já jsem mu říkal, jak
+  používat internet, a v dospívání jsem se mu svěřoval s problémy." Větný
+  vzorec: [já] ukazoval jsem MU / [???] učil MĚ / [já] jsem MU říkal / [já]
+  jsem SE MU svěřoval. Tři ze čtyř členů výčtu mají podmět "já" a předmět
+  "otec" (mu/mu/se mu) - prostřední člen "učil mě" obrací oba členy. Z
+  hlediska valence i slovosledu je to nekonzistentní s bezprostředně
+  sousedícími členy výčtu, které mají identickou syntaktickou strukturu. Tato
+  strukturální analýza POSILUJE podezření na chybu (mělo by být "učil jsem ho
+  hrát šachy"). Na druhou stranu ironický výklad (mlčenlivý fíkus paradoxně
+  "učí" syna) zůstává myslitelný, protože celá báseň je založena na
+  grotesktní inverzi (otec-rostlina, který "manažeruje" fotosyntézu). Po
+  zvážení syntaktické pravidelnosti výčtu se přikláním mírně výše k chybě než
+  v minulém běhu, ale ponechávám jako otevřenou otázku se STŘEDNÍ jistotou -
+  viz vyřešení níže.
+
+- Zkontroloval jsem předložkové vazby v celém textu na běžné chyby (záměna
+  pádu po předložce). Žádnou takovou chybu jsem nenašel - všechny předložkové
+  vazby v textu jsou gramaticky správné.
+
+- Slovosled: prověřil jsem několik básní s neobvyklým slovosledem (poezie ho
+  hojně využívá jako stylistický prostředek - "Pravda je ve víně – Wine
+  culture", "Z kostí padlých pěstujeme nové kancly") - všechny působí jako
+  záměrná básnická inverze, ne chyba. Žádný nový nález.
+
+--------------------------------------------------------------------------------
+KOLO 9 — TYPOGRAFIE (mezery, uvozovky, tři tečky, spojovníky vs. pomlčky,
+dvojité mezery)
+--------------------------------------------------------------------------------
+Navazuji na Kolo 4 (uvozovky) a Kolo 5 (interpunkce u velkých písmen).
+
+- Programová kontrola dvojitých mezer v celém souboru: ŽÁDNÝ výskyt. Čisté.
+
+- Programová kontrola mezery před interpunkčním znaménkem: nalezeny pouze tři
+  falešné poplachy, všechny v básni "Bublifuková party" - jde o ÚMYSLNĚ
+  pozpátku napsané verše (např. ".ňesáb ínen elhoT" = "Tohle není báseň."
+  čteno pozpátku), takže "mezera před interpunkcí" je tam jen artefakt
+  zrcadlového zápisu skutečné věty - není to chyba.
+
+- Apostrof v IPA přepisu (Definice/Varemýsa) znovu ověřen - "/va.re'mi.sa/" a
+  "/'li.sa/" používají stejný rovný ASCII apostrof konzistentně. Žádný nález,
+  potvrzeno jako v minulém běhu.
+
+- Pomlčky vs. spojovníky: znovu zkontrolováno v celém souboru, vzorec je
+  shodný s minulým během (krátký spojovník jen ve složeninách, dlouhá pomlčka
+  "–" jako oddělovač vět/apozic) - žádná nekonzistence.
+
+- POTVRZUJI A DOPLŇUJI nález z Kola 4 (přebytečná uvozovka v "Bodíky sbíráte?",
+  sloka 4): z hlediska čistě typografického/formálního je to JEDINÝ případ v
+  celé knize, kde se počet otevíracích a zavíracích uvozovek v jedné básni
+  neshoduje (ověřeno programově pro všech 42 básní). Vysoká jistota.
+
+- Tři tečky (elipsa U+2026): potvrzen konzistentní jediný výskyt znaku v obou
+  dříve identifikovaných místech (Svěcená voda s voctem, Ten večer...). Žádný
+  nový nález, žádná chyba (ASCII "..." se v textu vůbec nevyskytuje).
+
+--------------------------------------------------------------------------------
+KOLO 10 — ZÁVĚREČNÁ SYNTÉZA (TOHOTO běhu i porovnání s během minulým)
+--------------------------------------------------------------------------------
+Procházím všech 9 předchozích kol tohoto běhu a srovnávám s výsledky běhu
+minulého (korektura_10kol.txt), abych rozhodl, co jde do finálního seznamu.
+
+POTVRZENÉ NOVÉ CHYBY (vysoká jistota, zahrnuty do finálního seznamu):
+1. Epilog - REGRESE: fix "Můžou -> Můžete" se neaplikoval, navíc nově
+   doplněna druhá část neshody ("proč najížděli"). Potvrzeno nezávisle v
+   Kolech 1, 2, 7 tohoto běhu plus prvotní ověření na začátku dokumentu.
+2. Přebytečná zavírací uvozovka na konci sloky 4 v "Bodíky sbíráte?" -
+   potvrzeno programovým párováním uvozovek (Kolo 1, 4, 9) - objektivně
+   ověřitelná chyba, nesouvisí s fixem č. 5 z minulého běhu (ten řešil JINÝ
+   typ uvozovky ve sloce 5).
+
+VYŘEŠENÍ OTEVŘENÝCH OTÁZEK A-D Z MINULÉHO BĚHU (viz samostatná sekce níže pro
+plné zdůvodnění):
+A) "Tvrdilas" - jistota zvýšena po srovnávací analýze, PONECHÁNO jako otevřená
+   otázka (ne přesunuto do jistého seznamu).
+B) "na máry" / "přiložila" - PONECHÁNO jako otevřená otázka, jistota mírně
+   zvýšena po srovnání s analogickým místem v téže básni.
+C) "učil mě hrát šachy" - PONECHÁNO jako otevřená otázka, jistota zvýšena na
+   STŘEDNÍ po strukturální analýze valence, ale stále ne dost vysoká.
+D) Čárka po uzavírací uvozovce v Epilogu - jistota zvýšena po zjištění, že
+   tento interpunkční vzorec je v CELÉ KNIZE OJEDINĚLÝ - PONECHÁNO jako
+   otevřená otázka, ale s vyšší jistotou, kvůli alternativní žánrové
+   interpretaci (jediná báseň ve formě soudního protokolu v celé knize).
+
+CELKOVÉ HODNOCENÍ BĚHU 2:
+Tento běh potvrdil, že drtivá většina textu zůstává po jazykové stránce čistá.
+Nejdůležitějším zjištěním je REGRESE u fixu č. 3 z minulého kola (Epilog),
+která nebyla aplikována do Blok.json, ač byla v minulé korektuře označena jako
+hotová - to je nutné nahlásit explicitně (viz sekce na začátku dokumentu).
+Druhým významným nálezem je objektivně ověřitelná typografická chyba
+(přebytečná uvozovka) v "Bodíky sbíráte?", kterou minulý běh nezachytil, protože
+se soustředil na JINÝ typ uvozovkové chyby ve stejné básni. Dvě ze čtyř
+otevřených otázek (A, D) byly v tomto kole posíleny směrem k pravděpodobné
+chybě po hlubší strukturální/srovnávací analýze, ale ani jedna nedosáhla
+dostatečné jistoty pro definitivní přesun do hlavního seznamu - ponechávám je
+jako otevřené s upřesněným zdůvodněním. Otázky B a C zůstávají v obdobném stavu
+jistoty jako v minulém běhu, jen mírně/středně posíleny.
+
+================================================================================
+VYŘEŠENÍ OTEVŘENÝCH OTÁZEK A-D Z MINULÉHO BĚHU
+================================================================================
+
+A) "Tvrdilas" - velké písmeno uprostřed souvětí (Ten večer..., sloka 2)
+   VÝSLEDEK: ZAMÍTNUTO jako jistá chyba, PONECHÁNO jako otevřená otázka.
+   Zdůvodnění: Programové srovnání všech tří podobných míst v knize (Kolo 5)
+   ukázalo, že na rozdíl od dvou jiných podobných případů (Wine culture,
+   Podává se koliva), kde velké písmeno po čárce uvozuje skutečně NOVOU větu
+   (tedy čárka je tam "měkčí tečka", běžná básnická licence), v "Tvrdilas" jde
+   o velké písmeno UPROSTŘED jednoho gramatického souvětí, což je v celé
+   knize ojedinělé a strukturálně odlišné od ostatních dvou míst. To zvyšuje
+   pravděpodobnost chyby. Nicméně vzhledem k tomu, že jde o verš uvozující
+   přímou citaci milenčiných slov (i bez uvozovek - je stylisticky odlišený
+   velkým písmenem jako jakýsi "citát v citátu"), nelze záměr s jistotou
+   vyloučit ani nyní. Jistota zůstává střední, ne vysoká - ponecháno jako
+   otevřená otázka.
+
+B) Chybějící čárka/spojka "na máry" / "přiložila" (Pohřeb Göhra, sloka 1)
+   VÝSLEDEK: ZAMÍTNUTO jako jistá chyba, PONECHÁNO jako otevřená otázka.
+   Zdůvodnění: Nově nalezené srovnání v TÉŽE básni (Kolo 4) - "Z dětství jí
+   zůstal jen posttraumatický stres / a tajemství, které znají všichni
+   nemocní." - ukazuje, že autor v této básni JINDE řeší obdobné pokračování
+   věty přes hranici verše pomocí spojky "a", nikoli čárky bez spojky. To je
+   mírný argument PRO chybu (autor preferuje explicitní spojku, "na máry /
+   přiložila" je bez ní výjimkou). Na druhou stranu jde o jediný přímý
+   protipříklad v krátké básni o 8 verších, což je statisticky málo na jisté
+   rozhodnutí, a chybějící spojka/čárka mezi dvěma slovesy se stejným
+   podmětem ("položila... přiložila...") je i v běžné próze tolerovaná
+   konstrukce. Jistota zůstává střední, ponecháno jako otevřená otázka.
+
+C) "učil mě hrát šachy" možná měla být "učil jsem ho hrát šachy" (Fíkus)
+   VÝSLEDEK: ZAMÍTNUTO jako jistá chyba, PONECHÁNO jako otevřená otázka (s
+   mírně zvýšenou jistotou).
+   Zdůvodnění: Strukturální rozbor v Kole 8 ukázal, že syntaktický vzorec
+   výčtu (já-sloveso-otec) je porušen pouze u tohoto jednoho členu ze čtyř,
+   což je z hlediska pravidelnosti výčtu nápadné a posiluje podezření na
+   přehozený tvar/pád. Nicméně ironický výklad (otec-fíkus mlčky "učí" syna
+   tím, že je k ničemu - paradoxní pointa typická pro celou absurdní báseň o
+   otci-rostlině) zůstává plausibilní a nelze ho vyloučit jako záměr. Jistota
+   zvýšena ze "nízká až střední" na "střední", ale nedosahuje vysoké jistoty
+   potřebné pro hlavní seznam.
+
+D) Čárka po uzavírací uvozovce v soudním protokolu (Každý je vinný jen tak,
+   jak se sám cítí, sloka 1)
+   VÝSLEDEK: POSÍLENO směrem k pravděpodobné chybě, ale PONECHÁNO jako
+   otevřená otázka (ne definitivně potvrzeno do hlavního seznamu).
+   Zdůvodnění: Programové srovnání se všemi ostatními místy v knize, kde se
+   přímé řeči různých mluvčích bezprostředně stýkají (zejména v "Bodíky
+   sbíráte?", kde jde o nejbohatší dialogickou pasáž v celé sbírce), ukázalo,
+   že vzorec "uzavírací uvozovka + ČÁRKA + otevírací uvozovka BEZ uvozujícího
+   slovesa" se v CELÉ KNIZE vyskytuje JEN na tomto jediném místě. Všude jinde
+   autor mezi sousedícími replikami buď vkládá uvozující sloveso ("zeptal
+   jsem se", "odpověděl otec"), nebo žádnou interpunkci nevkládá vůbec. To je
+   silnější argument pro chybu, než jaký byl k dispozici v minulém běhu.
+   Nicméně samotný žánr "soudní protokol/citace obžaloby" v Epilogu je v
+   celé knize také ojedinělý (jediná báseň ve formě soudního zápisu), takže
+   nelze vyloučit, že jde o žánrově podmíněnou, vědomě úspornou citaci (citace
+   v citaci - "ať přečtou znovu obvinění", po níž rovnou následuje citovaný
+   text obvinění samotného, uvedený jen čárkou jako u přístavku). Vzhledem k
+   této alternativní žánrové interpretaci ponechávám jako otevřenou otázku,
+   nyní se zvýšenou jistotou (ze "nízká" na "střední").
+
+================================================================================
+FINÁLNÍ KONSOLIDOVANÝ SEZNAM NOVĚ NAVRŽENÝCH OPRAV (NÁVRH - NIC NENÍ APLIKOVÁNO)
+================================================================================
+
+1) KAPITOLA: Epilog | BÁSEŇ: Každý je vinný jen tak, jak se sám cítí | sloka 1
+   (znovu potvrzený a rozšířený nález - REGRESE oproti minulému kolu, viz
+   úvodní sekce ověření fixů)
+   Původní text: „...Obžalovaný vždy najížděl na kolej s větším počtem osob.
+   Můžou mi, pane obžalovaný, vysvětlit, proč najížděli na kolej s větším
+   počtem lidí?“
+   Navrhovaná oprava: „...Obžalovaný vždy najížděl na kolej s větším počtem
+   osob. Můžete mi, pane obžalovaný, vysvětlit, proč jste najížděl na kolej s
+   větším počtem lidí?“
+   Zdůvodnění: Obžalovaný (Mašinka Tomáš) je v celé pasáži oslovován a popisován
+   v jednotném čísle ("pane obžalovaný", "Obžalovaný vždy najížděl"), ale
+   sloveso v otázce prokurátora/soudu přechází do 3. osoby množného čísla
+   ("Můžou", "najížděli") namísto zdvořilostní/správné 2. osoby množného čísla
+   vykání ("Můžete", "jste najížděl"). Jde o dvojitou neshodu osoby/čísla v
+   rámci jedné repliky formálního soudního textu, kde je taková nesrovnalost
+   obzvlášť nápadná. POZOR: tento nález byl už identifikován a navržen k
+   opravě v PŘEDCHOZÍM kole (korektura_10kol.txt), ale oprava se podle
+   aktuálního stavu Blok.json NEAPLIKOVALA - jde tedy o opakované doporučení,
+   nyní rozšířené o druhé místo neshody ("najížděli" -> "jste najížděl"),
+   které minulé kolo nezahrnulo do navrhovaného znění opravy.
+   Jistota: vysoká
+
+2) KAPITOLA: Povídky z předměstí | BÁSEŇ: Bodíky sbíráte? | sloka 4 (číslováno
+   od 0; pátá sloka básně)
+   Původní text: „...„A mám toho dost! Za trest nepůjdeš do školky, stejně tě
+   to naučili tam.“ „Tyrane!“ Holčička se rozplakala.“"
+   Navrhovaná oprava: „...„A mám toho dost! Za trest nepůjdeš do školky, stejně
+   tě to naučili tam.“ „Tyrane!“ Holčička se rozplakala." (odstranit poslední,
+   přebytečnou zavírací uvozovku za tečkou)
+   Zdůvodnění: Programová kontrola párování otevíracích a zavíracích uvozovek
+   prokázala, že tato báseň je JEDINÁ v celé knize, kde se počet otevíracích a
+   zavíracích uvozovek neshoduje (11 otevíracích vs. 12 zavíracích). Přesná
+   lokalizace ukázala, že po uzavření poslední repliky "Tyrane!" následuje
+   vypravěčská věta "Holčička se rozplakala." (nikoli přímá řeč), za jejíž
+   tečkou je navíc nadbytečná zavírací uvozovka bez odpovídajícího otevíracího
+   protějšku. Jde o objektivně ověřitelnou typografickou chybu, odlišnou od
+   fixu uvozovek (typ znaku) v téže básni z minulého kola, který tento problém
+   (počet/párování) neřešil.
+   Jistota: vysoká
+
+================================================================================
+NOVÉ OTEVŘENÉ OTÁZKY S NÍZKOU/STŘEDNÍ JISTOTOU
+================================================================================
+
+Žádné zcela NOVÉ otevřené otázky (nad rámec přehodnocených A-D z minulého běhu)
+nevznikly. Všechny čtyři otázky A-D byly v tomto kole znovu posouzeny (viz
+sekce "Vyřešení otevřených otázek A-D" výše) a žádná z nich nedosáhla jistoty
+potřebné pro přesun do hlavního seznamu - všechny zůstávají otevřené, byť u
+otázek A a D byla jistota mírně zvýšena oproti minulému běhu po hlubších
+srovnávacích analýzách v rámci celé knihy.
+
+Pro úplnost shrnuji jejich aktuální stav (beze změny ve znění samotné otázky,
+jen v míře jistoty):
+A) "Tvrdilas" - velké písmeno uprostřed souvětí - jistota: střední (zvýšeno)
+B) "na máry" / "přiložila" - chybějící čárka/spojka - jistota: střední
+C) "učil mě hrát šachy" - možný přehozený tvar - jistota: střední (zvýšeno)
+D) čárka po uzavírací uvozovce v Epilogu - jistota: střední (zvýšeno)
+
+================================================================================
+SHRNUTÍ
+================================================================================
+Ověřeno 6 fixů z minulého běhu: 5 proběhlo správně, 1 NEPROBĚHL (REGRESE -
+Epilog "Můžou"/"Můžete") a je nahlášen i znovu zahrnut do návrhu.
+
+Nově navržených oprav v hlavním seznamu (vysoká jistota): 2
+  1. Epilog - neshoda osoby/čísla (opakované doporučení + rozšíření)
+  2. Bodíky sbíráte? - přebytečná zavírací uvozovka (nový, nezávislý nález)
+
+Otevřených otázek: 4 (všechny zděděné z minulého běhu, žádná nová), z toho u
+2 (A a D) byla jistota v tomto kole zvýšena na základě nových srovnávacích
+zjištění, ale žádná nedosáhla prahu pro přesun do hlavního seznamu.
+
+Nejzávažnější zjištění tohoto běhu: REGRESE u fixu č. 3 z minulého kola
+(Epilog) - oprava byla v minulé korektuře navržena a označena jako mající
+proběhnout, ale v aktuálním Blok.json k ní nedošlo.
+
+Připomínka: TOTO JE POUZE NÁVRH. Blok.json nebyl tímto kolem korektury nijak
+upraven.

@@ -1,0 +1,240 @@
+KOREKTURA SBÍRKY „NUDA, HYPOTÉKY, FAŠISMUS"
+Mirek Mrkvička – produkční text (Blok_production_text.txt)
+Korektor: třífázová kontrola (pravopis / gramatika a interpunkce / registr a konzistence)
+Datum: 2026-06-30
+
+Metodika: Text byl porovnán se strukturovaným zdrojem Blok.json (kapitoly → básně →
+sloky), aby bylo možné odlišit skutečné chyby v produkčním textu od artefaktů extrakce
+PDF a od záměrných stylistických/dialektových voleb (hovorová a vulgární čeština jsou
+v této sbírce záměrným uměleckým prostředkem a nejsou opravovány).
+
+================================================================
+KOLO 1 – PRAVOPIS A PŘEKLEPY
+================================================================
+
+1. „himálajští mudrci"
+   Báseň: Lepkavost na podlaze infekčního oddělení
+   Chyba: přesmyčka hlásek – správně má být „himalájští" (od slova Himálaj/Himaláje –
+   přípona -ájský, ne -álajský). Zdrojový Blok.json má správně „himalájští mudrci".
+   Oprava: himálajští → himalájští
+
+2. Reverzní (pozpátku psaný) text v básni „Bodíky sbíráte?"
+   Pasáž: „...míňavočarkop nej ej onár édžak..."
+   Po přečtení pozpátku dá tento úsek „...je jen pokračovaňím každé ráno..." – správně by
+   mělo být „pokračováním" (s -áním, ne -aňím). Forma „míňavočarkop" tedy obsahuje
+   záměnu hlásky. Tato chyba je přítomna shodně v produkčním textu i v Blok.json
+   (tedy nejde o artefakt PDF extrakce, ale o reálnou chybu v šifrovaném textu).
+   Vzhledem k tomu, že jde o okrajový textový hříčkový prvek (čteno pozpátku), jde
+   o nízkou prioritu, ale technicky vzato o skutečný překlep.
+   Pozn.: Ostatní části tohoto pozpátku psaného úseku jsou v produkčním textu ve
+   skutečnosti OPRAVENÉ oproti Blok.json (např. „onár édžak" → „každé ráno" čte se
+   správně, zatímco verze v Blok.json „onár edžák" by se přečetla chybně jako
+   „kážde ráno"). Produkční text je zde tedy celkově pečlivější než zdrojový JSON.
+
+Žádné další jednoznačné překlepy nebyly v Kole 1 nalezeny. Text je po stránce
+prostého pravopisu velmi čistý – ojedinělé zdánlivé „chyby" (např. slovo „krkavici"
+v básni Wine culture) se po ověření ukázaly jako SPRÁVNĚ – „krkavice" je krční tepna
+a v daném kontextu (zranění při cvičení) dává smysl; zdrojový Blok.json má naopak
+chybné „krkovici" (vepřová krkovice), které bylo v produkčním textu již opraveno.
+
+================================================================
+KOLO 2 – GRAMATIKA A INTERPUNKCE
+================================================================
+
+1. Báseň: Wine culture, sloka 11 (refrén „Pátrání po smyslu života...")
+   Produkční text: „Pátrání po smyslu života. Pravda je ve víně Wine culture."
+   Zdroj (Blok.json): „Pátrání po smyslu života: / Pravda je ve víně – Wine culture."
+   Problém: V produkčním textu chybí jak dvojtečka po „života", tak pomlčka před
+   „Wine culture". Bez pomlčky věta „Pravda je ve víně Wine culture" gramaticky
+   nedává smysl (čte se jako by „víně" bylo přívlastkem k „Wine culture" bez spojení).
+   Pointa slovní hříčky (víně – Wine /vajn/) se tím ztrácí.
+   Doporučená oprava: „Pátrání po smyslu života: Pravda je ve víně – Wine culture."
+
+2. Báseň: Pan Pták si vzal sick day
+   Produkční text obsahuje stejný refrén dvakrát s nekonzistentní interpunkcí:
+   - „...myslel, že má kameny. Pod nánosy hlíny, Ptákova matka spí." (S ČÁRKOU)
+   - „...Většinou nejsou zhoubné. Pod nánosy hlíny Ptákova matka spí." (BEZ ČÁRKY)
+   Jde o tentýž opakující se verš (refrén), který by měl být zapsán konzistentně.
+   Zdroj Blok.json nemá čárku ani v jednom případě (jde o samostatné verše).
+   Doporučení: sjednotit – buď čárku v obou výskytech vynechat, nebo v obou přidat
+   (doporučuji vynechat, je gramaticky čistší – „Pod nánosy hlíny" je příslovečné
+   určení místa bez nutnosti oddělení čárkou).
+
+3. Báseň: Wine culture, sloka 11
+   Produkční text: „...a ztraceného mládí už se nevrátí. mírně opilé matky neschopné
+   již čehokoliv litovat..."
+   Problém: Po tečce za „nevrátí" následuje malé písmeno „mírně" – chybí velké
+   písmeno na začátku věty, NEBO (pravděpodobnější, viz zdroj) je tečka navíc a měla
+   by tam být čárka, protože jde v Blok.json o jedno souvětí s výčtem typů postav
+   oddělených čárkami: „...litující svých hypoték a promarněného mládí, mírně opilé
+   matky neschopné již čehokoliv litovat, otčímové, kteří..." – jde o jednu dlouhou
+   souřadně spojenou výčtovou větu, ne several samostatné věty.
+   Doporučená oprava: nahradit tečku čárkou: „...mládí už se nevrátí, mírně opilé
+   matky neschopné..." (a sjednotit s zbytkem výčtu).
+
+4. Báseň: Dort, který jíme, když někdo umře, sloka 2
+   Produkční text: „Infikované mléko pijeme, a pijem a nepijem, jen když se
+   nadechujem."
+   Problém: čárka před „a pijem" je zde navíc – spojuje stejnopodmětná slovesa
+   v řadě bez nutnosti čárky („pijeme a pijem a nepijem" tvoří jeden gradovaný
+   trojčlenný výčet). Zdroj Blok.json čárku na tomto místě nemá.
+   Doporučená oprava: „Infikované mléko pijeme a pijem a nepijem, jen když se
+   nadechujem."
+
+5. Báseň: Ten večer, když jsem ti přiznal, že jsem s tebou nikdy nechtěl být.,
+   sloka 2
+   Produkční text: „...když jsem ti řekl, že tě mám rád, Tvrdilas, že prý záleží jen
+   na tom, že jsme spolu."
+   Problém: čárka před větou začínající velkým písmenem „Tvrdilas" – jde zjevně
+   o spojení dvou samostatných vět (čárkový spoj/„comma splice"). Měla by tam být
+   tečka, ne čárka: „...že tě mám rád. Tvrdilas, že prý záleží jen na tom, že jsme
+   spolu." Příčinou je pravděpodobně to, že ve zdrojovém Blok.json jde o samostatné
+   verše básně, které byly v produkčním PDF slity do plynulého textu bez úpravy
+   interpunkce.
+
+6. Tamtéž, sloka 3
+   Produkční text: „...zlaté pravidlo korporátu: kdo nic nedělá, nic nezkazí. od dob
+   Adama a Evy jsme se konečně poučili."
+   Problém: po tečce následuje malé písmeno „od" – chybí velké písmeno na začátku
+   věty „Od dob Adama a Evy...". Stejně jako výše jde patrně o důsledek sloučení
+   veršů do prózy bez úpravy velkých písmen.
+   Oprava: od dob → Od dob
+
+7. Báseň: Pohřeb Göhra
+   Produkční text: „Anežka Göhrová ještě toho dne položila svého oblíbeného
+   medvídka na máry přiložila dvě eura na jeho oči."
+   Problém: chybí čárka (případně spojka) mezi „na máry" a „přiložila" – jde o dvě
+   souřadné věty se stejným podmětem, mezi nimiž čtenář očekává oddělovací čárku.
+   Doporučená oprava: „...položila svého oblíbeného medvídka na máry, přiložila
+   dvě eura na jeho oči."
+
+8. Báseň: Svěcená voda s voctem
+   Produkční text: „Nedávno jsem obhájil disertační práci na téma Vliv
+   tradicionalistických vzorců chování na výchovu dětí. Její hodnocení..."
+   Problém: zdroj Blok.json má název disertace v uvozovkách s dvojtečkou před ním:
+   „...na téma: „Vliv tradicionalistických vzorců chování na výchovu dětí“. Její
+   hodnocení..." V produkčním textu uvozovky i dvojtečka chybí, název práce tak
+   splývá s okolním textem a čtenář nepozná, kde název začíná a končí.
+   Doporučená oprava: doplnit dvojtečku a uvozovky kolem názvu práce.
+
+9. Kolofon (tiráž), str. 96 (řádek s adresou tiskárny)
+   „Tisk: expresta Obchodno-výstavný objekt B, Devínska Nová Ves 7465, 841 07
+   Bratislava - mestská časť Devínska Nová Ves"
+   Problém: zde je použita krátká spojovací pomlčka „-" namísto delší pomlčky „–",
+   která je důsledně používána všude jinde v textu (srov. „Školní přestávka – čas
+   a prostor", „blbej, chudej – a ty imaginární" apod.). Jde o adresní údaj
+   (typicky v slovenském formátu), takže to nemusí vadit, ale pro důslednost
+   typografie sbírky to uvádím.
+   Nízká priorita / kosmetická poznámka.
+
+10. Báseň: Definice (Varemýsa) – fonetický přepis
+    „/va.re'mi.sa/" používá pravý jednoduchý uvozovkový znak (’, U+2019) jako
+    značku přízvuku, zatímco o řádek níž „/‚li.sa/" používá jiný znak – dolní
+    jednoduchou uvozovku (‚, U+201A). Zdroj Blok.json má na obou místech stejný
+    rovný apostrof ('). Produkční sazba tedy zavedla nekonzistentní typografické
+    znaky pro tutéž funkci (značka slovního přízvuku). Žádný z těchto znaků ostatně
+    není standardní IPA značka přízvuku (ˈ, U+02C8), ale to už je otázka sazby/fontu,
+    nikoli korektury textu.
+    Nízká priorita / kosmetická poznámka.
+
+================================================================
+KOLO 3 – REGISTR A KONZISTENCE
+================================================================
+
+1. JMÉNO POSTAVY: Erik Švarrc / Karel – NEZÁMĚRNÁ NESROVNALOST, DOPORUČUJI OPRAVIT
+   Báseň: Velká přestávka
+   Text zavádí postavu jako „jedničkář Erik Švarrc" a v následující větě opět
+   „Erik Švarrc je samotář..." – ale ve třetí větě náhle přechází na jméno „Karel":
+   „Borci ze zadních lavic s Karlem hrají bezva hry. [...] Karel nerad chodí do
+   školy."
+   Zdrojový Blok.json používá důsledně jméno „Erik" po celý text básně (žádné
+   „Karel" se v JSON vůbec nevyskytuje). Jméno „Erik Švarrc" se navíc objevuje
+   ještě jednou v jiné básni sbírky („Zákon džungle": „Juniorní tester Erik
+   Švarrc..."), což further potvrzuje, že jde o ustálené jméno postavy v rámci
+   sbírky. Přechod na „Karel" v polovině básně „Velká přestávka" působí jako
+   přehlédnutý pozůstatek staršího znění textu (autor patrně postavu
+   přejmenoval, ale dvě výskyty jména opomněl upravit).
+   HODNOCENÍ: Jde o nezáměrnou chybu, ne o stylistickou volbu – doporučuji
+   sjednotit na „Erik" (případně „Erik Švarrc") na obou místech, kde se nyní
+   objevuje „Karel".
+
+2. RODOVÁ NEKONZISTENCE VYPRAVĚČE: „Musely" vs. „obhájil" –
+   NEZÁMĚRNÁ NESROVNALOST, DOPORUČUJI OPRAVIT
+   Báseň: Svěcená voda s voctem
+   V jedné krátké próze se vypravěč/vypravěčka gramaticky střídavě označuje jako
+   žena a muž:
+   - „...tak jako se to v šesti letech stalo mně, odnesli dědci dítě s sebou na
+     noc do knajpy. Musely jsme sedět potichu vedle na lavičce..." (ŽENSKÝ rod
+     množného čísla – „musely")
+   - O několik vět dál: „Nedávno jsem obhájil disertační práci..." (MUŽSKÝ rod
+     jednotného čísla – „obhájil")
+   Zdrojový Blok.json má na prvním místě „Museli" (obecný/mužský tvar), což
+   nekoliduje s pozdějším „obhájil". Produkční text změnil pouze první tvar na
+   ženský rod („Musely"), čímž vznikl rozpor: stejný vypravěč je nejprve
+   gramaticky žena, později muž.
+   HODNOCENÍ: Toto NENÍ konzistentní se zbytkem textu ani nijak významo-tvorné
+   (na rozdíl od bodu 3 níže) – působí jako neúmyslná chyba/přehlédnutí při
+   úpravě textu. Doporučuji opravit „Musely" → „Museli", aby vypravěč zůstal
+   gramaticky konzistentní v rámci jedné básně.
+
+3. ROD VYPRAVĚČKY V BÁSNI „ANEMOIA" – PRAVDĚPODOBNĚ ZÁMĚRNÉ, JEN PRO INFORMACI
+   Produkční text: „Jako děti jsme bydlely na sídlišti [...] a cestovaly po
+   planetách..." (ženský rod množného čísla u OBOU sloves).
+   Zdroj Blok.json: „Jako děti jsme bydleli [...] a cestovali..." (obecný/mužský
+   tvar u obou sloves).
+   Na rozdíl od bodu 2 výše je zde změna provedena konzistentně u obou sloves
+   v rámci celé (krátké) básně a nikde dál v básni se rod vypravěče nepřeklápí
+   zpět na mužský. Působí to jako záměrná autorská/redakční úprava, která
+   explicitně ukotvuje vypravěčku jako dívku/ženu vzpomínající na dětství.
+   HODNOCENÍ: Pravděpodobně ZÁMĚRNÉ – nedoporučuji měnit, pouze uvádím pro
+   úplnost a srovnání s bodem 2, kde podobná změna rodu vedla ke skutečnému
+   rozporu v jiné básni.
+
+4. JMÉNA POSTAV RODINY GÖHROVÝCH – KONZISTENTNÍ
+   Jméno „Göhr/Göhrová/Göhrových" je v celém textu (napříč básněmi „Lepkavost na
+   podlaze infekčního oddělení", „Podává se koliva", „Pohřeb Göhra") psáno
+   důsledně stejně, včetně přehlásky. Žádný problém.
+
+5. NÁZEV „TESCO" – KONZISTENTNÍ
+   Skloňování „Tesco" (v Tescu, z Tesca) je gramaticky správné a konzistentní
+   ve všech výskytech v textu.
+
+6. VULGARISMY A HOVOROVÁ ČEŠTINA – ZÁMĚRNÉ, NEOPRAVOVAT
+   Výrazy jako „blbej", „chudej", „neumaštěnejch", „není sprostej", „šťastnej",
+   „v prázdným bytě", „dědci chlastaj", „za to vděčnej", „svýho" apod. jsou
+   důsledně používány jako charakterizační/stylistický prvek (hovorová čeština
+   v dialozích a v básních s lyrickým “já” mluvícím nespisovně). Toto je
+   v souladu se zadáním sbírky a NENÍ navrhováno k opravě.
+
+7. PŘÍMÁ ŘEČ A UVOZOVKY – KONZISTENTNÍ
+   V celém produkčním textu jsou důsledně používány české uvozovky „..." (na
+   rozdíl od zdrojového Blok.json, kde se v básni „Bodíky sbíráte?" omylem
+   vyskytují anglické pravé uvozovky ” – tato chyba byla ale v produkčním PDF
+   již opravena, takže se netýká finálního textu).
+
+================================================================
+SHRNUTÍ
+================================================================
+
+Kolo 1 (pravopis):           1 skutečná chyba k opravě (himálajští → himalájští)
+                              + 1 nízkoprioritní poznámka k cipher-textu
+Kolo 2 (gramatika/interp.):  8 nalezených problémů k opravě/zvážení
+                              (z toho 2 kosmetické/nízká priorita)
+Kolo 3 (registr/konzistence): 2 skutečné nesrovnalosti k opravě
+                              (jméno Erik/Karel; rod vypravěče Musely/obhájil)
+                              + 1 položka pravděpodobně záměrná (Anemoia – jen
+                              pro informaci, neopravovat)
+
+CELKOVÉ HODNOCENÍ:
+Text je celkově velmi kvalitně připravený a po jazykové stránce čistý.
+Naprostá většina hovorové/vulgární češtiny a nespisovných tvarů je jasně
+funkční a záměrná (charakterizace postav, autorský hlas) a nebyla nijak
+zasahována. Nalezené chyby jsou malého rozsahu a převážně lokalizovatelné:
+- jeden skutečný překlep (himálajští/himalájští),
+- skupina drobných interpunkčních nedůsledností, z nichž několik zjevně
+  vzniklo při sazbě převodem veršů na plynulý text (ztráta velkých písmen po
+  tečce, chybějící čárky mezi souřadnými větami),
+- dvě věcné nesrovnalosti v jménu postavy a v rodu vypravěče, které působí
+  jako přehlédnutí při redakčních úpravách, nikoli záměr.
+Žádná z chyb nenarušuje celkové vyznění ani kvalitu sbírky; jde o standardní
+rozsah nálezů pro finální korekturu před tiskem/dotiskem.

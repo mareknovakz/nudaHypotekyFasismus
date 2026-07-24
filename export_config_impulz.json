@@ -1,0 +1,68 @@
+{
+  "document": {
+    "title": "Impulz",
+    "author": "Mirek Mrkvička",
+    "isbn": "978-80-XXXXX-XX-X",
+    "colophon": {
+      "publisher": "Marek Novák vlastním nákladem",
+      "publisher_address": "Minská 625/9, 101 00 Praha 10 - Vršovice",
+      "edition": "První vydání",
+      "typesetting": "Mirek Mrkvička",
+      "printer": "expresta Obchodno-výstavný objekt B, Devínska Nová Ves 7465, 841 07 Bratislava - mestská časť Devínska Nová Ves"
+    },
+    "pages_to_generate": 200,
+    "podekování": ""
+  },
+  "layout": {
+    "page_size": "110x180",
+    "width_pt": 311.811,
+    "height_pt": 510.236,
+    "margins_pt": {
+      "top": 50,
+      "bottom": 50,
+      "inner": 65,
+      "outer": 45
+    },
+    "units": "pt",
+    "chapter_own_page": false,
+    "chapter_illustration": false
+  },
+  "styles": {
+    "chapter_title": {
+      "font": "Courier Prime",
+      "size": 20,
+      "alignment": "center",
+      "space_before": 40,
+      "space_after": 30
+    },
+    "poem_title": {
+      "font": "Courier Prime",
+      "size": 16,
+      "alignment": "left",
+      "space_before": 20,
+      "space_after": 23
+    },
+    "verse": {
+      "font": "Courier Prime",
+      "size": 9,
+      "alignment": "left",
+      "line_spacing": 15,
+      "space_after_stanza": 8
+    },
+    "toc_title": {
+      "font": "Courier Prime",
+      "size": 14,
+      "alignment": "left"
+    },
+    "toc_item": {
+      "font": "Courier Prime",
+      "size": 11,
+      "alignment": "left"
+    },
+    "page_number": {
+      "font": "Courier Prime",
+      "size": 9,
+      "alignment": "center"
+    }
+  }
+}
