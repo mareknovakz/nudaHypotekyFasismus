@@ -90,36 +90,53 @@ def create_typst_file(json_path, config_path, output_filename):
 ''')
 
     # Define the chapter function with 3mm safety margin to "fill the rectangle"
-    typ.append(f'''
-#let chapter(title, img_path, blank: false) = [
-  #chapter-page-break()
-  #set page(footer: none)
-  #heading(level: 1, title)
-  #pagebreak()
-  #set page(footer: context [
-    #set text(size: {styles["page_number"]["size"]}pt, font: "{styles["page_number"]["font"]}")
-    #let page_num = counter(page).get().first()
-    #if calc.even(page_num) [ #align(left)[#page_num] ] else [ #align(right)[#page_num] ]
-  ])
-  
-  #if not blank [
-    #page(margin: 0pt, footer: none)[
-      #if img_path != "" and img_path != "404" [
-        #set align(center + horizon)
-        #image(img_path, width: 100%, height: 100%, fit: "cover")
-      ] else if img_path == "404" [
-        #set align(center + horizon)
-        #set text(size: 11pt, weight: "regular", font: "Courier Prime")
-        [404]
-      ] else [
-        #set align(center + horizon)
-        #set text(size: 14pt, style: "italic", font: "Courier Prime")
-        [[ Ilustrace ]]
-      ]
-    ]
-  ]
-]
+    # chapter_own_page / chapter_illustration let a book opt out of the
+    # dedicated chapter page and/or the illustration page (default: on,
+    # matching the previous hardcoded behavior).
+    chapter_own_page = layout.get('chapter_own_page', True)
+    chapter_illustration = layout.get('chapter_illustration', True)
 
+    chapter_lines = []
+    if chapter_own_page:
+        chapter_lines.append('#let chapter(title, img_path, blank: false) = [')
+        chapter_lines.append('  #chapter-page-break()')
+        chapter_lines.append('  #set page(footer: none)')
+        chapter_lines.append('  #heading(level: 1, title)')
+        chapter_lines.append('  #pagebreak()')
+        chapter_lines.append('  #set page(footer: context [')
+        chapter_lines.append(f'    #set text(size: {styles["page_number"]["size"]}pt, font: "{styles["page_number"]["font"]}")')
+        chapter_lines.append('    #let page_num = counter(page).get().first()')
+        chapter_lines.append('    #if calc.even(page_num) [ #align(left)[#page_num] ] else [ #align(right)[#page_num] ]')
+        chapter_lines.append('  ])')
+        if chapter_illustration:
+            chapter_lines.append('  ')
+            chapter_lines.append('  #if not blank [')
+            chapter_lines.append('    #page(margin: 0pt, footer: none)[')
+            chapter_lines.append('      #if img_path != "" and img_path != "404" [')
+            chapter_lines.append('        #set align(center + horizon)')
+            chapter_lines.append('        #image(img_path, width: 100%, height: 100%, fit: "cover")')
+            chapter_lines.append('      ] else if img_path == "404" [')
+            chapter_lines.append('        #set align(center + horizon)')
+            chapter_lines.append('        #set text(size: 11pt, weight: "regular", font: "Courier Prime")')
+            chapter_lines.append('        [404]')
+            chapter_lines.append('      ] else [')
+            chapter_lines.append('        #set align(center + horizon)')
+            chapter_lines.append('        #set text(size: 14pt, style: "italic", font: "Courier Prime")')
+            chapter_lines.append('        [[ Ilustrace ]]')
+            chapter_lines.append('      ]')
+            chapter_lines.append('    ]')
+            chapter_lines.append('  ]')
+        chapter_lines.append(']')
+    else:
+        chapter_lines.append('#let chapter(title, img_path, blank: false) = [')
+        chapter_lines.append('  #pagebreak(weak: true)')
+        chapter_lines.append('  #v(30%)')
+        chapter_lines.append('  #heading(level: 1, title)')
+        chapter_lines.append('  #v(2em)')
+        chapter_lines.append(']')
+    typ.append('\n'.join(chapter_lines))
+
+    typ.append(f'''
 #let poem-prose(title, body_content) = [
   #pagebreak(weak: true)
   #if title != "" [
