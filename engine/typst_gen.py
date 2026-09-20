@@ -8,6 +8,18 @@ def create_typst_file(json_path, config_path, output_filename):
     with open(config_path, 'r', encoding='utf-8-sig') as f:
         config = json.load(f)
 
+    novel = 'chapters' in data
+    if novel:
+        def esc(t):
+            for ch in '\\*_#$@<`~':
+                t = t.replace(ch, '\\' + ch)
+            return t
+        data['kapitoly'] = [
+            {"nazev": c["number"], "basne": [{
+                "nazev": "", "isPoetry": False,
+                "sloky": [{"verse": [esc(par)]} for par in c["paragraphs"]]}]}
+            for c in data['chapters']]
+
     layout = config['layout']
     styles = config['styles']
     colophon = config['document']['colophon']
@@ -175,27 +187,31 @@ def create_typst_file(json_path, config_path, output_filename):
     typ.append('  #set align(center + top)')
     typ.append('  #set par(justify: false)')
     typ.append('  #v(25%)')
-    typ.append('  #text(size: 22pt, weight: "bold", font: "Courier Prime")[Nuda, hypotéky,] \\')
-    typ.append('  #text(size: 22pt, weight: "bold", font: "Courier Prime")[fašismus]')
+    if novel:
+        typ.append(f'  #text(size: 22pt, weight: "bold", font: "Courier Prime")[{config["document"]["title"]}]')
+    else:
+        typ.append('  #text(size: 22pt, weight: "bold", font: "Courier Prime")[Nuda, hypotéky,] \\')
+        typ.append('  #text(size: 22pt, weight: "bold", font: "Courier Prime")[fašismus]')
     typ.append('  #v(2em)')
     typ.append(f'  #text(size: 16pt, font: "Courier Prime")[{config["document"].get("author", "Mirek Mrkvička")}]')
     typ.append('  #v(1fr)')
-    typ.append(f'  #text(size: {styles["verse"]["size"]}pt, font: "{styles["verse"]["font"]}")[Nakladatelství PVL]')
+    typ.append(f'  #text(size: {styles["verse"]["size"]}pt, font: "{styles["verse"]["font"]}")[{colophon["publisher"] if novel else "Nakladatelství PVL"}]')
     typ.append('  \\')
     typ.append(f'  #text(size: {styles["verse"]["size"]}pt, font: "{styles["verse"]["font"]}")[Praha 2026]')
     typ.append('  #v(15%)')
     typ.append(']')
-    typ.append('#blank-page()')
-    typ.append('#page(footer: none)[')
-    typ.append('  #set par(first-line-indent: 0pt, justify: false)')
-    typ.append('  #set align(center + top)')
-    typ.append('  #v(20%)')
-    typ.append('  #text(style: "italic")[ Kde ztratili víru v Boha, nacházejí poslední útočiště v hypotéce. A kde na ni nedosáhnou, tam bují fašismus.]')
-    typ.append(']')
-    typ.append('#blank-page()')
-    typ.append('#page[')
-    typ.append('  #outline(title: [Obsah #v(1em)], indent: 0pt)')
-    typ.append(']')
+    if not novel:
+        typ.append('#blank-page()')
+        typ.append('#page(footer: none)[')
+        typ.append('  #set par(first-line-indent: 0pt, justify: false)')
+        typ.append('  #set align(center + top)')
+        typ.append('  #v(20%)')
+        typ.append('  #text(style: "italic")[ Kde ztratili víru v Boha, nacházejí poslední útočiště v hypotéce. A kde na ni nedosáhnou, tam bují fašismus.]')
+        typ.append(']')
+        typ.append('#blank-page()')
+        typ.append('#page[')
+        typ.append('  #outline(title: [Obsah #v(1em)], indent: 0pt)')
+        typ.append(']')
 
     for kapitola in data.get('kapitoly', []):
         typ.append(f'#chapter("{kapitola["nazev"]}", "{kapitola.get("ilustrace", "")}")')
