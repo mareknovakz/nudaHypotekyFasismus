@@ -13,7 +13,7 @@
             "typesetting": "Mirek Mrkvička",
             "editor": "Mgr. David Fojtík",
             "printer": "expresta Obchodno-výstavný objekt B, Devínska Nová Ves 7465, 841 07 Bratislava - mestská časť Devínska Nová Ves",
-            "logo": "pvl_logo.png"
+            "logo": "/shared/pvl_logo.png"
         },
         "pages_to_generate": 100,
         "podekování": "Tato sbírka by nemohla spatřit světlo světa bez podpory dvou osob. Magdaleně Burdkové vděčím za její podnětné připomínky k obsahu a Struno Lamovi za bystré oko a cenné redakční rady."

@@ -7,6 +7,13 @@ import glob
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
+# absolute path to this script's own folder (engine/), so sibling engine
+# scripts resolve correctly no matter which project directory this is run from
+ENGINE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+def engine(script_name):
+    return os.path.join(ENGINE_DIR, script_name)
+
 def run_command(command):
     print(f"Running: {command}")
     result = subprocess.run(command, shell=True, capture_output=True, text=True, encoding='utf-8', errors='replace')
@@ -24,6 +31,7 @@ def run_command(command):
 
 def main():
     print("--- Starting Full Book Generation Flow ---")
+    print(f"Project directory (cwd): {os.getcwd()}")
 
     # Remove stale PDFs before regenerating
     for old_pdf in ["Blok_production.pdf", "Blok_Slim.pdf", "Blok_B6.pdf", "Blok.pdf"]:
@@ -33,15 +41,15 @@ def main():
 
     # 1. Run Scribus generation
     print("\n[1/3] Generating Scribus files...")
-    run_command(f'"{sys.executable}" scribus_gen.py')
+    run_command(f'"{sys.executable}" "{engine("scribus_gen.py")}"')
 
     # 2. Run Typst generation
     print("\n[2/3] Generating Typst source file...")
-    run_command(f'"{sys.executable}" typst_gen.py')
+    run_command(f'"{sys.executable}" "{engine("typst_gen.py")}"')
 
     # 3. Generate PDF
     print("\n[3/3] Compiling PDF...")
-    if not run_command(f'"{sys.executable}" generatePdf.py Blok_production.typ'):
+    if not run_command(f'"{sys.executable}" "{engine("generatePdf.py")}" Blok_production.typ'):
         print("\n[!] Stopping: Failed to generate Blok_production.typ")
         return
 

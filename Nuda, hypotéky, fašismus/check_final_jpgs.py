@@ -4,7 +4,7 @@ import sys
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
-doc = fitz.open(r'c:\Repozitáře\nudaHypotekyFasismus\Blok_Slim.pdf')
+doc = fitz.open('Blok_Slim.pdf')
 total = doc.page_count
 w = doc[0].rect.width * 25.4 / 72
 h = doc[0].rect.height * 25.4 / 72
@@ -20,7 +20,7 @@ for i in range(total):
 
 for idx, name in [(2, 'title'), (10, 'sample'), (total-1, 'colophon')]:
     pix = doc[idx].get_pixmap(dpi=150)
-    out = f'c:\\Repozitáře\\nudaHypotekyFasismus\\check_{name}.png'
+    out = f'check_{name}.png'
     pix.save(out)
     print(f"\nSaved check_{name}.png (page {idx+1})")
 

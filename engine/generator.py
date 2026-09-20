@@ -45,14 +45,15 @@ print(f"Config:  {config_file}")
 print(f"Output:  {output_pdf}")
 print()
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ENGINE_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, ENGINE_DIR)
 from typst_gen import create_typst_file
 
 create_typst_file(content_file, config_file, output_typ)
 
 import subprocess
 result = subprocess.run(
-    [sys.executable, "generatePdf.py", output_typ],
+    [sys.executable, os.path.join(ENGINE_DIR, "generatePdf.py"), output_typ],
     capture_output=True, text=True, encoding="utf-8", errors="replace"
 )
 print(result.stdout)

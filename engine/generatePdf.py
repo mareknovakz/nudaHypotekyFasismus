@@ -49,15 +49,25 @@ def generate_pdf(typ_file):
                     break
 
     output_pdf = typ_file.replace(".typ", ".pdf")
-    
+
+    # repo root (parent of this engine/ folder) so typst can resolve absolute
+    # paths like "/shared/pvl_logo.png" that reach outside the project folder.
+    # tinymist's root-containment check compares against its own process CWD,
+    # not just the --root value, so we must launch it with cwd=repo_root and
+    # give it paths relative to that root (an absolute --root with a CWD still
+    # inside the project subfolder fails the check even though it IS an ancestor).
+    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    rel_typ = os.path.relpath(os.path.abspath(typ_file), repo_root)
+    rel_pdf = os.path.relpath(os.path.abspath(output_pdf), repo_root)
+
     print(f"Compiling {typ_file} to {output_pdf}...")
-    
+
     # Use shell=True for better character handling on Windows
-    cmd = f'"{tinymist_path}" compile "{typ_file}" "{output_pdf}"'
-    
+    cmd = f'"{tinymist_path}" compile --root "." "{rel_typ}" "{rel_pdf}"'
+
     try:
         # Use encoding='utf-8' and replace errors for robustness
-        result = subprocess.run(cmd, shell=True, capture_output=True, text=True, encoding='utf-8', errors='replace')
+        result = subprocess.run(cmd, shell=True, cwd=repo_root, capture_output=True, text=True, encoding='utf-8', errors='replace')
         
         if result.returncode == 0:
             print(f"Success! Generated: {output_pdf}")
